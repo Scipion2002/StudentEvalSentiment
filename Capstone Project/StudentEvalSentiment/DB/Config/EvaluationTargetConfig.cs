@@ -8,6 +8,7 @@ namespace StudentEvalSentiment.DB.Config
     {
         public void Configure(EntityTypeBuilder<Models.Entities.Evaluations.EvaluationTarget> b)
         {
+            b.HasKey(x => x.TargetId);
             b.HasIndex(x => new { x.SubmissionId, x.TargetType, x.TargetOrder })
                 .IsUnique();
         }

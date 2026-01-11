@@ -19,8 +19,7 @@ namespace StudentEvalSentiment.DB.Context
                 .Build();
 
             // Change the name if your connection string key differs
-            var connStr = config.GetConnectionString("DefaultConnection")
-                         ?? "Server=(localdb)\\MSSQLLocalDB;Database=StudentEvalSentiment;Trusted_Connection=True;TrustServerCertificate=True;";
+            var connStr = config.GetConnectionString("DefaultConnection");
 
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
             optionsBuilder.UseSqlServer(connStr);
