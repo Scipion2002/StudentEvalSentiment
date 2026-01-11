@@ -1,3 +1,12 @@
 /.venv
 /StudentEvalsProccessor.zip
 /workComputer.venv
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
