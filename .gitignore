@@ -10,3 +10,5 @@ obj/
 # User-specific
 *.user
 *.suo
+StudentEvalsProccessor/Datasets/2025 Q4 Fall 1.csv
+StudentEvalsProccessor/sentiment_text_clean.csv
