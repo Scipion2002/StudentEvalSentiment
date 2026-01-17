@@ -15,6 +15,7 @@ namespace StudentEvalSentiment.DB.Context
         public DbSet<ImportBatch> ImportBatches => Set<ImportBatch>();
         public DbSet<SurveyQuestion> SurveyQuestions => Set<SurveyQuestion>();
         public DbSet<SurveyQuestionHeader> SurveyQuestionHeaders => Set<SurveyQuestionHeader>();
+        public DbSet<EvaluationComment> EvaluationComments => Set<EvaluationComment>();
 
         protected override void OnModelCreating(ModelBuilder b)
         {
