@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StudentEvalSentiment.Models.Entities.Evaluations;
+using StudentEvalSentiment.Models.Entities.Staging;
 using StudentEvalSentiment.Models.Entities.Survey;
 
 namespace StudentEvalSentiment.DB.Context
@@ -16,6 +17,7 @@ namespace StudentEvalSentiment.DB.Context
         public DbSet<SurveyQuestion> SurveyQuestions => Set<SurveyQuestion>();
         public DbSet<SurveyQuestionHeader> SurveyQuestionHeaders => Set<SurveyQuestionHeader>();
         public DbSet<EvaluationComment> EvaluationComments => Set<EvaluationComment>();
+        public DbSet<ProcessedComment> ProcessedComments => Set<ProcessedComment>();
 
         protected override void OnModelCreating(ModelBuilder b)
         {
