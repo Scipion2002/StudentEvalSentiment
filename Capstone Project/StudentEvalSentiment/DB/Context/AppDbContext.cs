@@ -18,6 +18,7 @@ namespace StudentEvalSentiment.DB.Context
         public DbSet<SurveyQuestionHeader> SurveyQuestionHeaders => Set<SurveyQuestionHeader>();
         public DbSet<EvaluationComment> EvaluationComments => Set<EvaluationComment>();
         public DbSet<ProcessedComment> ProcessedComments => Set<ProcessedComment>();
+        public DbSet<ProcessedQuestionMap> ProcessedQuestionMaps => Set<ProcessedQuestionMap>();
 
         protected override void OnModelCreating(ModelBuilder b)
         {

@@ -13,6 +13,7 @@
         public string InstructorName { get; set; } = "";        // from crs_dir
         public string CourseNumber { get; set; } = "";          // crsnum
         public string CourseName { get; set; } = "";            // crsname
+        public string QuestionKey { get; set; } = null!;
 
         public string? RawText { get; set; }                    // optional (you can drop later)
         public string TextClean { get; set; } = null!;          // cleaned text for ML

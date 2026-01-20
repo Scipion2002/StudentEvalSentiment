@@ -19,11 +19,13 @@ namespace StudentEvalSentiment.DB.Config
 
             b.Property(x => x.TextClean).HasColumnType("nvarchar(max)").IsRequired();
             b.Property(x => x.RawText).HasColumnType("nvarchar(max)").IsRequired(false);
-
+            b.Property(x => x.QuestionKey).HasMaxLength(32).IsRequired();
+          
             b.HasIndex(x => x.ImportBatchId);
             b.HasIndex(x => x.CourseNumber);
             b.HasIndex(x => x.InstructorName);
             b.HasIndex(x => x.TargetType);
+            b.HasIndex(x => new { x.ImportBatchId, x.QuestionKey });
         }
     }
 }
