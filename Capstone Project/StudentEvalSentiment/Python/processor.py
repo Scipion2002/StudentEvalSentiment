@@ -24,6 +24,22 @@ output_csv = sys.argv[2]
 
 
 df = pd.read_csv(input_csv)
+df.columns = [c.strip() for c in df.columns]
+INSTRUCTOR_LIKERT_COLS = [c.strip() for c in [
+    "My instructor is knowledgeable in the subject area they are teaching: (I Trust them)",
+    "My instructor cultivates a quality educational learning experience: (I Learn from them)",
+    "Interaction with my instructor is positive/beneficial: (I Feel Valued by them) ",
+    "My instructor provides me with opportunities to be challenged: (I Grow from them)",
+    "Whether verbal or written my instructor gives timely constructive feedback: (I Hear from them)"
+]]
+
+COURSE_LIKERT_COLS = [c.strip() for c in [
+    "The curriculum followed the learning outcomes outlined in the syllabus",
+    "The course pacing was appropriate for learning new material ",
+    "The assignments exercises labs exams and projects appropriately assessed my learning ",
+    "The course complexity provided for a reasonably challenging and intellectually stimulating student experience ",
+    "I learned relevant material in this course that enhances my skillset in at least one of the following areas (Programming Tech Problem Solving Communication Future Career)"
+]]
 
 # Display basic information about the dataset
 # print(df.head())
@@ -38,7 +54,7 @@ URL_RE   = re.compile(r"https?://\S+|www\.\S+")
 STOPWORDS = set(stopwords.words("english"))
 
 # IMPORTANT for sentiment: keep negations
-for w in ["no", "nor", "not", "never", "n't"]:
+for w in ["no", "nor", "not", "never", "n't", "wasn't", "don't", "doesn't", "didn't", "won't", "wouldn't", "can't", "couldn't", "shouldn't"]:
     STOPWORDS.discard(w)
     
 def question_key(header: str) -> str:
@@ -80,6 +96,35 @@ def preprocess(val) -> str:
     text = anonymize_text(val)
     return clean_text(text)
 
+def safe_float(x):
+    try:
+        if x is None or (isinstance(x, float) and np.isnan(x)):
+            return None
+        v = float(x)
+        if v == -1:
+            return None
+        return v
+    except:
+        return None
+
+def avg_likert(row, cols):
+    vals = []
+    for c in cols:
+        if c in row:
+            v = safe_float(row[c])
+            if v is not None:
+                vals.append(v)
+    return float(np.mean(vals)) if vals else None
+
+def label_from_avg(avg):
+    if avg is None:
+        return None
+    if avg >= 4.0:
+        return "Positive"
+    if avg >= 3.0:
+        return "Neutral"
+    return "Negative"
+
 # -------- DETECT FREE-TEXT COLUMNS --------
 text_cols = [
     c for c in df.columns
@@ -89,32 +134,55 @@ text_cols = [
 rows = []
 
 for _, row in df.iterrows():
+    resp_fac = str(row.get("resp_fac", "")).strip().lower()
+    is_course_overall = (resp_fac == "(overall)")
+
+    # Metadata
     instructor_name = str(row.get("crs_dir", "") or "").strip()
     course_number = str(row.get("crsnum", "") or "").strip()
     course_name = str(row.get("crsname", "") or "").strip()
 
+    # Compute label sources (Likert averages)
+    inst_avg   = avg_likert(row, INSTRUCTOR_LIKERT_COLS) if not is_course_overall else None
+    course_avg = avg_likert(row, COURSE_LIKERT_COLS) if is_course_overall else None
+
+    inst_label   = label_from_avg(inst_avg)
+    course_label = label_from_avg(course_avg)
+
     for col in text_cols:
         raw_text = row.get(col, "")
         cleaned = preprocess(raw_text)
-        
-        # Skip very short cleaned strings
-        if len(cleaned.split()) < 3:
+
+        if not cleaned or len(cleaned.split()) < 3:
             continue
 
         col_l = col.lower()
-        target = "Instructor" if any(k in col_l for k in ["instructor", "professor", "teacher", "faculty"]) else "Course"
-        
+
+        # Determine what this comment is ABOUT based on the question header
+        is_instructor_comment = any(k in col_l for k in ["instructor", "professor", "teacher", "faculty"])
+        target = "Instructor" if is_instructor_comment else "Course"
+
+        # Optional sanity rule: overall rows should only generate Course comments
+        if is_course_overall and target == "Instructor":
+            continue
+
+        # Pick label to match the target
+        label = course_label if target == "Course" else inst_label
+        if label is None:
+            continue
+
         qkey = question_key(col)
 
         rows.append({
             "TargetType": target,
-            "InstructorName": instructor_name,
+            "InstructorName": instructor_name if target == "Instructor" else "",
             "CourseNumber": course_number,
             "CourseName": course_name,
             "QuestionKey": qkey,
-            "QuestionHeader": col,   # keep ONLY in output file for mapping (optional)
-            "RawText": anonymize_text(raw_text) if isinstance(raw_text, str) else "",
-            "TextClean": cleaned
+            "QuestionHeader": col,
+            "RawText": raw_text if isinstance(raw_text, str) else "",
+            "TextClean": cleaned,
+            "Label": label
         })
 
 out_df = pd.DataFrame(rows)
