@@ -7,9 +7,11 @@ var ml = new MLContext(seed: 42);
 // Load CSV
 // sentiment_training.csv must have headers: Label,TextClean
 var data = ml.Data.LoadFromTextFile<SentimentInput>(
-    path: "sentiment_training.csv",
+    path: "C:\\Users\\alexh\\OneDrive - Neumont College of Computer Science\\Documents\\Masters\\PRO590\\Capstone Project\\StudentEvalSentiment\\Python\\sentiment_text_clean.csv",
     hasHeader: true,
-    separatorChar: ',');
+    separatorChar: ',',
+    allowQuoting: true,
+    allowSparse: false);
 
 // Split
 var split = ml.Data.TrainTestSplit(data, testFraction: 0.2);
