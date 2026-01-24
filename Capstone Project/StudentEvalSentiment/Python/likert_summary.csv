@@ -1,0 +1,1854 @@
+TargetType,InstructorName,CourseNumber,CourseName,LikertAvg,LikertCountUsed,LabelDerived,Dim1Avg,Dim2Avg,Dim3Avg,Dim4Avg,Dim5Avg
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.6,5,Neutral,5.0,3.0,3.0,3.0,4.0
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,1.8,5,Negative,1.0,2.0,2.0,3.0,1.0
+Instructor,Raymond Maple,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,1.8,5,Negative,1.0,2.0,2.0,3.0,1.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.8,5,Neutral,5.0,4.0,3.0,3.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.8,5,Neutral,5.0,4.0,3.0,3.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.2,5,Neutral,4.0,4.0,3.0,3.0,2.0
+Course,,AAI101-SA1 1,Introduction to Artificial Intelligence - Section A1,3.2,5,Neutral,4.0,4.0,3.0,3.0,2.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.0,5,Positive,4.0,4.0,5.0,3.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,5.0,3.0,4.0,5.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,3.0,5.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,4.0,4.0,5.0,3.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,4.0,3.0,5.0,5.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.4,5,Neutral,4.0,2.0,5.0,2.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.4,5,Neutral,4.0,2.0,5.0,2.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,4.0,5.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,4.0,5.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.2,5,Neutral,4.0,4.0,3.0,2.0,3.0
+Instructor,Joseph Shull,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.2,5,Neutral,3.0,4.0,3.0,3.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.2,5,Neutral,3.0,4.0,3.0,3.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,5.0,4.0,3.0,5.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,5.0,4.0,3.0,5.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.6,5,Neutral,4.0,3.0,4.0,3.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,4.0,5.0,4.0,5.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,5.0,5.0,2.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,5.0,5.0,2.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,5.0,5.0,5.0,2.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.4,5,Neutral,4.0,4.0,2.0,3.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,3.0,5.0,5.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.2,5,Positive,4.0,3.0,5.0,5.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,2.2,5,Negative,3.0,1.0,2.0,3.0,2.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,2.2,5,Negative,3.0,1.0,2.0,3.0,2.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.0,5,Neutral,2.0,3.0,4.0,4.0,2.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.0,5,Neutral,2.0,3.0,4.0,4.0,2.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.6,5,Neutral,4.0,4.0,2.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.6,5,Neutral,4.0,4.0,2.0,4.0,4.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,5.0,3.0,5.0,3.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,3.8,5,Neutral,5.0,3.0,5.0,3.0,3.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,AAI101-SB1 1,Introduction to Artificial Intelligence - Section B1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Erika Hernandez,BIT224-S1 1,Server Administration II: Linux - Section 1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Erika Hernandez,BIT224-S1 1,Server Administration II: Linux - Section 1,3.4,5,Neutral,4.0,4.0,3.0,3.0,3.0
+Instructor,Erika Hernandez,BIT224-S1 1,Server Administration II: Linux - Section 1,2.6,5,Negative,4.0,2.0,3.0,2.0,2.0
+Instructor,Erika Hernandez,BIT224-S1 1,Server Administration II: Linux - Section 1,2.6,5,Negative,4.0,2.0,3.0,2.0,2.0
+Course,,BIT224-S1 1,Server Administration II: Linux - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT224-S1 1,Server Administration II: Linux - Section 1,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,BIT224-S1 1,Server Administration II: Linux - Section 1,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,BIT224-S1 1,Server Administration II: Linux - Section 1,1.6,5,Negative,2.0,1.0,1.0,1.0,3.0
+Course,,BIT224-S1 1,Server Administration II: Linux - Section 1,1.6,5,Negative,2.0,1.0,1.0,1.0,3.0
+Course,,BIT224-S1 1,Server Administration II: Linux - Section 1,1.6,5,Negative,2.0,1.0,1.0,1.0,3.0
+Instructor,Corey Burk,BIT380-S1 1,Integrated Business Solutions - Section 1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Corey Burk,BIT380-S1 1,Integrated Business Solutions - Section 1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Corey Burk,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT380-S1 1,Integrated Business Solutions - Section 1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,4.2,5,Positive,5.0,3.0,4.0,4.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,4.2,5,Positive,5.0,3.0,4.0,4.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT380-S1 1,Integrated Business Solutions - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brandon Hess,BUS202-S1 1,Studies in Economics - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brandon Hess,BUS202-S1 1,Studies in Economics - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brandon Hess,BUS202-S1 1,Studies in Economics - Section 1,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Course,,BUS202-S1 1,Studies in Economics - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BUS202-S1 1,Studies in Economics - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tyler Baxter,CSC105-SA1 1,Using Modern Operating Systems - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tyler Baxter,CSC105-SA1 1,Using Modern Operating Systems - Section A1,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Instructor,Tyler Baxter,CSC105-SA1 1,Using Modern Operating Systems - Section A1,3.8,5,Neutral,5.0,3.0,4.0,4.0,3.0
+Course,,CSC105-SA1 1,Using Modern Operating Systems - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SA1 1,Using Modern Operating Systems - Section A1,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC105-SA1 1,Using Modern Operating Systems - Section A1,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Course,,CSC105-SA1 1,Using Modern Operating Systems - Section A1,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.4,5,Positive,5.0,5.0,4.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.0,5,Positive,4.0,3.0,5.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,3.0,5,Neutral,4.0,3.0,4.0,2.0,2.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,2.6,5,Negative,5.0,2.0,4.0,1.0,1.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Paul Brown,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,3.8,5,Neutral,5.0,5.0,4.0,0.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,3.6,5,Neutral,4.0,5.0,3.0,3.0,3.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,3.6,5,Neutral,4.0,5.0,3.0,3.0,3.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,2.4,5,Negative,3.0,4.0,3.0,1.0,1.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,2.4,5,Negative,3.0,4.0,3.0,1.0,1.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,2.8,5,Negative,3.0,4.0,5.0,0.0,2.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,CSC105-SC1 1,Using Modern Operating Systems - Section C1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,4.2,5,Positive,5.0,4.0,3.0,5.0,4.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.8,5,Neutral,4.0,4.0,5.0,3.0,3.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.4,5,Neutral,3.0,3.0,3.0,4.0,4.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,4.4,5,Positive,4.0,3.0,5.0,5.0,5.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.6,5,Neutral,5.0,3.0,4.0,3.0,3.0
+Instructor,Erika Hernandez,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,2.0,5,Negative,2.0,1.0,2.0,3.0,2.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.6,5,Neutral,4.0,3.0,4.0,3.0,4.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,4.2,5,Positive,4.0,5.0,5.0,3.0,4.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,4.2,5,Positive,4.0,5.0,5.0,3.0,4.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.0,5,Neutral,3.0,2.0,3.0,3.0,4.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,1.4,5,Negative,3.0,1.0,1.0,1.0,1.0
+Course,,CSC210-S1 1,Introduction to Web Presentation and Development - Section 1,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Instructor,Brett Beardall,CSC340-S1 1,Computer Architecture - Section 1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,CSC340-S1 1,Computer Architecture - Section 1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC340-S1 1,Computer Architecture - Section 1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,3.4,5,Neutral,2.0,2.0,5.0,4.0,4.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,4.0,5,Positive,5.0,3.0,4.0,4.0,4.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,3.6,5,Neutral,5.0,2.0,3.0,4.0,4.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,3.4,5,Neutral,3.0,4.0,3.0,4.0,3.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,3.6,5,Neutral,4.0,3.0,4.0,4.0,3.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,3.6,5,Neutral,4.0,3.0,4.0,4.0,3.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tom Bradshaw,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,5.0,3.0,5.0,4.0,5.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,5.0,3.0,5.0,4.0,5.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,5.0,3.0,5.0,4.0,5.0
+Course,,DBT230-SA1 1,Databases II - Section A1,2.6,5,Negative,3.0,3.0,2.0,2.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,2.6,5,Negative,3.0,3.0,2.0,2.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DBT230-SA1 1,Databases II - Section A1,2.8,5,Negative,3.0,4.0,2.0,2.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,2.8,5,Negative,3.0,4.0,2.0,2.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.2,5,Neutral,4.0,2.0,3.0,4.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.2,5,Neutral,4.0,2.0,3.0,4.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.6,5,Neutral,3.0,3.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.6,5,Neutral,3.0,3.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.6,5,Neutral,3.0,3.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.0,5,Neutral,5.0,2.0,2.0,3.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,3.0,5,Neutral,5.0,2.0,2.0,3.0,3.0
+Course,,DBT230-SA1 1,Databases II - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,DBT230-SA1 1,Databases II - Section A1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,3.0,5,Neutral,4.0,3.0,2.0,3.0,3.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,3.6,5,Neutral,4.0,4.0,3.0,4.0,3.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,William Diaz,DBT230-SB1 1,Databases II - Section B1,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Course,,DBT230-SB1 1,Databases II - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DBT230-SB1 1,Databases II - Section B1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SB1 1,Databases II - Section B1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,DBT230-SB1 1,Databases II - Section B1,3.6,5,Neutral,3.0,4.0,4.0,3.0,4.0
+Course,,DBT230-SB1 1,Databases II - Section B1,3.6,5,Neutral,3.0,4.0,4.0,3.0,4.0
+Course,,DBT230-SB1 1,Databases II - Section B1,4.4,5,Positive,4.0,5.0,4.0,4.0,5.0
+Course,,DBT230-SB1 1,Databases II - Section B1,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,DBT230-SB1 1,Databases II - Section B1,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,3.8,5,Neutral,3.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.2,5,Positive,4.0,5.0,5.0,3.0,4.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,3.2,5,Neutral,3.0,4.0,3.0,2.0,4.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,3.4,5,Neutral,4.0,3.0,4.0,3.0,3.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,1.4,5,Negative,1.0,1.0,1.0,1.0,3.0
+Instructor,Eric Kohler,NEU100-SA1 1,College Success Strategies - Section A1,1.4,5,Negative,1.0,1.0,1.0,1.0,3.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.6,5,Neutral,3.0,4.0,4.0,4.0,3.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.6,5,Neutral,3.0,4.0,4.0,4.0,3.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.4,5,Positive,4.0,5.0,5.0,3.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.0,5,Positive,5.0,5.0,4.0,3.0,3.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.0,5,Positive,5.0,5.0,3.0,3.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.0,5,Positive,5.0,5.0,3.0,3.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.8,5,Neutral,5.0,3.0,4.0,3.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.8,5,Neutral,5.0,3.0,4.0,3.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.8,5,Neutral,5.0,3.0,4.0,3.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.4,5,Neutral,5.0,5.0,4.0,1.0,2.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.4,5,Neutral,5.0,5.0,4.0,1.0,2.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,3.4,5,Neutral,4.0,4.0,3.0,3.0,3.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.2,5,Positive,5.0,5.0,5.0,2.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.2,5,Positive,5.0,5.0,5.0,2.0,4.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,2.2,5,Negative,3.0,3.0,3.0,1.0,1.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,2.2,5,Negative,3.0,3.0,3.0,1.0,1.0
+Course,,NEU100-SA1 1,College Success Strategies - Section A1,2.2,5,Negative,3.0,3.0,3.0,1.0,1.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.2,5,Positive,5.0,5.0,4.0,4.0,3.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,3.8,5,Neutral,5.0,4.0,4.0,3.0,3.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,3.8,5,Neutral,5.0,4.0,4.0,3.0,3.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.4,5,Positive,5.0,5.0,3.0,4.0,5.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,3.0,5.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,3.0,5.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,3.6,5,Neutral,4.0,4.0,5.0,3.0,2.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,4.0,4.0,4.0,2.0,3.0
+Instructor,Joseph Shull,NEU100-SB1 1,College Success Strategies - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.6,5,Neutral,3.0,5.0,4.0,2.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,5.0,4.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,5.0,4.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.8,5,Negative,3.0,2.0,3.0,3.0,3.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.6,5,Negative,4.0,3.0,3.0,1.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.6,5,Negative,4.0,3.0,3.0,1.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,3.0,5.0,3.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,3.0,5.0,3.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,5.0,4.0,3.0,2.0,3.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,5.0,4.0,3.0,2.0,3.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,5.0,4.0,3.0,2.0,3.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.0,5,Neutral,4.0,3.0,4.0,2.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.0,5,Neutral,4.0,3.0,4.0,2.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.0,5,Neutral,4.0,3.0,4.0,2.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.4,5,Negative,3.0,2.0,4.0,1.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.4,5,Negative,3.0,2.0,4.0,1.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.6,5,Neutral,4.0,5.0,4.0,1.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.6,5,Neutral,4.0,5.0,4.0,1.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,3.0,2.0,5.0,2.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,3.0,2.0,5.0,2.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,3.4,5,Neutral,5.0,2.0,4.0,1.0,5.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,4.2,5,Positive,5.0,4.0,5.0,3.0,4.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.0,5,Negative,3.0,2.0,2.0,1.0,2.0
+Course,,NEU100-SB1 1,College Success Strategies - Section B1,2.0,5,Negative,3.0,2.0,2.0,1.0,2.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,4.0,5.0,4.0,5.0,4.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.0,5,Positive,5.0,5.0,5.0,2.0,3.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.2,5,Positive,5.0,5.0,5.0,3.0,3.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.2,5,Positive,5.0,4.0,5.0,4.0,3.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.2,5,Positive,5.0,4.0,5.0,4.0,3.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,3.6,5,Neutral,3.0,3.0,4.0,4.0,4.0
+Instructor,Raymond Maple,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,3.4,5,Neutral,4.0,4.0,3.0,3.0,3.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.0,5,Positive,5.0,4.0,5.0,3.0,3.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.0,5,Positive,5.0,4.0,5.0,3.0,3.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.0,5,Positive,5.0,3.0,4.0,4.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.0,5,Positive,5.0,3.0,4.0,4.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.0,5,Positive,5.0,3.0,4.0,4.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Course,,NEU100-SC1 1,College Success Strategies - Section C1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,5.0,4.0,4.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,5.0,3.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,5.0,3.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,3.8,5,Neutral,5.0,3.0,4.0,3.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,3.8,5,Neutral,5.0,3.0,4.0,3.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,3.6,5,Neutral,5.0,4.0,4.0,2.0,3.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,NEU100-SD1 1,College Success Strategies - Section D1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,3.8,5,Neutral,4.0,5.0,3.0,3.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,3.8,5,Neutral,4.0,5.0,3.0,3.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,2.4,5,Negative,3.0,2.0,2.0,2.0,3.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,2.4,5,Negative,3.0,2.0,2.0,2.0,3.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,3.4,5,Neutral,5.0,4.0,3.0,1.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,3.4,5,Neutral,5.0,4.0,3.0,1.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,4.0,5.0,3.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,4.0,5.0,3.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,5.0,5.0,4.0,3.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.2,5,Positive,4.0,5.0,4.0,3.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,NEU100-SD1 1,College Success Strategies - Section D1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Omkar Terse,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Instructor,Omkar Terse,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO110-S1 1,Applied AI Projects I (AI in Business) - Section 1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Allred,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,3.6,5,Neutral,3.0,3.0,4.0,3.0,5.0
+Instructor,Michael Allred,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,1.8,5,Negative,1.0,1.0,4.0,2.0,1.0
+Instructor,Michael Allred,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,1.8,5,Negative,1.0,1.0,4.0,2.0,1.0
+Instructor,Michael Allred,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Michael Allred,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,2.0,5,Negative,3.0,1.0,2.0,2.0,2.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.0,5,Positive,2.0,4.0,5.0,5.0,4.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.0,5,Positive,2.0,4.0,5.0,5.0,4.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,4.0,5,Positive,2.0,4.0,5.0,5.0,4.0
+Course,,PRO200-S1 1,Software Projects in Emerging Platforms - Section 1,1.8,5,Negative,2.0,2.0,2.0,2.0,1.0
+Instructor,Jeremy Stroup,PRO335-SA1 1,Persistence Project - Section A1,4.4,5,Positive,4.0,3.0,5.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SA1 1,Persistence Project - Section A1,3.4,5,Neutral,4.0,3.0,4.0,4.0,2.0
+Instructor,Jeremy Stroup,PRO335-SA1 1,Persistence Project - Section A1,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SA1 1,Persistence Project - Section A1,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,1.6,5,Negative,2.0,1.0,1.0,1.0,3.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,1.8,5,Negative,3.0,1.0,1.0,3.0,1.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,2.8,5,Negative,3.0,2.0,3.0,2.0,4.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,2.8,5,Negative,3.0,2.0,3.0,2.0,4.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,3.8,5,Neutral,3.0,4.0,4.0,4.0,4.0
+Course,,PRO335-SA1 1,Persistence Project - Section A1,3.8,5,Neutral,3.0,4.0,4.0,4.0,4.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.6,5,Positive,4.0,4.0,5.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.0,5,Positive,5.0,5.0,0.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.2,5,Positive,5.0,4.0,3.0,5.0,4.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Jeremy Stroup,PRO335-SB1 1,Persistence Project - Section B1,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.0,5,Positive,5.0,5.0,5.0,5.0,0.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,5.0,5.0,4.0,3.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,4.4,5,Positive,5.0,5.0,4.0,3.0,5.0
+Course,,PRO335-SB1 1,Persistence Project - Section B1,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,5.0,5.0,3.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,2.6,5,Negative,2.0,1.0,3.0,4.0,3.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,2.6,5,Negative,2.0,1.0,3.0,4.0,3.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,2.0,5,Negative,2.0,1.0,1.0,2.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,2.0,5,Negative,2.0,1.0,1.0,2.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,2.4,5,Negative,3.0,1.0,1.0,3.0,4.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,3.0,5,Neutral,3.0,3.0,2.0,4.0,3.0
+Instructor,Eric Kohler,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,3.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,4.0,5.0,4.0,4.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,1.8,5,Negative,3.0,2.0,1.0,2.0,1.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,1.8,5,Negative,3.0,2.0,1.0,2.0,1.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.0,5,Positive,4.0,4.0,3.0,4.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.0,5,Positive,4.0,4.0,3.0,4.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,4.0,5.0,4.0,5.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,4.0,5.0,4.0,5.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,2.2,5,Negative,3.0,3.0,2.0,2.0,1.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,2.2,5,Negative,3.0,3.0,2.0,2.0,1.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,3.8,5,Neutral,5.0,4.0,4.0,3.0,3.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,SSC101-SC1 1,Educational Learning Theories - Section C1,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,3.0,5,Neutral,3.0,3.0,2.0,3.0,4.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,3.0,2.0,3.0,2.0,2.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,3.0,2.0,3.0,2.0,2.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,3.0,5,Neutral,3.0,2.0,4.0,3.0,3.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,1.6,5,Negative,2.0,1.0,2.0,2.0,1.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,1.6,5,Negative,2.0,1.0,2.0,2.0,1.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,3.0,1.0,3.0,4.0,1.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,2.0,5,Negative,3.0,2.0,2.0,2.0,1.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,2.6,5,Negative,2.0,2.0,3.0,4.0,2.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,2.6,5,Negative,2.0,2.0,3.0,4.0,2.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,3.4,5,Neutral,3.0,4.0,3.0,3.0,4.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,3.6,5,Neutral,5.0,4.0,3.0,2.0,4.0
+Instructor,Blake Nemelka,SSC101-SD1 1,Educational Learning Theories - Section D1,3.6,5,Neutral,5.0,4.0,3.0,2.0,4.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.2,5,Neutral,4.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.2,5,Neutral,4.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.2,5,Neutral,4.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.0,5,Negative,3.0,2.0,2.0,2.0,1.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.0,5,Negative,3.0,2.0,2.0,2.0,1.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.6,5,Negative,2.0,3.0,2.0,4.0,2.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.6,5,Negative,2.0,3.0,2.0,4.0,2.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.6,5,Negative,2.0,3.0,2.0,4.0,2.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,1.2,5,Negative,1.0,1.0,1.0,2.0,1.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,1.2,5,Negative,1.0,1.0,1.0,2.0,1.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.2,5,Negative,3.0,1.0,2.0,1.0,4.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,2.0,3.0,2.0,4.0,1.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,2.0,3.0,2.0,4.0,1.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,3.0,3.0,1.0,2.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,3.0,3.0,1.0,2.0,3.0
+Course,,SSC101-SD1 1,Educational Learning Theories - Section D1,2.4,5,Negative,3.0,3.0,1.0,2.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,5.0,4.0,3.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,5.0,4.0,3.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.4,5,Negative,3.0,2.0,1.0,3.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.4,5,Negative,3.0,2.0,1.0,3.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.4,5,Neutral,4.0,3.0,4.0,4.0,2.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.6,5,Neutral,5.0,4.0,4.0,3.0,2.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.4,5,Neutral,3.0,3.0,4.0,3.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,5.0,3.0,3.0,5.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,5.0,3.0,3.0,5.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.2,5,Neutral,4.0,2.0,4.0,3.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.2,5,Neutral,4.0,2.0,4.0,3.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,4.0,3.0,4.0,5.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.6,5,Neutral,4.0,3.0,4.0,4.0,3.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Instructor,Joseph Shull,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.2,5,Negative,3.0,1.0,2.0,3.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.2,5,Negative,3.0,1.0,2.0,3.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.4,5,Neutral,4.0,4.0,3.0,4.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.4,5,Neutral,4.0,4.0,3.0,4.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,5.0,3.0,3.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,5.0,3.0,3.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,1.8,5,Negative,2.0,2.0,1.0,2.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,5.0,2.0,4.0,5.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,5.0,2.0,4.0,5.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,5.0,4.0,4.0,2.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.8,5,Negative,4.0,3.0,2.0,3.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.8,5,Negative,4.0,3.0,2.0,3.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,1.4,5,Negative,3.0,1.0,1.0,1.0,1.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,5.0,5.0,4.0,4.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,5.0,5.0,4.0,4.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,5.0,5.0,4.0,4.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,2.6,5,Negative,3.0,3.0,4.0,1.0,2.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,4.0,3.0,4.0,5.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.8,5,Neutral,4.0,3.0,4.0,5.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.4,5,Neutral,3.0,4.0,3.0,3.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.4,5,Neutral,3.0,4.0,3.0,3.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,4.0,5.0,4.0,5.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,4.0,5.0,4.0,5.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.2,5,Positive,4.0,4.0,5.0,5.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.2,5,Neutral,4.0,2.0,4.0,3.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.2,5,Neutral,4.0,2.0,4.0,3.0,3.0
+Course,,AAI101-SD2 2,Introduction to Artificial Intelligence - Section D2,3.2,5,Neutral,4.0,2.0,4.0,3.0,3.0
+Instructor,Raymond Maple,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Raymond Maple,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Raymond Maple,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Course,,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,AAI101-Sc2 2,Introduction to Artificial Intelligence - Section C2,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Omkar Terse,AAI350 Q,Cloud-Based AI Solutions,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Instructor,Omkar Terse,AAI350 Q,Cloud-Based AI Solutions,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,AAI350 Q,Cloud-Based AI Solutions,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,AAI350 Q,Cloud-Based AI Solutions,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Noah LeFevre,BIT320-S2 2,Shell and Administrative Scripting - Section 2,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Instructor,Noah LeFevre,BIT320-S2 2,Shell and Administrative Scripting - Section 2,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Instructor,Noah LeFevre,BIT320-S2 2,Shell and Administrative Scripting - Section 2,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Instructor,Noah LeFevre,BIT320-S2 2,Shell and Administrative Scripting - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Noah LeFevre,BIT320-S2 2,Shell and Administrative Scripting - Section 2,3.2,5,Neutral,4.0,3.0,3.0,4.0,2.0
+Instructor,Noah LeFevre,BIT320-S2 2,Shell and Administrative Scripting - Section 2,3.2,5,Neutral,4.0,3.0,3.0,4.0,2.0
+Course,,BIT320-S2 2,Shell and Administrative Scripting - Section 2,2.6,5,Negative,3.0,2.0,2.0,2.0,4.0
+Course,,BIT320-S2 2,Shell and Administrative Scripting - Section 2,2.6,5,Negative,3.0,2.0,2.0,2.0,4.0
+Course,,BIT320-S2 2,Shell and Administrative Scripting - Section 2,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,BIT320-S2 2,Shell and Administrative Scripting - Section 2,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,BIT320-S2 2,Shell and Administrative Scripting - Section 2,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,BIT360 Q,Applied Systems Operations & Disaster Recovery,4.0,5,Positive,5.0,0.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,3.6,5,Neutral,5.0,4.0,2.0,3.0,4.0
+Course,,BIT360 Q,Applied Systems Operations & Disaster Recovery,3.6,5,Neutral,5.0,4.0,2.0,3.0,4.0
+Instructor,Omkar Terse,BIT510 Q,Programming for Artificial Intelligence,4.2,5,Positive,5.0,4.0,5.0,2.0,5.0
+Instructor,Omkar Terse,BIT510 Q,Programming for Artificial Intelligence,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Omkar Terse,BIT510 Q,Programming for Artificial Intelligence,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,BIT510 Q,Programming for Artificial Intelligence,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT510 Q,Programming for Artificial Intelligence,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,BIT510 Q,Programming for Artificial Intelligence,3.8,5,Neutral,5.0,5.0,5.0,2.0,2.0
+Course,,BIT510 Q,Programming for Artificial Intelligence,3.8,5,Neutral,5.0,5.0,5.0,2.0,2.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,2.6,5,Negative,3.0,2.0,2.0,2.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,4.0,4.0,4.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,5.0,3.0,5.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,5.0,3.0,5.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.8,5,Neutral,5.0,4.0,3.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,4.0,4.0,5.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,5.0,3.0,5.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,5.0,3.0,5.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.0,5,Neutral,4.0,3.0,3.0,3.0,2.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,2.8,5,Negative,3.0,3.0,4.0,1.0,3.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.8,5,Neutral,4.0,3.0,4.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.8,5,Neutral,4.0,3.0,4.0,3.0,5.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,3.0,3.0,4.0,5.0,3.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Paul Brown,CSC105-SB2 2,Using Modern Operating Systems - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,4.0,3.0,4.0,5.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,4.0,3.0,4.0,5.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,5.0,3.0,5.0,4.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,5.0,3.0,5.0,4.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,5.0,3.0,4.0,2.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,5.0,3.0,4.0,2.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,5.0,3.0,4.0,2.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.2,5,Neutral,4.0,4.0,3.0,2.0,3.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.2,5,Neutral,4.0,4.0,3.0,2.0,3.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,5.0,3.0,5.0,3.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.4,5,Neutral,3.0,4.0,4.0,2.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.4,5,Neutral,3.0,4.0,4.0,2.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,2.8,5,Negative,4.0,3.0,4.0,1.0,2.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,2.8,5,Negative,4.0,3.0,4.0,1.0,2.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,4.0,5.0,4.0,3.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.2,5,Positive,4.0,5.0,4.0,3.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.6,5,Neutral,4.0,4.0,3.0,3.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,3.2,5,Neutral,4.0,3.0,3.0,2.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,4.0,5,Positive,5.0,3.0,4.0,4.0,4.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SB2 2,Using Modern Operating Systems - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.4,5,Neutral,3.0,4.0,3.0,4.0,3.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.6,5,Neutral,5.0,3.0,3.0,4.0,3.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.8,5,Neutral,5.0,3.0,4.0,4.0,3.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Tyler Baxter,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,4.0,4.0,5.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,4.0,4.0,5.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.8,5,Neutral,4.0,4.0,2.0,4.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.8,5,Neutral,4.0,4.0,2.0,4.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,5.0,5.0,3.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,5.0,5.0,3.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,4.6,5,Positive,5.0,5.0,3.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.4,5,Neutral,4.0,4.0,3.0,3.0,3.0
+Course,,CSC105-SD2 2,Using Modern Operating Systems - Section D2,3.4,5,Neutral,4.0,4.0,3.0,3.0,3.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,3.2,5,Neutral,5.0,3.0,3.0,2.0,3.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,3.2,5,Neutral,5.0,3.0,3.0,2.0,3.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,0.0,5,Negative,0.0,0.0,0.0,0.0,0.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,3.0,5,Neutral,5.0,1.0,3.0,3.0,3.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,3.0,5,Neutral,5.0,1.0,3.0,3.0,3.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.4,5,Positive,5.0,3.0,5.0,4.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.4,5,Positive,5.0,3.0,5.0,4.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SA Q,Introduction to Computer Science - Section A,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,5.0,3.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Brett Beardall,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.0,5,Positive,4.0,3.0,4.0,5.0,4.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,3.2,5,Neutral,0.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,3.2,5,Neutral,0.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,1.2,5,Negative,1.0,1.0,2.0,1.0,1.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,1.2,5,Negative,1.0,1.0,2.0,1.0,1.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SB Q,Introduction to Computer Science - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,5.0,3.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,5.0,3.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,5.0,3.0,5.0,3.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Paul Fox,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,3.0,4.0,5.0,4.0
+Course,,CSC110-SC Q,Introduction to Computer Science - Section C,4.2,5,Positive,5.0,3.0,4.0,5.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,3.0,4.0,4.0,3.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,3.0,4.0,4.0,3.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,1.0,4.0,5.0,5.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,3.8,5,Neutral,1.0,4.0,5.0,5.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,3.0,4.0,4.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,3.0,4.0,4.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC110-SD Q,Introduction to Computer Science - Section D,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,2.6,5,Negative,2.0,2.0,4.0,3.0,2.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,2.6,5,Negative,2.0,2.0,4.0,3.0,2.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,4.0,5,Positive,5.0,5.0,5.0,0.0,5.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,4.2,5,Positive,5.0,4.0,5.0,4.0,3.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Instructor,Michael Pritchard,CSC125 Q,Logical and Computational Thinking,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,4.0,4.0,2.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,4.0,4.0,2.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,4.0,4.0,2.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,5.0,3.0,3.0,3.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,5.0,3.0,3.0,3.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.2,5,Neutral,5.0,1.0,4.0,2.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC125 Q,Logical and Computational Thinking,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,CSC125 Q,Logical and Computational Thinking,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Course,,CSC125 Q,Logical and Computational Thinking,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC160 Q,Application Development,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,CSC160 Q,Application Development,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,CSC160 Q,Application Development,3.6,5,Neutral,4.0,2.0,4.0,4.0,4.0
+Course,,CSC160 Q,Application Development,3.6,5,Neutral,4.0,2.0,4.0,4.0,4.0
+Course,,CSC160 Q,Application Development,4.0,5,Positive,5.0,3.0,4.0,3.0,5.0
+Course,,CSC160 Q,Application Development,4.0,5,Positive,5.0,3.0,4.0,3.0,5.0
+Course,,CSC160 Q,Application Development,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Course,,CSC160 Q,Application Development,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC160 Q,Application Development,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC160 Q,Application Development,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC160 Q,Application Development,3.4,5,Neutral,4.0,2.0,3.0,3.0,5.0
+Course,,CSC160 Q,Application Development,3.4,5,Neutral,4.0,2.0,3.0,3.0,5.0
+Instructor,Chris Cantera,CSC180 Q,Open Source Platforms Development,3.2,5,Neutral,3.0,3.0,3.0,4.0,3.0
+Instructor,Joseph Shull,CSC220 Q,Fundamentals of Machine Learning,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joseph Shull,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,5.0,3.0
+Instructor,Joseph Shull,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,5.0,3.0
+Instructor,Joseph Shull,CSC220 Q,Fundamentals of Machine Learning,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Instructor,Joseph Shull,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC220 Q,Fundamentals of Machine Learning,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,4.4,5,Positive,5.0,5.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Instructor,Joshua Krebs,CSC260 Q,Introduction to Dynamic Web Programming,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.4,5,Positive,4.0,3.0,5.0,5.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.4,5,Positive,4.0,3.0,5.0,5.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Course,,CSC260 Q,Introduction to Dynamic Web Programming,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,3.6,5,Neutral,4.0,2.0,5.0,2.0,5.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,3.0,5,Neutral,3.0,2.0,5.0,2.0,3.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Chris Cantera,CSC280 Q,Developing Scalable Web Applications,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.2,5,Positive,5.0,5.0,2.0,4.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.2,5,Positive,5.0,5.0,2.0,4.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC280 Q,Developing Scalable Web Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Jared Doerr,CSC360 Q,Software Design Principles,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Jared Doerr,CSC360 Q,Software Design Principles,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Jared Doerr,CSC360 Q,Software Design Principles,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Jared Doerr,CSC360 Q,Software Design Principles,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC360 Q,Software Design Principles,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC360 Q,Software Design Principles,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,CSC505 Q,Introduction to Artificial Intelligence,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Omkar Terse,CSC505 Q,Introduction to Artificial Intelligence,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,CSC505 Q,Introduction to Artificial Intelligence,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Omkar Terse,CSC505 Q,Introduction to Artificial Intelligence,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Omkar Terse,CSC505 Q,Introduction to Artificial Intelligence,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,3.2,5,Neutral,4.0,3.0,2.0,3.0,4.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,CSC505 Q,Introduction to Artificial Intelligence,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,Michael Pritchard,CSC525 Q,Machine Learning I,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC525 Q,Machine Learning I,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC525 Q,Machine Learning I,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC525 Q,Machine Learning I,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC525 Q,Machine Learning I,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC525P Q,Machine Learning I Tools and Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC525P Q,Machine Learning I Tools and Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC525P Q,Machine Learning I Tools and Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC525P Q,Machine Learning I Tools and Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,3.8,5,Neutral,4.0,3.0,5.0,3.0,4.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545 Q,AI Tools and Practical Applications,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.6,5,Neutral,3.0,4.0,3.0,4.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.4,5,Neutral,4.0,3.0,4.0,2.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.4,5,Neutral,4.0,3.0,4.0,2.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.4,5,Neutral,4.0,3.0,4.0,2.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.4,5,Neutral,4.0,3.0,2.0,4.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.4,5,Neutral,4.0,3.0,2.0,4.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,3.4,5,Neutral,4.0,3.0,2.0,4.0,4.0
+Course,,CSC545 Q,AI Tools and Practical Applications,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Course,,CSC545 Q,AI Tools and Practical Applications,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Course,,CSC545 Q,AI Tools and Practical Applications,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,4.4,5,Positive,4.0,5.0,4.0,4.0,5.0
+Course,,CSC545 Q,AI Tools and Practical Applications,4.4,5,Positive,4.0,5.0,4.0,4.0,5.0
+Instructor,Michael Pritchard,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545P Q,AI Tools and Practical Applications Project,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545P Q,AI Tools and Practical Applications Project,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Instructor,Michael Pritchard,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Pritchard,CSC545P Q,AI Tools and Practical Applications Project,4.2,5,Positive,4.0,3.0,5.0,4.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,3.2,5,Neutral,4.0,2.0,4.0,2.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,3.2,5,Neutral,4.0,2.0,4.0,2.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.2,5,Positive,4.0,5.0,3.0,4.0,5.0
+Course,,CSC545P Q,AI Tools and Practical Applications Project,4.2,5,Positive,4.0,5.0,3.0,4.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Omkar Terse,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,DAT210 Q,Applied Data Analytics and Visualization,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,4.0,5,Positive,5.0,4.0,4.0,3.0,4.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Sarah Carter,ENG110-SA Q,Introduction to English Composition - Section A,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.0,5,Positive,5.0,5.0,4.0,2.0,4.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.0,5,Positive,5.0,5.0,4.0,2.0,4.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,3.2,5,Neutral,4.0,4.0,3.0,2.0,3.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,ENG110-SA Q,Introduction to English Composition - Section A,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,3.8,5,Neutral,5.0,4.0,4.0,3.0,3.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.0,5,Positive,4.0,4.0,3.0,4.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.4,5,Positive,5.0,5.0,5.0,4.0,3.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,3.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,3.0,5.0,5.0,5.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,3.0,5,Neutral,4.0,4.0,3.0,3.0,1.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,3.0,5,Neutral,4.0,4.0,3.0,3.0,1.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Course,,ENG110-SB Q,Introduction to English Composition - Section B,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Sarah Carter,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG210 Q,Persuasive and Professional Writing,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Course,,ENG210 Q,Persuasive and Professional Writing,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Course,,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG210 Q,Persuasive and Professional Writing,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Allison Bowler,ENG311-S2 2,Principles of Creative Writing - Section 2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ENG311-S2 2,Principles of Creative Writing - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SA Q,Spoken Communications - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SA Q,Spoken Communications - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SA Q,Spoken Communications - Section A,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Instructor,Sarah Carter,FAC120-SA Q,Spoken Communications - Section A,4.4,5,Positive,5.0,4.0,4.0,4.0,5.0
+Instructor,Sarah Carter,FAC120-SA Q,Spoken Communications - Section A,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Course,,FAC120-SA Q,Spoken Communications - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SA Q,Spoken Communications - Section A,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,FAC120-SA Q,Spoken Communications - Section A,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,FAC120-SA Q,Spoken Communications - Section A,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,FAC120-SA Q,Spoken Communications - Section A,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Timothy Parker,FAC120-SB Q,Spoken Communications - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SB Q,Spoken Communications - Section B,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Sarah Carter,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC120-SC Q,Spoken Communications - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Sarah Carter,FAC125 Q,Collaborative and Interpersonal Communication,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,3.4,5,Neutral,4.0,4.0,0.0,4.0,5.0
+Course,,FAC125 Q,Collaborative and Interpersonal Communication,3.4,5,Neutral,4.0,4.0,0.0,4.0,5.0
+Instructor,Timothy Parker,FAC135-S2 2,3D Printing - Section 2,3.8,5,Neutral,5.0,4.0,3.0,4.0,3.0
+Instructor,Timothy Parker,FAC135-S2 2,3D Printing - Section 2,3.8,5,Neutral,5.0,4.0,3.0,4.0,3.0
+Course,,FAC135-S2 2,3D Printing - Section 2,4.0,5,Positive,3.0,4.0,4.0,4.0,5.0
+Instructor,Raymond Maple,GAT350 Q,Computer Graphics,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Raymond Maple,GAT350 Q,Computer Graphics,4.4,5,Positive,5.0,5.0,5.0,3.0,4.0
+Instructor,Raymond Maple,GAT350 Q,Computer Graphics,4.2,5,Positive,5.0,4.0,4.0,5.0,3.0
+Instructor,Raymond Maple,GAT350 Q,Computer Graphics,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,GAT350 Q,Computer Graphics,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,GAT350 Q,Computer Graphics,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,GAT350 Q,Computer Graphics,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,GAT350 Q,Computer Graphics,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,GAT350 Q,Computer Graphics,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,GAT350 Q,Computer Graphics,3.0,5,Neutral,4.0,1.0,2.0,4.0,4.0
+Course,,GAT350 Q,Computer Graphics,3.0,5,Neutral,4.0,1.0,2.0,4.0,4.0
+Course,,GAT350 Q,Computer Graphics,3.0,5,Neutral,4.0,1.0,2.0,4.0,4.0
+Course,,GAT350 Q,Computer Graphics,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,3.8,5,Neutral,4.0,4.0,4.0,3.0,4.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,4.6,5,Positive,4.0,5.0,4.0,5.0,5.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,3.8,5,Neutral,4.0,5.0,4.0,3.0,3.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,4.2,5,Positive,4.0,5.0,4.0,5.0,3.0
+Instructor,Michael Given,HUM205-S2 2,Ethics - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Course,,HUM205-S2 2,Ethics - Section 2,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Course,,HUM205-S2 2,Ethics - Section 2,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,4.2,5,Positive,4.0,4.0,4.0,4.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,3.8,5,Neutral,4.0,5.0,3.0,3.0,4.0
+Course,,HUM205-S2 2,Ethics - Section 2,3.8,5,Neutral,4.0,5.0,3.0,3.0,4.0
+Course,,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,HUM205-S2 2,Ethics - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,HUM205-S2 2,Ethics - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Corey Burk,ITH216 Q,Networking II,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,ITH216 Q,Networking II,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,ITH216 Q,Networking II,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,ITH216 Q,Networking II,4.4,5,Positive,5.0,5.0,4.0,5.0,3.0
+Instructor,Corey Burk,ITH216 Q,Networking II,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Course,,ITH216 Q,Networking II,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ITH216 Q,Networking II,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,ITH216 Q,Networking II,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,ITH216 Q,Networking II,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,ITH216 Q,Networking II,4.4,5,Positive,4.0,4.0,5.0,5.0,4.0
+Course,,ITH216 Q,Networking II,4.4,5,Positive,4.0,4.0,5.0,5.0,4.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,4.2,5,Positive,5.0,3.0,4.0,4.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,3.2,5,Neutral,5.0,2.0,4.0,3.0,2.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,3.2,5,Neutral,5.0,2.0,4.0,3.0,2.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,4.2,5,Positive,5.0,2.0,4.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,4.2,5,Positive,5.0,2.0,4.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Course,,MAT150 Q,Trigonometry,4.2,5,Positive,5.0,4.0,3.0,4.0,5.0
+Course,,MAT150 Q,Trigonometry,2.0,5,Negative,3.0,1.0,2.0,2.0,2.0
+Course,,MAT150 Q,Trigonometry,2.0,5,Negative,3.0,1.0,2.0,2.0,2.0
+Course,,MAT150 Q,Trigonometry,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,MAT150 Q,Trigonometry,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,MAT150 Q,Trigonometry,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT150 Q,Trigonometry,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Michael Jensen,MAT180 Q,Pre-Calculus,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Cameron Peterson,MAT200 Q,"Math-Based Codes, Cyphers, and Secrets",4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT200 Q,"Math-Based Codes, Cyphers, and Secrets",4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,MAT200 Q,"Math-Based Codes, Cyphers, and Secrets",4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,MAT200 Q,"Math-Based Codes, Cyphers, and Secrets",4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.0,5,Positive,5.0,3.0,3.0,4.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Instructor,Cameron Peterson,MAT210 Q,Linear Algebra,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Course,,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.8,5,Neutral,4.0,1.0,4.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.8,5,Neutral,4.0,1.0,4.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.8,5,Neutral,4.0,1.0,4.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.6,5,Neutral,4.0,2.0,4.0,4.0,4.0
+Course,,MAT210 Q,Linear Algebra,3.6,5,Neutral,4.0,2.0,4.0,4.0,4.0
+Course,,MAT210 Q,Linear Algebra,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,MAT210 Q,Linear Algebra,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,MAT210 Q,Linear Algebra,4.2,5,Positive,5.0,2.0,5.0,4.0,5.0
+Course,,MAT210 Q,Linear Algebra,4.2,5,Positive,5.0,2.0,5.0,4.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.8,5,Neutral,4.0,2.0,4.0,4.0,5.0
+Course,,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,MAT210 Q,Linear Algebra,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,MAT210 Q,Linear Algebra,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.4,5,Neutral,4.0,2.0,3.0,4.0,4.0
+Course,,MAT210 Q,Linear Algebra,3.8,5,Neutral,5.0,2.0,4.0,3.0,5.0
+Course,,MAT210 Q,Linear Algebra,3.8,5,Neutral,5.0,2.0,4.0,3.0,5.0
+Course,,MAT210 Q,Linear Algebra,4.0,5,Positive,4.0,3.0,3.0,5.0,5.0
+Course,,MAT210 Q,Linear Algebra,4.0,5,Positive,4.0,3.0,3.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SA Q,Calculus - Section A,4.6,5,Positive,5.0,5.0,4.0,5.0,4.0
+Course,,MAT250-SA Q,Calculus - Section A,4.0,5,Positive,5.0,4.0,4.0,4.0,3.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SB Q,Calculus - Section B,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Course,,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SB Q,Calculus - Section B,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Course,,MAT250-SB Q,Calculus - Section B,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,MAT250-SB Q,Calculus - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,MAT250-SB Q,Calculus - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Course,,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SB Q,Calculus - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SB Q,Calculus - Section B,4.4,5,Positive,5.0,5.0,5.0,5.0,2.0
+Course,,MAT250-SB Q,Calculus - Section B,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,3.6,5,Neutral,4.0,3.0,3.0,4.0,4.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,4.4,5,Positive,4.0,5.0,4.0,5.0,4.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Cameron Peterson,MAT250-SC Q,Calculus - Section C,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Course,,MAT250-SC Q,Calculus - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SC Q,Calculus - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SC Q,Calculus - Section C,2.6,5,Negative,1.0,2.0,5.0,5.0,0.0
+Course,,MAT250-SC Q,Calculus - Section C,2.6,5,Negative,1.0,2.0,5.0,5.0,0.0
+Course,,MAT250-SC Q,Calculus - Section C,3.6,5,Neutral,5.0,2.0,4.0,4.0,3.0
+Course,,MAT250-SC Q,Calculus - Section C,3.6,5,Neutral,5.0,2.0,4.0,4.0,3.0
+Course,,MAT250-SC Q,Calculus - Section C,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Course,,MAT250-SC Q,Calculus - Section C,4.6,5,Positive,5.0,4.0,5.0,5.0,4.0
+Course,,MAT250-SC Q,Calculus - Section C,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MAT250-SC Q,Calculus - Section C,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,MAT250-SC Q,Calculus - Section C,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Bret Wardle,MGT420 Q,Product Management,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Bret Wardle,MGT420 Q,Product Management,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MGT420 Q,Product Management,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Jonathan Huff,MTM140-S2 2,Basics of Film - Section 2,3.8,5,Neutral,5.0,4.0,4.0,3.0,3.0
+Instructor,Jonathan Huff,MTM140-S2 2,Basics of Film - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM140-S2 2,Basics of Film - Section 2,3.8,5,Neutral,4.0,5.0,4.0,3.0,3.0
+Course,,MTM140-S2 2,Basics of Film - Section 2,3.8,5,Neutral,4.0,5.0,4.0,3.0,3.0
+Instructor,Dan Phillips,MTM210 Q,Introduction to User Experience Design,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Instructor,Dan Phillips,MTM210 Q,Introduction to User Experience Design,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Instructor,Dan Phillips,MTM210 Q,Introduction to User Experience Design,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM210 Q,Introduction to User Experience Design,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,MTM210 Q,Introduction to User Experience Design,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Course,,MTM210 Q,Introduction to User Experience Design,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM210 Q,Introduction to User Experience Design,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM210 Q,Introduction to User Experience Design,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM210 Q,Introduction to User Experience Design,3.2,5,Neutral,4.0,2.0,3.0,4.0,3.0
+Course,,MTM210 Q,Introduction to User Experience Design,3.2,5,Neutral,4.0,2.0,3.0,4.0,3.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,4.4,5,Positive,5.0,5.0,4.0,5.0,3.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SA Q,Interactive Web Development - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,4.8,5,Positive,5.0,5.0,5.0,5.0,4.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,4.4,5,Positive,5.0,4.0,4.0,5.0,4.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Paul Fox,MTM282-SB Q,Interactive Web Development - Section B,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,3.6,5,Neutral,5.0,5.0,2.0,2.0,4.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,3.6,5,Neutral,5.0,5.0,2.0,2.0,4.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,4.2,5,Positive,4.0,4.0,5.0,4.0,4.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,MTM282-SB Q,Interactive Web Development - Section B,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,3.8,5,Neutral,4.0,4.0,4.0,4.0,3.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,3.4,5,Neutral,4.0,3.0,3.0,4.0,3.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,4.4,5,Positive,5.0,3.0,4.0,5.0,5.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,2.0,5,Negative,2.0,2.0,2.0,2.0,2.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,3.8,5,Neutral,5.0,4.0,3.0,3.0,4.0
+Instructor,Brett Beardall,PRO100-S2 2,Introductory Software Projects - Section 2,3.8,5,Neutral,5.0,4.0,3.0,3.0,4.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.6,5,Positive,4.0,5.0,5.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.0,5,Positive,5.0,2.0,4.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.0,5,Positive,5.0,2.0,4.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.0,5,Positive,5.0,4.0,2.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.0,5,Positive,5.0,4.0,2.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.6,5,Positive,5.0,4.0,5.0,4.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Course,,PRO100-S2 2,Introductory Software Projects - Section 2,4.6,5,Positive,5.0,4.0,4.0,5.0,5.0
+Instructor,Paul Fox,PRO150-SA2 2,Web-Based Software Projects - Section A2,2.4,5,Negative,3.0,1.0,2.0,3.0,3.0
+Instructor,Paul Fox,PRO150-SA2 2,Web-Based Software Projects - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SA2 2,Web-Based Software Projects - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SA2 2,Web-Based Software Projects - Section A2,1.8,5,Negative,2.0,1.0,1.0,1.0,4.0
+Course,,PRO150-SA2 2,Web-Based Software Projects - Section A2,1.8,5,Negative,2.0,1.0,1.0,1.0,4.0
+Course,,PRO150-SA2 2,Web-Based Software Projects - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SA2 2,Web-Based Software Projects - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.4,5,Neutral,3.0,3.0,4.0,4.0,3.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.4,5,Positive,4.0,4.0,5.0,4.0,5.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.8,5,Neutral,5.0,4.0,3.0,3.0,4.0
+Instructor,Adrian Ordonez,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.4,5,Neutral,3.0,2.0,4.0,3.0,5.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.4,5,Neutral,3.0,2.0,4.0,3.0,5.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.4,5,Neutral,3.0,2.0,4.0,3.0,5.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO150-SB2 2,Web-Based Software Projects - Section B2,3.6,5,Neutral,4.0,4.0,3.0,4.0,3.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.8,5,Positive,5.0,5.0,5.0,4.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.6,5,Positive,5.0,5.0,5.0,4.0,4.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Todd Nichols,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.6,5,Positive,3.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.6,5,Positive,3.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.4,5,Positive,5.0,3.0,4.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,4.4,5,Positive,5.0,3.0,4.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO150-SC2 2,Web-Based Software Projects - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Dan Phillips,PRO210-SM Q,Projects User Experience Design - Section M,2.4,5,Negative,3.0,2.0,1.0,3.0,3.0
+Instructor,Dan Phillips,PRO210-SM Q,Projects User Experience Design - Section M,2.4,5,Negative,3.0,2.0,1.0,3.0,3.0
+Course,,PRO210-SM Q,Projects User Experience Design - Section M,3.6,5,Neutral,3.0,3.0,3.0,4.0,5.0
+Course,,PRO210-SM Q,Projects User Experience Design - Section M,3.6,5,Neutral,3.0,3.0,3.0,4.0,5.0
+Instructor,William Diaz,PRO335-SC2 2,Persistence Project - Section C2,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Instructor,William Diaz,PRO335-SC2 2,Persistence Project - Section C2,4.2,5,Positive,4.0,3.0,4.0,5.0,5.0
+Instructor,William Diaz,PRO335-SC2 2,Persistence Project - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,William Diaz,PRO335-SC2 2,Persistence Project - Section C2,1.0,5,Negative,1.0,1.0,1.0,1.0,1.0
+Instructor,William Diaz,PRO335-SC2 2,Persistence Project - Section C2,4.2,5,Positive,4.0,4.0,5.0,5.0,3.0
+Instructor,William Diaz,PRO335-SC2 2,Persistence Project - Section C2,4.6,5,Positive,4.0,4.0,5.0,5.0,5.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,2.4,5,Negative,3.0,1.0,3.0,2.0,3.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,2.4,5,Negative,3.0,1.0,3.0,2.0,3.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,3.2,5,Neutral,4.0,3.0,3.0,3.0,3.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,4.2,5,Positive,4.0,4.0,3.0,5.0,5.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Course,,PRO335-SC2 2,Persistence Project - Section C2,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Instructor,Omkar Terse,PRO365-SM2 2,Data Analytics Project II - Section M2,4.2,5,Positive,4.0,4.0,4.0,5.0,4.0
+Course,,PRO365-SM2 2,Data Analytics Project II - Section M2,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Course,,PRO365-SM2 2,Data Analytics Project II - Section M2,4.0,5,Positive,4.0,3.0,4.0,4.0,5.0
+Instructor,Corey Burk,PRO381-S2 2,Integrated Business Solutions Project - Section 2,3.8,5,Neutral,4.0,3.0,5.0,3.0,4.0
+Instructor,Corey Burk,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Corey Burk,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,4.4,5,Positive,5.0,4.0,5.0,4.0,4.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,4.4,5,Positive,5.0,5.0,4.0,3.0,5.0
+Course,,PRO381-S2 2,Integrated Business Solutions Project - Section 2,4.4,5,Positive,5.0,5.0,4.0,3.0,5.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,3.4,5,Neutral,4.0,3.0,5.0,3.0,2.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,4.6,5,Positive,5.0,5.0,5.0,5.0,3.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,4.2,5,Positive,5.0,3.0,4.0,4.0,5.0
+Instructor,Chris Cantera,PRO390-SA Q,Capstone Project - Section A,3.8,5,Neutral,3.0,3.0,5.0,3.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,PRO390-SA Q,Capstone Project - Section A,4.8,5,Positive,4.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.0,5,Positive,4.0,4.0,5.0,3.0,4.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,3.6,5,Neutral,4.0,3.0,3.0,3.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.4,5,Positive,4.0,4.0,4.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,3.6,5,Neutral,4.0,4.0,3.0,2.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,3.4,5,Neutral,4.0,3.0,3.0,3.0,4.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,4.0,5,Positive,4.0,4.0,3.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,2.6,5,Negative,2.0,1.0,3.0,2.0,5.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SA2 2,Educational Learning Theories - Section A2,2.2,5,Negative,2.0,2.0,1.0,2.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.8,5,Positive,5.0,4.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.8,5,Neutral,4.0,5.0,3.0,4.0,3.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.6,5,Positive,5.0,3.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.6,5,Neutral,5.0,3.0,4.0,3.0,3.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.6,5,Neutral,5.0,3.0,4.0,3.0,3.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.8,5,Neutral,4.0,5.0,3.0,3.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.2,5,Positive,4.0,5.0,4.0,4.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.8,5,Positive,5.0,5.0,4.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,2.4,5,Negative,4.0,3.0,1.0,2.0,2.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.4,5,Neutral,4.0,5.0,4.0,1.0,3.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.4,5,Neutral,4.0,5.0,4.0,1.0,3.0
+Course,,SSC101-SA2 2,Educational Learning Theories - Section A2,3.4,5,Neutral,4.0,5.0,4.0,1.0,3.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.2,5,Positive,5.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,2.2,5,Negative,2.0,3.0,2.0,2.0,2.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.6,5,Positive,5.0,5.0,4.0,4.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.6,5,Positive,5.0,5.0,5.0,3.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.2,5,Positive,4.0,4.0,5.0,3.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,3.8,5,Neutral,4.0,4.0,3.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.2,5,Positive,5.0,5.0,3.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,3.4,5,Neutral,5.0,3.0,3.0,3.0,3.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.4,5,Positive,4.0,5.0,5.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,4.0,3.0,3.0,3.0,3.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,4.0,3.0,3.0,3.0,3.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Instructor,Eric Kohler,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.6,5,Neutral,4.0,4.0,4.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,3.0,4.0,3.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,3.0,3.0,3.0,3.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,3.0,3.0,3.0,4.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.2,5,Neutral,3.0,3.0,3.0,4.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.4,5,Positive,5.0,4.0,5.0,3.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,2.4,5,Negative,3.0,3.0,3.0,0.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,2.4,5,Negative,3.0,3.0,3.0,0.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,2.4,5,Negative,3.0,3.0,3.0,2.0,1.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,2.4,5,Negative,3.0,3.0,3.0,2.0,1.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.8,5,Neutral,4.0,3.0,4.0,4.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.0,5,Neutral,3.0,3.0,3.0,3.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,1.4,5,Negative,2.0,1.0,2.0,1.0,1.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,1.4,5,Negative,2.0,1.0,2.0,1.0,1.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,1.4,5,Negative,2.0,1.0,2.0,1.0,1.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,4.0,5,Positive,4.0,4.0,4.0,4.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.4,5,Neutral,4.0,3.0,4.0,2.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.4,5,Neutral,4.0,3.0,4.0,2.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.4,5,Neutral,4.0,3.0,4.0,2.0,4.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.6,5,Neutral,4.0,3.0,4.0,4.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,3.6,5,Neutral,4.0,3.0,4.0,4.0,3.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0
+Course,,SSC101-SB2 2,Educational Learning Theories - Section B2,5.0,5,Positive,5.0,5.0,5.0,5.0,5.0

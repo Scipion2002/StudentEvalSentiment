@@ -1,3 +1,4 @@
+import os
 import sys
 import pandas as pd
 import numpy as np
@@ -24,22 +25,21 @@ output_csv = sys.argv[2]
 
 
 df = pd.read_csv(input_csv)
-df.columns = [c.strip() for c in df.columns]
-INSTRUCTOR_LIKERT_COLS = [c.strip() for c in [
+INSTRUCTOR_LIKERT_COLS = [
     "My instructor is knowledgeable in the subject area they are teaching: (I Trust them)",
     "My instructor cultivates a quality educational learning experience: (I Learn from them)",
-    "Interaction with my instructor is positive/beneficial: (I Feel Valued by them) ",
+    "Interaction with my instructor is positive/beneficial: (I Feel Valued by them)",
     "My instructor provides me with opportunities to be challenged: (I Grow from them)",
-    "Whether verbal or written my instructor gives timely constructive feedback: (I Hear from them)"
-]]
+    "Whether verbal or written  my instructor gives timely  constructive feedback: (I Hear from them)"
+]
 
-COURSE_LIKERT_COLS = [c.strip() for c in [
+COURSE_LIKERT_COLS = [
     "The curriculum followed the learning outcomes outlined in the syllabus",
-    "The course pacing was appropriate for learning new material ",
-    "The assignments exercises labs exams and projects appropriately assessed my learning ",
-    "The course complexity provided for a reasonably challenging and intellectually stimulating student experience ",
-    "I learned relevant material in this course that enhances my skillset in at least one of the following areas (Programming Tech Problem Solving Communication Future Career)"
-]]
+    "The course pacing was appropriate for learning new material",
+    "The assignments  exercises  labs  exams  and projects appropriately assessed my learning",
+    "The course complexity provided for a reasonably challenging and intellectually stimulating student experience",
+    "I learned relevant material in this course that enhances my skillset in at least one of the following areas (Programming  Tech  Problem Solving  Communication  Future Career)"
+]
 
 # Display basic information about the dataset
 # print(df.head())
@@ -132,6 +132,7 @@ text_cols = [
 ]
 
 rows = []
+likert_rows = []
 
 for _, row in df.iterrows():
     resp_fac = str(row.get("resp_fac", "")).strip().lower()
@@ -184,11 +185,60 @@ for _, row in df.iterrows():
             "TextClean": cleaned,
             "Label": label
         })
+        # For Likert summary
+        if is_course_overall:
+            vals = [safe_float(row[c]) for c in COURSE_LIKERT_COLS]
+            dims = [v for v in vals if v is not None]
+
+            if dims:
+                avg = float(np.mean(dims))
+                label = label_from_avg(avg)
+
+                likert_rows.append({
+                    "TargetType": "Course",
+                    "InstructorName": "",
+                    "CourseNumber": course_number,
+                    "CourseName": course_name,
+                    "LikertAvg": avg,
+                    "LikertCountUsed": len(dims),
+                    "LabelDerived": label,
+                    "Dim1Avg": safe_float(row[COURSE_LIKERT_COLS[0]]),
+                    "Dim2Avg": safe_float(row[COURSE_LIKERT_COLS[1]]),
+                    "Dim3Avg": safe_float(row[COURSE_LIKERT_COLS[2]]),
+                    "Dim4Avg": safe_float(row[COURSE_LIKERT_COLS[3]]),
+                    "Dim5Avg": safe_float(row[COURSE_LIKERT_COLS[4]])
+                })
+        else:
+            vals = [safe_float(row[c]) for c in INSTRUCTOR_LIKERT_COLS]
+            dims = [v for v in vals if v is not None]
+
+            if dims:
+                avg = float(np.mean(dims))
+                label = label_from_avg(avg)
+
+                likert_rows.append({
+                    "TargetType": "Instructor",
+                    "InstructorName": instructor_name,
+                    "CourseNumber": course_number,
+                    "CourseName": course_name,
+                    "LikertAvg": avg,
+                    "LikertCountUsed": len(dims),
+                    "LabelDerived": label,
+                    "Dim1Avg": safe_float(row[INSTRUCTOR_LIKERT_COLS[0]]),
+                    "Dim2Avg": safe_float(row[INSTRUCTOR_LIKERT_COLS[1]]),
+                    "Dim3Avg": safe_float(row[INSTRUCTOR_LIKERT_COLS[2]]),
+                    "Dim4Avg": safe_float(row[INSTRUCTOR_LIKERT_COLS[3]]),
+                    "Dim5Avg": safe_float(row[INSTRUCTOR_LIKERT_COLS[4]])
+                })
+        
+        
 
 out_df = pd.DataFrame(rows)
 out_df.to_csv(output_csv, index=False)
+out_dir = os.path.dirname(os.path.abspath(output_csv))
+pd.DataFrame(likert_rows).to_csv(os.path.join(out_dir, "likert_summary.csv"), index=False)
 
 qmap = out_df[["QuestionKey", "QuestionHeader"]].drop_duplicates()
-qmap.to_csv("question_map.csv", index=False)
+qmap.to_csv(os.path.join(out_dir, "question_map.csv"), index=False)
 
 print(f"Exported {len(out_df)} cleaned text rows")

@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using StudentEvalSentiment.DB.Context;
 using StudentEvalSentiment.Models.DTOs;
+using StudentEvalSentiment.Models.Entities.Evaluations;
 using StudentEvalSentiment.Models.Entities.Staging;
 using StudentEvalSentiment.Models.Requests;
 using System.Diagnostics;
@@ -98,8 +99,41 @@ namespace StudentEvalSentiment.Controllers
 
             // ✅ Insert processed comments (drop QuestionHeader here)
             var comments = ToProcessedComments(csvRows, importBatchId, file.FileName);
+
+            //////////////////////////////////////////////////////////////////////////
+
+            // 4) Read and insert likert summary if exists
+            var likertPath = Path.Combine(tempDir, "likert_summary.csv");
+            if (System.IO.File.Exists(likertPath))
+            {
+                var likertRows = ReadLikertSummaryCsv(likertPath);
+
+                var summaries = likertRows.Select(r => new ProcessedLikertSummary
+                {
+                    ImportBatchId = importBatchId,
+                    TargetType = r.TargetType,
+                    InstructorName = string.IsNullOrWhiteSpace(r.InstructorName) ? null : r.InstructorName,
+                    CourseNumber = r.CourseNumber,
+                    CourseName = r.CourseName,
+                    LikertAvg = r.LikertAvg,
+                    LikertCountUsed = r.LikertCountUsed,
+                    LabelDerived = r.LabelDerived,
+                    Dim1Avg = r.Dim1Avg,
+                    Dim2Avg = r.Dim2Avg,
+                    Dim3Avg = r.Dim3Avg,
+                    Dim4Avg = r.Dim4Avg,
+                    Dim5Avg = r.Dim5Avg
+                }).ToList();
+
+                _db.ProcessedLikertSummaries.AddRange(summaries);
+            }
+
+            //////////////////////////////////////////////////////////////////////////
+
+            // 5) Save to DB
             _db.ProcessedComments.AddRange(comments);
 
+            // Save changes
             var inserted = await _db.SaveChangesAsync(ct);
 
             return Ok(new
@@ -184,6 +218,48 @@ namespace StudentEvalSentiment.Controllers
                     QuestionHeader = csv.GetField("QuestionHeader") ?? "",
                     RawText = csv.TryGetField("RawText", out string? raw) ? raw : null,
                     TextClean = clean
+                });
+            }
+
+            return rows;
+        }
+
+        private static List<LikertSummaryCsvRow> ReadLikertSummaryCsv(string csvPath)
+        {
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord = true,
+                BadDataFound = null,
+                MissingFieldFound = null,
+                HeaderValidated = null,
+                IgnoreBlankLines = true,
+                PrepareHeaderForMatch = args => args.Header.Trim(),
+                TrimOptions = TrimOptions.Trim
+            };
+
+            using var reader = new StreamReader(csvPath);
+            using var csv = new CsvReader(reader, config);
+
+            if (!csv.Read()) return new();
+            csv.ReadHeader();
+
+            var rows = new List<LikertSummaryCsvRow>();
+            while (csv.Read())
+            {
+                rows.Add(new LikertSummaryCsvRow
+                {
+                    TargetType = csv.GetField("TargetType") ?? "",
+                    InstructorName = csv.GetField("InstructorName") ?? "",
+                    CourseNumber = csv.GetField("CourseNumber") ?? "",
+                    CourseName = csv.GetField("CourseName") ?? "",
+                    LikertAvg = csv.GetField<decimal>("LikertAvg"),
+                    LikertCountUsed = csv.GetField<int>("LikertCountUsed"),
+                    LabelDerived = csv.GetField("LabelDerived") ?? "",
+                    Dim1Avg = csv.TryGetField<decimal?>("Dim1Avg", out var d1) ? d1 : null,
+                    Dim2Avg = csv.TryGetField<decimal?>("Dim2Avg", out var d2) ? d2 : null,
+                    Dim3Avg = csv.TryGetField<decimal?>("Dim3Avg", out var d3) ? d3 : null,
+                    Dim4Avg = csv.TryGetField<decimal?>("Dim4Avg", out var d4) ? d4 : null,
+                    Dim5Avg = csv.TryGetField<decimal?>("Dim5Avg", out var d5) ? d5 : null,
                 });
             }
 
