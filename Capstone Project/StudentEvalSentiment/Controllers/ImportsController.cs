@@ -27,7 +27,7 @@ namespace StudentEvalSentiment.Controllers
             _configuration = configuration;
         }
 
-        
+
         [HttpPost("course-evals")]
         [Consumes("multipart/form-data")]
         [RequestSizeLimit(50_000_000)]
@@ -38,111 +38,182 @@ namespace StudentEvalSentiment.Controllers
             if (file == null || file.Length == 0)
                 return BadRequest("No file uploaded.");
 
+            var fileHash = await ComputeSha256HexAsync(file, ct);
+
+            var existing = await _db.ImportBatches
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.FileHashSha256 == fileHash, ct);
+
+            if (existing != null)
+            {
+                return Ok(new
+                {
+                    importBatchId = existing.ImportBatchId,
+                    skipped = true,
+                    reason = "This exact file (by hash) was already imported."
+                });
+            }
+
             var importBatchId = Guid.NewGuid();
+
+            //Saving import batch record
+            ///////////////////////////////////////////////////////////////////////////
+
+            try
+            {
+                _db.ImportBatches.Add(new ImportBatch
+                {
+                    ImportBatchId = importBatchId,
+                    SourceFileName = file.FileName,
+                    FileHashSha256 = fileHash,
+                    FileSizeBytes = request.File.Length,
+                    CreatedUtc = DateTime.UtcNow
+                });
+                await _db.SaveChangesAsync(ct); // save batch early so it’s tracked
+            }
+            catch (DbUpdateException)
+            {
+                var existing2 = await _db.ImportBatches.AsNoTracking()
+                    .FirstOrDefaultAsync(x => x.FileHashSha256 == fileHash, ct);
+
+                if (existing2 != null)
+                    return Ok(new { importBatchId = existing2.ImportBatchId, skipped = true, reason = "Duplicate (hash) detected." });
+
+                throw; // unexpected
+            }
+
+            ///////////////////////////////////////////////////////////////////////////
+
+
             var tempDir = Path.Combine(Path.GetTempPath(), "StudentEvalSentiment", importBatchId.ToString("N"));
             Directory.CreateDirectory(tempDir);
 
-            var inputPath = Path.Combine(tempDir, file.FileName);
-            var outputPath = Path.Combine(tempDir, "sentiment_text_clean.csv");
-
-            // 1) Save upload
-            await using (var fs = System.IO.File.Create(inputPath))
-                await file.CopyToAsync(fs, ct);
-
-            // 2) Run Python script
-            // Update these two paths for your machine/deployment:
-            var pythonExe = _configuration["Python:ExecutablePath"];
-
-            var scriptPath = Path.Combine(
-                AppContext.BaseDirectory,
-                "Python",
-                "processor.py"
-            );
-
-            if (!System.IO.File.Exists(pythonExe))
-                return StatusCode(500, $"Python exe not found: {pythonExe}");
-
-            if (!System.IO.File.Exists(scriptPath))
-                return StatusCode(500, $"processor.py not found: {scriptPath}");
-
-            var psi = new ProcessStartInfo
+            try
             {
-                FileName = pythonExe,
-                Arguments = $"\"{scriptPath}\" \"{inputPath}\" \"{outputPath}\"",
-                RedirectStandardOutput = true,
-                RedirectStandardError = true,
-                UseShellExecute = false,
-                CreateNoWindow = true
-            };
 
-            using var proc = Process.Start(psi);
-            if (proc == null) return StatusCode(500, "Failed to start python process.");
+                var inputPath = Path.Combine(tempDir, file.FileName);
+                var outputPath = Path.Combine(tempDir, "sentiment_text_clean.csv");
 
-            var stdout = await proc.StandardOutput.ReadToEndAsync();
-            var stderr = await proc.StandardError.ReadToEndAsync();
-            await proc.WaitForExitAsync(ct);
+                // 1) Save upload
+                await using (var fs = System.IO.File.Create(inputPath))
+                    await file.CopyToAsync(fs, ct);
 
-            if (proc.ExitCode != 0)
-            {
-                return StatusCode(500, $"Python failed.\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}");
-            }
+                // 2) Run Python script
+                // Update these two paths for your machine/deployment:
+                var pythonExe = _configuration["Python:ExecutablePath"];
 
-            // 3) Read output CSV
-            if (!System.IO.File.Exists(outputPath))
-                return StatusCode(500, "Python did not produce output CSV.");
+                var scriptPath = Path.Combine(
+                    AppContext.BaseDirectory,
+                    "Python",
+                    "processor.py"
+                );
 
-            // ✅ Read rows (DTO)
-            var csvRows = ReadProcessedCsvRows(outputPath);
+                if (!System.IO.File.Exists(pythonExe))
+                    return StatusCode(500, $"Python exe not found: {pythonExe}");
 
-            // ✅ Upsert question map
-            await UpsertQuestionMapAsync(csvRows, ct);
+                if (!System.IO.File.Exists(scriptPath))
+                    return StatusCode(500, $"processor.py not found: {scriptPath}");
 
-            // ✅ Insert processed comments (drop QuestionHeader here)
-            var comments = ToProcessedComments(csvRows, importBatchId, file.FileName);
-
-            //////////////////////////////////////////////////////////////////////////
-
-            // 4) Read and insert likert summary if exists
-            var likertPath = Path.Combine(tempDir, "likert_summary.csv");
-            if (System.IO.File.Exists(likertPath))
-            {
-                var likertRows = ReadLikertSummaryCsv(likertPath);
-
-                var summaries = likertRows.Select(r => new ProcessedLikertSummary
+                var psi = new ProcessStartInfo
                 {
-                    ImportBatchId = importBatchId,
-                    TargetType = r.TargetType,
-                    InstructorName = string.IsNullOrWhiteSpace(r.InstructorName) ? null : r.InstructorName,
-                    CourseNumber = r.CourseNumber,
-                    CourseName = r.CourseName,
-                    LikertAvg = r.LikertAvg,
-                    LikertCountUsed = r.LikertCountUsed,
-                    LabelDerived = r.LabelDerived,
-                    Dim1Avg = r.Dim1Avg,
-                    Dim2Avg = r.Dim2Avg,
-                    Dim3Avg = r.Dim3Avg,
-                    Dim4Avg = r.Dim4Avg,
-                    Dim5Avg = r.Dim5Avg
-                }).ToList();
+                    FileName = pythonExe,
+                    Arguments = $"\"{scriptPath}\" \"{inputPath}\" \"{outputPath}\"",
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
 
-                _db.ProcessedLikertSummaries.AddRange(summaries);
+                using var proc = Process.Start(psi);
+                if (proc == null) return StatusCode(500, "Failed to start python process.");
+
+                var stdout = await proc.StandardOutput.ReadToEndAsync();
+                var stderr = await proc.StandardError.ReadToEndAsync();
+                await proc.WaitForExitAsync(ct);
+
+                if (proc.ExitCode != 0)
+                {
+                    return StatusCode(500, $"Python failed.\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}");
+                }
+
+                // 3) Read output CSV
+                if (!System.IO.File.Exists(outputPath))
+                    return StatusCode(500, "Python did not produce output CSV.");
+
+                // ✅ Read rows (DTO)
+                var csvRows = ReadProcessedCsvRows(outputPath);
+
+                // ✅ Upsert question map
+                await UpsertQuestionMapAsync(csvRows, ct);
+
+                // ✅ Insert processed comments (drop QuestionHeader here)
+                var comments = ToProcessedComments(csvRows, importBatchId, file.FileName);
+
+                //////////////////////////////////////////////////////////////////////////
+
+                // 4) Read and insert likert summary if exists
+                var likertPath = Path.Combine(tempDir, "likert_summary.csv");
+                if (System.IO.File.Exists(likertPath))
+                {
+                    var likertRows = ReadLikertSummaryCsv(likertPath);
+
+                    var summaries = likertRows.Select(r => new ProcessedLikertSummary
+                    {
+                        ImportBatchId = importBatchId,
+                        TargetType = r.TargetType,
+                        InstructorName = string.IsNullOrWhiteSpace(r.InstructorName) ? null : r.InstructorName,
+                        CourseNumber = r.CourseNumber,
+                        CourseName = r.CourseName,
+                        LikertAvg = r.LikertAvg,
+                        LikertCountUsed = r.LikertCountUsed,
+                        LabelDerived = r.LabelDerived,
+                        Dim1Avg = r.Dim1Avg,
+                        Dim2Avg = r.Dim2Avg,
+                        Dim3Avg = r.Dim3Avg,
+                        Dim4Avg = r.Dim4Avg,
+                        Dim5Avg = r.Dim5Avg
+                    }).ToList();
+
+                    _db.ProcessedLikertSummaries.AddRange(summaries);
+                }
+
+                //////////////////////////////////////////////////////////////////////////
+
+                // 5) Save to DB
+                _db.ProcessedComments.AddRange(comments);
+
+                // Save changes
+                var inserted = await _db.SaveChangesAsync(ct);
+
+                return Ok(new
+                {
+                    importBatchId,
+                    insertedRows = comments.Count, // better than EF's inserted count
+                    pythonStdout = stdout
+                });
             }
-
-            //////////////////////////////////////////////////////////////////////////
-
-            // 5) Save to DB
-            _db.ProcessedComments.AddRange(comments);
-
-            // Save changes
-            var inserted = await _db.SaveChangesAsync(ct);
-
-            return Ok(new
+            finally
             {
-                importBatchId,
-                insertedRows = comments.Count, // better than EF's inserted count
-                pythonStdout = stdout
-            });
+                // optional cleanup
+                try
+                {
+                    if (Directory.Exists(tempDir))
+                        Directory.Delete(tempDir, recursive: true);
+                }
+                catch
+                {
+                    // swallow cleanup errors (file locks happen on Windows)
+                }
+            }
         }
+
+            static async Task<string> ComputeSha256HexAsync(IFormFile file, CancellationToken ct)
+            {
+                using var sha = System.Security.Cryptography.SHA256.Create();
+                await using var stream = file.OpenReadStream();
+                var hash = await sha.ComputeHashAsync(stream, ct);
+                return Convert.ToHexString(hash).ToLowerInvariant(); // 64-char hex
+            }
 
         private async Task UpsertQuestionMapAsync(IEnumerable<ProcessedCommentCsvRow> rows, CancellationToken ct)
         {

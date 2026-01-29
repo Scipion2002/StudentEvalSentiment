@@ -2,11 +2,10 @@
 {
     public class ImportBatch
     {
-        public Guid ImportBatchId { get; set; } = Guid.NewGuid();
-        public string SourceFileName { get; set; } = null!;
-        public DateTime ImportedAt { get; set; } = DateTime.UtcNow;
-        public int RowCountTotal { get; set; }
-        public int RowCountImported { get; set; }
-        public string? Notes { get; set; }
+        public Guid ImportBatchId { get; set; }
+        public string SourceFileName { get; set; } = "";
+        public string FileHashSha256 { get; set; } = ""; // 64 hex chars
+        public long FileSizeBytes { get; set; }
+        public DateTime CreatedUtc { get; set; } = DateTime.UtcNow;
     }
 }
