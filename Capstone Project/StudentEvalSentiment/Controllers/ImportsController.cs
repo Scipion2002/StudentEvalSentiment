@@ -140,6 +140,38 @@ namespace StudentEvalSentiment.Controllers
                 if (!System.IO.File.Exists(outputPath))
                     return StatusCode(500, "Python did not produce output CSV.");
 
+                ///////////////////////////////////////////////////////////////////////////
+                //New stuff, let me know if this is where is supposed to be
+                var topicScript = Path.Combine(AppContext.BaseDirectory, "Python", "topic_prep.py");
+                var topicArgs = $"\"{topicScript}\" \"{outputPath}\" \"{tempDir}\"";
+
+                if (!System.IO.File.Exists(topicScript))
+                    return StatusCode(500, $"topic_prep.py not found: {topicScript}");
+
+                var topicPsi = new ProcessStartInfo
+                {
+                    FileName = pythonExe,
+                    Arguments = topicArgs,
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+
+                using var topicProc = Process.Start(topicPsi);
+                if (topicProc == null) return StatusCode(500, "Failed to start topic_prep python process.");
+
+                var topicStdout = await topicProc.StandardOutput.ReadToEndAsync();
+                var topicStderr = await topicProc.StandardError.ReadToEndAsync();
+                await topicProc.WaitForExitAsync(ct);
+
+                if (topicProc.ExitCode != 0)
+                {
+                    return StatusCode(500, $"topic_prep.py failed.\nSTDOUT:\n{topicStdout}\nSTDERR:\n{topicStderr}");
+                }
+
+                ///////////////////////////////////////////////////////////////////////////
+
                 // ✅ Read rows (DTO)
                 var csvRows = ReadProcessedCsvRows(outputPath);
 
@@ -207,13 +239,13 @@ namespace StudentEvalSentiment.Controllers
             }
         }
 
-            static async Task<string> ComputeSha256HexAsync(IFormFile file, CancellationToken ct)
-            {
-                using var sha = System.Security.Cryptography.SHA256.Create();
-                await using var stream = file.OpenReadStream();
-                var hash = await sha.ComputeHashAsync(stream, ct);
-                return Convert.ToHexString(hash).ToLowerInvariant(); // 64-char hex
-            }
+        static async Task<string> ComputeSha256HexAsync(IFormFile file, CancellationToken ct)
+        {
+            using var sha = System.Security.Cryptography.SHA256.Create();
+            await using var stream = file.OpenReadStream();
+            var hash = await sha.ComputeHashAsync(stream, ct);
+            return Convert.ToHexString(hash).ToLowerInvariant(); // 64-char hex
+        }
 
         private async Task UpsertQuestionMapAsync(IEnumerable<ProcessedCommentCsvRow> rows, CancellationToken ct)
         {
