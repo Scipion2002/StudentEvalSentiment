@@ -20,7 +20,11 @@ namespace StudentEvalSentiment.DB.Config
             b.Property(x => x.TextClean).HasColumnType("nvarchar(max)").IsRequired();
             b.Property(x => x.RawText).HasColumnType("nvarchar(max)").IsRequired(false);
             b.Property(x => x.QuestionKey).HasMaxLength(32).IsRequired();
-          
+            b.Property(x => x.TopicModel).HasMaxLength(20);
+            b.HasIndex(x => new { x.ImportBatchId, x.TargetType, x.TopicClusterId });
+            b.Property(x => x.SentimentLabel).HasMaxLength(20);
+            b.HasIndex(x => new { x.ImportBatchId, x.TargetType, x.SentimentLabel });
+
             b.HasIndex(x => x.ImportBatchId);
             b.HasIndex(x => x.CourseNumber);
             b.HasIndex(x => x.InstructorName);

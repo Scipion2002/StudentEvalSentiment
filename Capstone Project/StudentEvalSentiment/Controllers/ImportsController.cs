@@ -313,6 +313,7 @@ namespace StudentEvalSentiment.Controllers
 
                 rows.Add(new ProcessedCommentCsvRow
                 {
+                    SentimentLabel = csv.GetField("Label") ?? "",
                     TargetType = csv.GetField("TargetType") ?? "",
                     InstructorName = csv.GetField("InstructorName") ?? "",
                     CourseNumber = csv.GetField("CourseNumber") ?? "",
@@ -378,6 +379,7 @@ namespace StudentEvalSentiment.Controllers
             {
                 ImportBatchId = importBatchId,
                 SourceFileName = sourceFileName,
+                SentimentLabel = r.SentimentLabel,
                 TargetType = r.TargetType,
                 InstructorName = r.InstructorName,
                 CourseNumber = r.CourseNumber,

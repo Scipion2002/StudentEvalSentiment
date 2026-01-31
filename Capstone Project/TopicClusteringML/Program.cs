@@ -5,9 +5,19 @@ using System.Text;
 
 var ml = new MLContext(seed: 42);
 
+string dataBasePath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\StudentEvalSentiment\Python\Datasets";
 
-TrainOne("topic_instructor.csv", "topic_model_instructor.zip", "topic_validation_instructor.csv", k: 10);
-TrainOne("topic_course.csv", "topic_model_course.zip", "topic_validation_course.csv", k: 10);
+TrainOne(
+    Path.Combine(dataBasePath, "topic_instructor.csv"),
+    "topic_model_instructor.zip",
+    "topic_validation_instructor.csv",
+    k: 90);
+
+TrainOne(
+    Path.Combine(dataBasePath, "topic_course.csv"),
+    "topic_model_course.zip",
+    "topic_validation_course.csv",
+    k: 90);
 
 
 void TrainOne(string dataPath, string modelPath, string validationOutPath, int k)

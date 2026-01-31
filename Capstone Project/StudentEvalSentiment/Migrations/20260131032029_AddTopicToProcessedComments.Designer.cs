@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StudentEvalSentiment.DB.Context;
 
@@ -11,9 +12,11 @@ using StudentEvalSentiment.DB.Context;
 namespace StudentEvalSentiment.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260131032029_AddTopicToProcessedComments")]
+    partial class AddTopicToProcessedComments
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -427,10 +430,6 @@ namespace StudentEvalSentiment.Migrations
                     b.Property<string>("RawText")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SentimentLabel")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
                     b.Property<string>("SourceFileName")
                         .IsRequired()
                         .HasMaxLength(260)
@@ -466,8 +465,6 @@ namespace StudentEvalSentiment.Migrations
                     b.HasIndex("TargetType");
 
                     b.HasIndex("ImportBatchId", "QuestionKey");
-
-                    b.HasIndex("ImportBatchId", "TargetType", "SentimentLabel");
 
                     b.HasIndex("ImportBatchId", "TargetType", "TopicClusterId");
 

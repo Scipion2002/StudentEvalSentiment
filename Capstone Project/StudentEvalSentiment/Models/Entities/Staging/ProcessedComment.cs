@@ -10,6 +10,7 @@
         public string SourceFileName { get; set; } = null!;
 
         public string TargetType { get; set; } = null!;         // "Instructor" or "Course"
+        public string? SentimentLabel { get; set; }   // "Negative" | "Neutral" | "Positive"
         public string InstructorName { get; set; } = "";        // from crs_dir
         public string CourseNumber { get; set; } = "";          // crsnum
         public string CourseName { get; set; } = "";            // crsname
@@ -17,5 +18,9 @@
 
         public string? RawText { get; set; }                    // optional (you can drop later)
         public string TextClean { get; set; } = null!;          // cleaned text for ML
+
+        public int? TopicClusterId { get; set; }      // KMeans cluster id (1..k)
+        public string? TopicModel { get; set; }       // "Instructor" or "Course" (optional but nice)
+        public DateTime? TopicAssignedUtc { get; set; }
     }
 }
