@@ -8,10 +8,11 @@
 
 	<ItemGroup>
 		<None Remove="Python\processor.py" />
+		<None Remove="Python\topic_prep.py" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Include="Python\processor.py">
+		<Content Include="Python\*.py">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
