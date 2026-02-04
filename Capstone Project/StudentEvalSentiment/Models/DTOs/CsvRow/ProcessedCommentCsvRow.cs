@@ -1,4 +1,4 @@
-﻿namespace StudentEvalSentiment.Models.DTOs
+﻿namespace StudentEvalSentiment.Models.DTOs.CsvRow
 {
     public class ProcessedCommentCsvRow
     {

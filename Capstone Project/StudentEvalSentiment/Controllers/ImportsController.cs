@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using StudentEvalSentiment.DB.Context;
-using StudentEvalSentiment.Models.DTOs;
+using StudentEvalSentiment.Models.DTOs.CsvRow;
 using StudentEvalSentiment.Models.Entities.Evaluations;
 using StudentEvalSentiment.Models.Entities.Staging;
 using StudentEvalSentiment.Models.Requests;

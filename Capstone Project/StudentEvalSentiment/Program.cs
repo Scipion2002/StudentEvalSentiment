@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.ML;
 using Microsoft.OpenApi;
-using Swashbuckle.AspNetCore.SwaggerGen;
 using StudentEvalSentiment.DB.Context;
+using StudentEvalSentiment.Models.Ml.Sentiment;
+using StudentEvalSentiment.Models.Ml.Topics;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +39,19 @@ builder.Services.AddCors(options =>
          .AllowAnyHeader()
          .AllowAnyMethod());
 });
+
+var sentimentPath = Path.Combine(AppContext.BaseDirectory, "MLModels", "sentiment_model.zip");
+var topicInstructorPath = Path.Combine(AppContext.BaseDirectory, "MLModels", "topic_model_instructor.zip");
+var topicCoursePath = Path.Combine(AppContext.BaseDirectory, "MLModels", "topic_model_course.zip");
+
+builder.Services.AddPredictionEnginePool<SentimentModelInput, SentimentModelOutput>()
+    .FromFile(modelName: "SentimentModel", filePath: sentimentPath, watchForChanges: true);
+
+builder.Services.AddPredictionEnginePool<TopicModelInput, TopicModelOutput>()
+    .FromFile(modelName: "TopicInstructorModel", filePath: topicInstructorPath, watchForChanges: true);
+
+builder.Services.AddPredictionEnginePool<TopicModelInput, TopicModelOutput>()
+    .FromFile(modelName: "TopicCourseModel", filePath: topicCoursePath, watchForChanges: true);
 
 var app = builder.Build();
 
