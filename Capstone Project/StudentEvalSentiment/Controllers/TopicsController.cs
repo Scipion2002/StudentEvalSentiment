@@ -39,7 +39,7 @@ namespace StudentEvalSentiment.Controllers
                 Label = string.Empty
             });
 
-            return Ok(new TopicPredictResponse((int)pred.PredictedLabel, null));
+            return Ok(new TopicPredictResponse((int)pred.ClusterId, null));
         }
     }
 }

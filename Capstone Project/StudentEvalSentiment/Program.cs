@@ -5,6 +5,7 @@ using StudentEvalSentiment.DB.Context;
 using StudentEvalSentiment.Models.Ml.Sentiment;
 using StudentEvalSentiment.Models.Ml.Topics;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 // --------------------
 
 // MVC + API Controllers
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(o =>
+        o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
 // (Optional) If you still use Views/Razor pages, keep this instead of AddControllers()
 // builder.Services.AddControllersWithViews();

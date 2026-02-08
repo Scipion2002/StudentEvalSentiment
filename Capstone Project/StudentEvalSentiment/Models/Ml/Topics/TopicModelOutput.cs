@@ -5,6 +5,6 @@ namespace StudentEvalSentiment.Models.Ml.Topics
     public sealed class TopicModelOutput
     {
         [ColumnName("PredictedLabel")]
-        public uint PredictedLabel { get; set; }
+        public uint ClusterId { get; set; }
     }
 }

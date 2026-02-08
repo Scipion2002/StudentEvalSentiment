@@ -22,5 +22,6 @@
         public int? TopicClusterId { get; set; }      // KMeans cluster id (1..k)
         public string? TopicModel { get; set; }       // "Instructor" or "Course" (optional but nice)
         public DateTime? TopicAssignedUtc { get; set; }
+        public DateTime? SentimentAssignedUtc { get; set; }
     }
 }

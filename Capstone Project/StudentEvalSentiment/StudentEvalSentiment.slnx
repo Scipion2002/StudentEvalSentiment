@@ -7,6 +7,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="../MLTrainer/MLTrainer.csproj" Id="c3f17863-77ad-40df-9637-0550cd1bbc32" />
+  <Project Path="../Tests/Tests.csproj" Id="c5711055-3f8e-4fda-9a5a-d79a2dcfc36d" />
   <Project Path="../TopicAssigner/TopicAssigner.csproj" Id="3887e286-50bc-4f6d-837e-d7a0723ca62f" />
   <Project Path="../TopicClusteringML/TopicClusteringML.csproj" Id="b36f693f-4d11-4e4d-84e7-06a9c71fa757" />
   <Project Path="StudentEvalSentiment.csproj" />
