@@ -1,0 +1,21 @@
+<h2>Upload Course Evaluations</h2>
+
+<input type="file" accept=".csv" (change)="onFileChange($event)" />
+
+<br /><br />
+
+<button (click)="upload()" [disabled]="!selectedFile || uploading">
+  Upload CSV
+</button>
+
+<button *ngIf="importBatchId"
+        (click)="analyze()"
+        [disabled]="analyzing">
+  Analyze Batch
+</button>
+
+<p>{{ status }}</p>
+
+<p *ngIf="importBatchId">
+  Batch ID: <code>{{ importBatchId }}</code>
+</p>

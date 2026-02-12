@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Services
 // --------------------
 
+
 // MVC + API Controllers
 builder.Services.AddControllers()
     .AddJsonOptions(o =>
@@ -81,8 +82,14 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseCors(policy =>
+    policy.WithOrigins("http://localhost:4200")
+          .AllowAnyHeader()
+          .AllowAnyMethod());
+
 // If you're serving Angular static files later, you can add app.UseStaticFiles();
 app.MapControllers();
+app.UseStaticFiles();
 
 // If you still want MVC default route (views), uncomment:
 // app.MapControllerRoute(
