@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-upload-component',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './upload-component.html',
+  styleUrls: ['./upload-component.scss'],
 })
 export class UploadComponent {
 
@@ -19,6 +21,26 @@ export class UploadComponent {
   onFileChange(event: Event) {
     const input = event.target as HTMLInputElement;
     this.selectedFile = input.files?.[0] ?? null;
+  }
+
+  onDragOver(event: DragEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+
+  onDragLeave(event: DragEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+
+  onDrop(event: DragEvent) {
+    event.preventDefault();
+    event.stopPropagation();
+    
+    const files = event.dataTransfer?.files;
+    if (files && files.length > 0) {
+      this.selectedFile = files[0];
+    }
   }
 
   upload() {

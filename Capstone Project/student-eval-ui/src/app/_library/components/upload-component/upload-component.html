@@ -1,21 +1,71 @@
-<h2>Upload Course Evaluations</h2>
+<div class="upload-container">
+  <div class="upload-card">
+    <div class="card-header">
+      <h1 class="card-title">Upload Course Evaluations</h1>
+      <p class="card-subtitle">Import CSV file with course evaluation data</p>
+    </div>
 
-<input type="file" accept=".csv" (change)="onFileChange($event)" />
+    <div class="card-content">
+      <div class="file-input-wrapper">
+        <input 
+          type="file" 
+          id="fileInput"
+          accept=".csv" 
+          (change)="onFileChange($event)"
+          #fileInput
+          class="file-input" />
+        <label 
+          for="fileInput" 
+          class="file-input-label"
+          (dragover)="onDragOver($event)"
+          (dragleave)="onDragLeave($event)"
+          (drop)="onDrop($event)">
+          <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="17 8 12 3 7 8"></polyline>
+            <line x1="12" y1="3" x2="12" y2="15"></line>
+          </svg>
+          <span class="file-input-text">{{ selectedFile ? selectedFile.name : 'Choose CSV file or drag here' }}</span>
+        </label>
+      </div>
 
-<br /><br />
+      <div class="button-group">
+        <button 
+          (click)="upload()" 
+          [disabled]="!selectedFile || uploading"
+          class="btn btn-primary">
+          <span *ngIf="!uploading">Upload CSV</span>
+          <span *ngIf="uploading">Uploading...</span>
+        </button>
 
-<button (click)="upload()" [disabled]="!selectedFile || uploading">
-  Upload CSV
-</button>
+        @if (importBatchId) {
+          <button 
+            (click)="analyze()"
+            [disabled]="analyzing"
+            class="btn btn-secondary">
+            <span *ngIf="!analyzing">Analyze Batch</span>
+            <span *ngIf="analyzing">Analyzing...</span>
+          </button>
+        }
+      </div>
 
-<button *ngIf="importBatchId"
-        (click)="analyze()"
-        [disabled]="analyzing">
-  Analyze Batch
-</button>
+      @if (status) {
+        <div [ngClass]="{
+          'status-message': true,
+          'status-success': importBatchId && !status.includes('failed'),
+          'status-error': status.includes('failed'),
+          'status-info': !importBatchId && !status.includes('failed')
+        }">
+          <p class="status-text">{{ status }}</p>
+        </div>
+      }
 
-<p>{{ status }}</p>
-
-<p *ngIf="importBatchId">
-  Batch ID: <code>{{ importBatchId }}</code>
-</p>
+      @if (importBatchId) {
+        <div class="batch-info">
+          <div class="info-label">Batch ID</div>
+          <div class="info-value">{{ importBatchId }}</div>
+        </div>
+      }
+    </div>
+  </div>
+</div>

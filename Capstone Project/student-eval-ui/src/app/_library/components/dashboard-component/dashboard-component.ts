@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { forkJoin } from 'rxjs';
 import { ApiService } from '../../services/api.service';
 
 @Component({
@@ -20,7 +21,7 @@ export class DashboardComponent {
   loading = false;
   error = '';
 
-  constructor(private api: ApiService) {}
+  constructor(private api: ApiService, private cdr: ChangeDetectorRef) {}
 
   load() {
     if (!this.importBatchId.trim()) return;
@@ -28,19 +29,23 @@ export class DashboardComponent {
     this.loading = true;
     this.error = '';
 
-    this.api.getSentimentCounts(this.importBatchId.trim(), this.targetType).subscribe({
-      next: (res) => this.sentimentCounts = res,
-      error: (err) => this.error = 'Failed to load sentiment counts'
-    });
+    const batchId = this.importBatchId.trim();
+    const target = this.targetType;
 
-    this.api.getTopTopics(this.importBatchId.trim(), this.targetType, 10).subscribe({
-      next: (res) => {
-        this.topTopics = res;
+    forkJoin([
+      this.api.getSentimentCounts(batchId, target),
+      this.api.getTopTopics(batchId, target, 10)
+    ]).subscribe({
+      next: ([sentiments, topics]) => {
+        this.sentimentCounts = sentiments;
+        this.topTopics = topics;
         this.loading = false;
+        this.cdr.detectChanges();
       },
-      error: (err) => {
-        this.error = 'Failed to load topics';
+      error: () => {
+        this.error = 'Failed to load data';
         this.loading = false;
+        this.cdr.detectChanges();
       }
     });
   }

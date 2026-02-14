@@ -1,33 +1,116 @@
-<h2>Dashboard</h2>
+<div class="dashboard-container">
+  <div class="dashboard-header">
+    <h1 class="dashboard-title">Analytics Dashboard</h1>
+    <p class="dashboard-subtitle">View sentiment analysis and topic insights</p>
+  </div>
 
-<label>Import Batch ID</label>
-<input [(ngModel)]="importBatchId" placeholder="paste importBatchId here" />
+  <div class="dashboard-content">
+    <!-- Input Section -->
+    <div class="input-section">
+      <div class="form-group">
+        <label for="batchId" class="form-label">Import Batch ID</label>
+        <input 
+          id="batchId"
+          type="text"
+          [(ngModel)]="importBatchId" 
+          placeholder="Enter batch ID..."
+          class="form-input" />
+      </div>
 
-<label>Target</label>
-<select [(ngModel)]="targetType">
-  <option value="Instructor">Instructor</option>
-  <option value="Course">Course</option>
-</select>
+      <div class="form-group">
+        <label for="targetType" class="form-label">Analysis Target</label>
+        <select 
+          id="targetType"
+          [(ngModel)]="targetType"
+          class="form-select">
+          <option value="Instructor">Instructor</option>
+          <option value="Course">Course</option>
+        </select>
+      </div>
 
-<button (click)="load()">Load</button>
+      <button 
+        (click)="load()" 
+        [disabled]="!importBatchId.trim() || loading"
+        class="btn btn-primary btn-load">
+        <span *ngIf="!loading">Load Data</span>
+        <span *ngIf="loading">Loading...</span>
+      </button>
+    </div>
 
-<p *ngIf="error" style="color:red">{{ error }}</p>
+    <!-- Error Message -->
+    @if (error) {
+      <div class="alert alert-error">
+        <svg class="alert-icon" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+        <span>{{ error }}</span>
+      </div>
+    }
 
-<h3>Sentiment Counts</h3>
-<table>
-  <tr><th>Sentiment</th><th>Count</th></tr>
-  <tr *ngFor="let s of sentimentCounts">
-    <td>{{ s.sentiment }}</td>
-    <td>{{ s.count }}</td>
-  </tr>
-</table>
+    <!-- Sentiment Counts Section -->
+    @if (sentimentCounts.length > 0) {
+      <div class="results-section">
+        <div class="section-header">
+          <h2 class="section-title">Sentiment Distribution</h2>
+          <p class="section-subtitle">Overall sentiment breakdown</p>
+        </div>
+        <div class="table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Sentiment</th>
+                <th class="text-right">Count</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let s of sentimentCounts" class="table-row">
+                <td class="cell-sentiment">{{ s.sentiment }}</td>
+                <td class="cell-count">{{ s.count }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    }
 
-<h3>Top Topics</h3>
-<table>
-  <tr><th>Cluster</th><th>Label</th><th>Count</th></tr>
-  <tr *ngFor="let t of topTopics">
-    <td>{{ t.topicClusterId }}</td>
-    <td>{{ t.humanLabel }}</td>
-    <td>{{ t.count }}</td>
-  </tr>
-</table>
+    <!-- Top Topics Section -->
+    @if (topTopics.length > 0) {
+      <div class="results-section">
+        <div class="section-header">
+          <h2 class="section-title">Top Topics</h2>
+          <p class="section-subtitle">Most frequently discussed topics</p>
+        </div>
+        <div class="table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Cluster ID</th>
+                <th>Topic Label</th>
+                <th class="text-right">Frequency</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let t of topTopics" class="table-row">
+                <td class="cell-id">{{ t.topicClusterId }}</td>
+                <td class="cell-label">{{ t.humanLabel }}</td>
+                <td class="cell-count">{{ t.count }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    }
+
+    <!-- Empty State -->
+    @if (sentimentCounts.length === 0 && topTopics.length === 0 && !loading) {
+      <div class="empty-state">
+        <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M9 12h6m-6 4h6M7 20h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"></path>
+        </svg>
+        <p class="empty-text">Enter a batch ID and select a target to view analytics</p>
+      </div>
+    }
+  </div>
+</div>

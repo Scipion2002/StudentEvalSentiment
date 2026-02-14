@@ -38,11 +38,11 @@ namespace StudentEvalSentiment.Controllers
                    && pc.TargetType == targetType
                    && pc.TopicClusterId != null
                 join tc in _db.TopicClusters
-                    on new { TopicClusterId = pc.TopicClusterId!.Value, TargetType = pc.TargetType }
-                    equals new { tc.TopicClusterId, tc.TargetType }
-                    into tcJoin
+                  on new { Id = pc.TopicClusterId!.Value, Target = pc.TargetType }
+                  equals new { Id = tc.TopicClusterId, Target = tc.TargetType }
+                  into tcJoin
                 from tc in tcJoin.DefaultIfEmpty()
-                group new { pc, tc } by new { pc.TopicClusterId, Label = tc != null ? tc.HumanLabel : null } into g
+                group tc by new { pc.TopicClusterId, Label = tc != null ? tc.HumanLabel : null } into g
                 orderby g.Count() descending
                 select new
                 {
