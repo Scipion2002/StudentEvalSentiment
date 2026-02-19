@@ -10,6 +10,13 @@ import {
   SentimentCount,
   TopTopic
 } from '../../services/api.service';
+import {
+  CourseOptionDto,
+  InsightQuery,
+  InsightsResponseDto,
+  TargetType,
+  TopicOptionDto,
+} from '../../../insights.models';
 
 @Component({
   selector: 'app-dashboard',
@@ -20,9 +27,12 @@ import {
 })
 export class DashboardComponent implements OnInit {
   importBatchId = '';
-  targetType: 'Instructor' | 'Course' = 'Instructor';
+  targetType: TargetType = 'Instructor';
+
   quarterFilter = '';
-  topicFilter = '';
+  instructorFilter = '';
+  courseFilter = '';
+  topicClusterIdFilter = '';
 
   batches: BatchOverview[] = [];
   filteredBatches: BatchOverview[] = [];
@@ -30,8 +40,11 @@ export class DashboardComponent implements OnInit {
 
   sentimentCounts: SentimentCount[] = [];
   topTopics: TopTopic[] = [];
+
   quarters: string[] = [];
-  filteredTopics: TopTopic[] = [];
+  instructors: string[] = [];
+  courses: CourseOptionDto[] = [];
+  topics: TopicOptionDto[] = [];
 
   chartType: 'doughnut' = 'doughnut';
   sentimentChartData: ChartData<'doughnut'> = {
@@ -90,19 +103,16 @@ export class DashboardComponent implements OnInit {
     this.loading = true;
     this.error = '';
 
-    const batchId = this.importBatchId;
-    const target = this.targetType;
-
     forkJoin([
-      this.api.getSentimentCounts(batchId, target),
-      this.api.getTopTopics(batchId, target, 25)
+      this.api.getFilters(this.targetType, this.importBatchId),
+      this.api.getInsights(this.buildInsightQuery()),
     ]).subscribe({
-      next: ([sentiments, topics]) => {
-        this.sentimentCounts = sentiments;
-        this.topTopics = topics;
+      next: ([filters, insights]) => {
+        this.instructors = filters.instructors ?? [];
+        this.courses = filters.courses ?? [];
+        this.topics = filters.topics ?? [];
 
-        this.updateChartFromSentiments(this.sentimentCounts);
-        this.applyTopicFilter();
+        this.applyInsights(insights);
 
         this.loading = false;
         this.cdr.detectChanges();
@@ -116,10 +126,13 @@ export class DashboardComponent implements OnInit {
   }
 
   onFilterChange() {
-    this.applyTopicFilter();
+    this.loadInsightsOnly();
   }
 
   onTargetChange() {
+    this.instructorFilter = '';
+    this.courseFilter = '';
+    this.topicClusterIdFilter = '';
     this.load();
   }
 
@@ -132,13 +145,58 @@ export class DashboardComponent implements OnInit {
     ) {
       this.importBatchId = '';
     }
+
+    this.instructorFilter = '';
+    this.courseFilter = '';
+    this.topicClusterIdFilter = '';
   }
 
-  private applyTopicFilter() {
-    const query = this.topicFilter.trim().toLowerCase();
-    this.filteredTopics = query
-      ? this.topTopics.filter((topic) => topic.humanLabel.toLowerCase().includes(query))
-      : [...this.topTopics];
+  private loadInsightsOnly() {
+    if (!this.importBatchId) {
+      return;
+    }
+
+    this.loading = true;
+    this.error = '';
+
+    this.api.getInsights(this.buildInsightQuery()).subscribe({
+      next: (insights) => {
+        this.applyInsights(insights);
+        this.loading = false;
+        this.cdr.detectChanges();
+      },
+      error: () => {
+        this.error = 'Failed to load data';
+        this.loading = false;
+        this.cdr.detectChanges();
+      },
+    });
+  }
+
+  private buildInsightQuery(): InsightQuery {
+    return {
+      targetType: this.targetType,
+      importBatchId: this.importBatchId || null,
+      instructorName: this.instructorFilter || null,
+      courseNumber: this.courseFilter || null,
+      topicClusterId: this.topicClusterIdFilter ? Number(this.topicClusterIdFilter) : null,
+    };
+  }
+
+  private applyInsights(insights: InsightsResponseDto) {
+    this.sentimentCounts = [
+      { sentiment: 'Positive', count: insights.sentiment?.positive ?? 0 },
+      { sentiment: 'Neutral', count: insights.sentiment?.neutral ?? 0 },
+      { sentiment: 'Negative', count: insights.sentiment?.negative ?? 0 },
+    ];
+
+    this.topTopics = (insights.topTopics ?? []).map((topic) => ({
+      topicClusterId: topic.topicClusterId,
+      humanLabel: topic.humanLabel,
+      count: topic.count,
+    }));
+
+    this.updateChartFromSentiments(this.sentimentCounts);
   }
 
   private uniqueQuarters(batchList: BatchOverview[]): string[] {

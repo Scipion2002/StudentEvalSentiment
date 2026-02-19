@@ -42,14 +42,33 @@
 
     <div class="input-section filter-section">
       <div class="form-group">
+        <label for="instructorFilter" class="form-label">Instructor</label>
+        <select id="instructorFilter" [(ngModel)]="instructorFilter" (change)="onFilterChange()" class="form-select">
+          <option value="">All instructors</option>
+          @for (instructor of instructors; track instructor) {
+            <option [value]="instructor">{{ instructor }}</option>
+          }
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="courseFilter" class="form-label">Course</label>
+        <select id="courseFilter" [(ngModel)]="courseFilter" (change)="onFilterChange()" class="form-select">
+          <option value="">All courses</option>
+          @for (course of courses; track course.courseNumber) {
+            <option [value]="course.courseNumber">{{ course.courseNumber }} - {{ course.courseName }}</option>
+          }
+        </select>
+      </div>
+
+      <div class="form-group">
         <label for="topicFilter" class="form-label">Topic</label>
-        <input
-          id="topicFilter"
-          [(ngModel)]="topicFilter"
-          (input)="onFilterChange()"
-          class="form-input"
-          type="text"
-          placeholder="Filter top topics..." />
+        <select id="topicFilter" [(ngModel)]="topicClusterIdFilter" (change)="onFilterChange()" class="form-select">
+          <option value="">All topics</option>
+          @for (topic of topics; track topic.topicClusterId) {
+            <option [value]="topic.topicClusterId">{{ topic.humanLabel }}</option>
+          }
+        </select>
       </div>
     </div>
 
@@ -109,11 +128,11 @@
       </div>
     }
 
-    @if (filteredTopics.length > 0) {
+    @if (topTopics.length > 0) {
       <div class="results-section">
         <div class="section-header">
           <h2 class="section-title">Top Topics</h2>
-          <p class="section-subtitle">Most frequently discussed topics (filtered by topic text)</p>
+          <p class="section-subtitle">Most frequently discussed topics for current filters</p>
         </div>
         <div class="table-wrapper">
           <table class="data-table">
@@ -125,7 +144,7 @@
               </tr>
             </thead>
             <tbody>
-              @for (t of filteredTopics; track t.topicClusterId) {
+              @for (t of topTopics; track t.topicClusterId) {
                 <tr class="table-row">
                   <td class="cell-id">{{ t.topicClusterId }}</td>
                   <td class="cell-label">{{ t.humanLabel }}</td>
@@ -138,7 +157,7 @@
       </div>
     }
 
-    @if (sentimentCounts.length === 0 && filteredTopics.length === 0 && !loading) {
+    @if (sentimentCounts.length === 0 && topTopics.length === 0 && !loading) {
       <div class="empty-state">
         <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
           <path d="M9 12h6m-6 4h6M7 20h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"></path>

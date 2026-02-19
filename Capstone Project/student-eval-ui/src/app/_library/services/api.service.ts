@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { InsightFiltersResponseDto, InsightQuery, InsightsResponseDto, TargetType } from '../../insights.models';
 
 export interface UploadResponse {
   importBatchId: string;
@@ -50,7 +51,7 @@ export class ApiService {
     form.append('file', file);
 
     return this.http.post<UploadResponse>(
-      `${this.baseUrl}/imports/course-evals`,
+      `${this.baseUrl}/api/imports/course-evals`,
       form
     );
   }
@@ -72,7 +73,7 @@ export class ApiService {
 
   getBatches() {
     return this.http.get<BatchOverview[]>(
-      `${this.baseUrl}/imports/batches`
+      `${this.baseUrl}/api/imports/batches`
     );
   }
 
@@ -81,5 +82,23 @@ export class ApiService {
       `${this.baseUrl}/api/reports/batch/${importBatchId}/top-topics`,
       { params: { targetType, top } }
     );
+  }
+
+  getFilters(targetType: TargetType, importBatchId?: string | null) {
+    let params = new HttpParams().set('targetType', targetType);
+    if (importBatchId) params = params.set('importBatchId', importBatchId);
+
+    return this.http.get<InsightFiltersResponseDto>(`${this.baseUrl}/api/insight-filters`, { params });
+  }
+
+  getInsights(q: InsightQuery) {
+    let params = new HttpParams().set('targetType', q.targetType);
+
+    if (q.importBatchId) params = params.set('importBatchId', q.importBatchId);
+    if (q.instructorName) params = params.set('instructorName', q.instructorName);
+    if (q.courseNumber) params = params.set('courseNumber', q.courseNumber);
+    if (q.topicClusterId != null) params = params.set('topicClusterId', q.topicClusterId);
+
+    return this.http.get<InsightsResponseDto>(`${this.baseUrl}/api/insights`, { params });
   }
 }

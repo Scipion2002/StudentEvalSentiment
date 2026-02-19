@@ -15,7 +15,7 @@ using System.Globalization;
 namespace StudentEvalSentiment.Controllers
 {
     [ApiController]
-    [Route("imports")]
+    [Route("api/imports")]
     public class ImportsController : ControllerBase
     {
         private readonly AppDbContext _db;
@@ -42,26 +42,6 @@ namespace StudentEvalSentiment.Controllers
                 .ToListAsync(ct);
 
             return Ok(data);
-        }
-
-        [HttpGet("batch-by-file")]
-        public async Task<IActionResult> GetBatchByFile([FromQuery] string sourceFileName, CancellationToken ct)
-        {
-            sourceFileName = sourceFileName.Trim();
-
-            var batch = await _db.ImportBatches
-                .Where(b => b.SourceFileName == sourceFileName)
-                .OrderByDescending(b => b.CreatedUtc)
-                .Select(b => new
-                {
-                    b.ImportBatchId,
-                    b.SourceFileName,
-                    b.CreatedUtc,
-                    b.FileSizeBytes
-                })
-                .FirstOrDefaultAsync(ct);
-
-            return batch == null ? NotFound() : Ok(batch);
         }
 
         [HttpPost("course-evals")]
