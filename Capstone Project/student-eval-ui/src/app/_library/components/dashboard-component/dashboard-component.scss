@@ -87,6 +87,10 @@
   align-self: flex-end;
 }
 
+.filter-section {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 // Buttons
 .btn {
   padding: 12px 24px;
@@ -327,4 +331,9 @@
       font-size: 12px;
     }
   }
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 320px;
 }

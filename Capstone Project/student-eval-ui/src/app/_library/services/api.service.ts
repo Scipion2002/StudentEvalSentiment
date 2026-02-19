@@ -17,6 +17,24 @@ export interface AnalyzeBatchResponse {
   topicsUpdated: number;
 }
 
+export interface BatchOverview {
+  importBatchId: string;
+  sourceFileName: string;
+  createdUtc: string;
+  fileSizeBytes: number;
+}
+
+export interface SentimentCount {
+  sentiment: string;
+  count: number;
+}
+
+export interface TopTopic {
+  topicClusterId: number;
+  humanLabel: string;
+  count: number;
+}
+
 @Injectable({ providedIn: 'root' })
 export class ApiService {
 
@@ -46,16 +64,22 @@ export class ApiService {
   }
 
   getSentimentCounts(importBatchId: string, targetType: 'Instructor' | 'Course') {
-  return this.http.get<{ sentiment: string; count: number }[]>(
-    `${this.baseUrl}/api/reports/batch/${importBatchId}/sentiment-counts`,
-    { params: { targetType } }
-  );
-}
+    return this.http.get<SentimentCount[]>(
+      `${this.baseUrl}/api/reports/batch/${importBatchId}/sentiment-counts`,
+      { params: { targetType } }
+    );
+  }
 
-getTopTopics(importBatchId: string, targetType: 'Instructor' | 'Course', top = 10) {
-  return this.http.get<{ topicClusterId: number; humanLabel: string; count: number }[]>(
-    `${this.baseUrl}/api/reports/batch/${importBatchId}/top-topics`,
-    { params: { targetType, top } }
-  );
-}
+  getBatches() {
+    return this.http.get<BatchOverview[]>(
+      `${this.baseUrl}/imports/batches`
+    );
+  }
+
+  getTopTopics(importBatchId: string, targetType: 'Instructor' | 'Course', top = 10) {
+    return this.http.get<TopTopic[]>(
+      `${this.baseUrl}/api/reports/batch/${importBatchId}/top-topics`,
+      { params: { targetType, top } }
+    );
+  }
 }

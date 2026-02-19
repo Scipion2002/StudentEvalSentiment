@@ -1,43 +1,64 @@
 <div class="dashboard-container">
   <div class="dashboard-header">
     <h1 class="dashboard-title">Analytics Dashboard</h1>
-    <p class="dashboard-subtitle">View sentiment analysis and topic insights</p>
+    <p class="dashboard-subtitle">Interactive sentiment charts and insight exploration</p>
   </div>
 
   <div class="dashboard-content">
-    <!-- Input Section -->
     <div class="input-section">
       <div class="form-group">
-        <label for="batchId" class="form-label">Import Batch ID</label>
-        <input 
-          id="batchId"
-          type="text"
-          [(ngModel)]="importBatchId" 
-          placeholder="Enter batch ID..."
-          class="form-input" />
+        <label for="quarterFilter" class="form-label">Quarter</label>
+        <select id="quarterFilter" [(ngModel)]="quarterFilter" (change)="onQuarterChange()" class="form-select">
+          <option value="">All quarters</option>
+          @for (quarter of quarters; track quarter) {
+            <option [value]="quarter">{{ quarter }}</option>
+          }
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="batchId" class="form-label">Import Batch</label>
+        <select id="batchId" [(ngModel)]="importBatchId" class="form-select">
+          <option value="" disabled>Select a batch...</option>
+          @for (batch of filteredBatches; track batch.importBatchId) {
+            <option [value]="batch.importBatchId">{{ batch.sourceFileName }}</option>
+          }
+        </select>
       </div>
 
       <div class="form-group">
         <label for="targetType" class="form-label">Analysis Target</label>
-        <select 
-          id="targetType"
-          [(ngModel)]="targetType"
-          class="form-select">
+        <select id="targetType" [(ngModel)]="targetType" (change)="onTargetChange()" class="form-select">
           <option value="Instructor">Instructor</option>
           <option value="Course">Course</option>
         </select>
       </div>
 
-      <button 
-        (click)="load()" 
-        [disabled]="!importBatchId.trim() || loading"
-        class="btn btn-primary btn-load">
+      <button (click)="load()" [disabled]="!importBatchId || loading" class="btn btn-primary btn-load">
         <span *ngIf="!loading">Load Data</span>
         <span *ngIf="loading">Loading...</span>
       </button>
     </div>
 
-    <!-- Error Message -->
+    <div class="input-section filter-section">
+      <div class="form-group">
+        <label for="topicFilter" class="form-label">Topic</label>
+        <input
+          id="topicFilter"
+          [(ngModel)]="topicFilter"
+          (input)="onFilterChange()"
+          class="form-input"
+          type="text"
+          placeholder="Filter top topics..." />
+      </div>
+    </div>
+
+    @if (batchesLoading) {
+      <div class="alert">
+        <span>Loading batches...</span>
+      </div>
+    }
+
     @if (error) {
       <div class="alert alert-error">
         <svg class="alert-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -49,12 +70,23 @@
       </div>
     }
 
-    <!-- Sentiment Counts Section -->
     @if (sentimentCounts.length > 0) {
       <div class="results-section">
         <div class="section-header">
           <h2 class="section-title">Sentiment Distribution</h2>
-          <p class="section-subtitle">Overall sentiment breakdown</p>
+          <p class="section-subtitle">Positive, neutral, and negative sentiment for selected target</p>
+        </div>
+        <div class="chart-wrapper">
+          <canvas baseChart [type]="chartType" [data]="sentimentChartData" [options]="chartOptions"></canvas>
+        </div>
+      </div>
+    }
+
+    @if (sentimentCounts.length > 0) {
+      <div class="results-section">
+        <div class="section-header">
+          <h2 class="section-title">Sentiment Totals</h2>
+          <p class="section-subtitle">Raw totals from the selected batch</p>
         </div>
         <div class="table-wrapper">
           <table class="data-table">
@@ -65,22 +97,23 @@
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let s of sentimentCounts" class="table-row">
-                <td class="cell-sentiment">{{ s.sentiment }}</td>
-                <td class="cell-count">{{ s.count }}</td>
-              </tr>
+              @for (s of sentimentCounts; track s.sentiment) {
+                <tr class="table-row">
+                  <td class="cell-sentiment">{{ s.sentiment }}</td>
+                  <td class="cell-count">{{ s.count }}</td>
+                </tr>
+              }
             </tbody>
           </table>
         </div>
       </div>
     }
 
-    <!-- Top Topics Section -->
-    @if (topTopics.length > 0) {
+    @if (filteredTopics.length > 0) {
       <div class="results-section">
         <div class="section-header">
           <h2 class="section-title">Top Topics</h2>
-          <p class="section-subtitle">Most frequently discussed topics</p>
+          <p class="section-subtitle">Most frequently discussed topics (filtered by topic text)</p>
         </div>
         <div class="table-wrapper">
           <table class="data-table">
@@ -92,24 +125,25 @@
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let t of topTopics" class="table-row">
-                <td class="cell-id">{{ t.topicClusterId }}</td>
-                <td class="cell-label">{{ t.humanLabel }}</td>
-                <td class="cell-count">{{ t.count }}</td>
-              </tr>
+              @for (t of filteredTopics; track t.topicClusterId) {
+                <tr class="table-row">
+                  <td class="cell-id">{{ t.topicClusterId }}</td>
+                  <td class="cell-label">{{ t.humanLabel }}</td>
+                  <td class="cell-count">{{ t.count }}</td>
+                </tr>
+              }
             </tbody>
           </table>
         </div>
       </div>
     }
 
-    <!-- Empty State -->
-    @if (sentimentCounts.length === 0 && topTopics.length === 0 && !loading) {
+    @if (sentimentCounts.length === 0 && filteredTopics.length === 0 && !loading) {
       <div class="empty-state">
         <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
           <path d="M9 12h6m-6 4h6M7 20h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z"></path>
         </svg>
-        <p class="empty-text">Enter a batch ID and select a target to view analytics</p>
+        <p class="empty-text">Select a quarter and batch, then load analytics</p>
       </div>
     }
   </div>

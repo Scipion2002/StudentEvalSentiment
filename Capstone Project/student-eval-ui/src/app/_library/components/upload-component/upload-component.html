@@ -52,11 +52,14 @@
       @if (status) {
         <div [ngClass]="{
           'status-message': true,
-          'status-success': importBatchId && !status.includes('failed'),
-          'status-error': status.includes('failed'),
-          'status-info': !importBatchId && !status.includes('failed')
+          'status-success': statusType === 'success',
+          'status-error': statusType === 'error',
+          'status-info': statusType === 'info'
         }">
           <p class="status-text">{{ status }}</p>
+          @if (statusReason) {
+            <p class="status-reason"><strong>Reason:</strong> {{ statusReason }}</p>
+          }
         </div>
       }
 

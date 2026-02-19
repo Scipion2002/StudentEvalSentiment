@@ -27,6 +27,42 @@ namespace StudentEvalSentiment.Controllers
             _configuration = configuration;
         }
 
+        [HttpGet("batches")]
+        public async Task<IActionResult> ListBatches(CancellationToken ct)
+        {
+            var data = await _db.ImportBatches
+                .OrderByDescending(b => b.CreatedUtc)
+                .Select(b => new
+                {
+                    b.ImportBatchId,
+                    b.SourceFileName,
+                    b.CreatedUtc,
+                    b.FileSizeBytes
+                })
+                .ToListAsync(ct);
+
+            return Ok(data);
+        }
+
+        [HttpGet("batch-by-file")]
+        public async Task<IActionResult> GetBatchByFile([FromQuery] string sourceFileName, CancellationToken ct)
+        {
+            sourceFileName = sourceFileName.Trim();
+
+            var batch = await _db.ImportBatches
+                .Where(b => b.SourceFileName == sourceFileName)
+                .OrderByDescending(b => b.CreatedUtc)
+                .Select(b => new
+                {
+                    b.ImportBatchId,
+                    b.SourceFileName,
+                    b.CreatedUtc,
+                    b.FileSizeBytes
+                })
+                .FirstOrDefaultAsync(ct);
+
+            return batch == null ? NotFound() : Ok(batch);
+        }
 
         [HttpPost("course-evals")]
         [Consumes("multipart/form-data")]
@@ -64,7 +100,7 @@ namespace StudentEvalSentiment.Controllers
                 _db.ImportBatches.Add(new ImportBatch
                 {
                     ImportBatchId = importBatchId,
-                    SourceFileName = file.FileName,
+                    SourceFileName = file.FileName.Split('.')[0],
                     FileHashSha256 = fileHash,
                     FileSizeBytes = request.File.Length,
                     CreatedUtc = DateTime.UtcNow
