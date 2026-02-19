@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BaseChartDirective } from 'ng2-charts';
 import { ChartConfiguration, ChartData } from 'chart.js';
-import { forkJoin } from 'rxjs';
+import { forkJoin, switchMap } from 'rxjs';
 import {
   ApiService,
   BatchOverview,
@@ -103,8 +103,16 @@ export class DashboardComponent implements OnInit {
     this.loading = true;
     this.error = '';
 
+    const { instructorName, courseNumber } = this.getFilterRequestValues();
+
     forkJoin([
-      this.api.getFilters(this.targetType, this.importBatchId),
+      this.api.getFilters(
+        this.targetType,
+        this.importBatchId,
+        instructorName,
+        courseNumber,
+        this.getTopicClusterId(),
+      ),
       this.api.getInsights(this.buildInsightQuery()),
     ]).subscribe({
       next: ([filters, insights]) => {
@@ -125,8 +133,16 @@ export class DashboardComponent implements OnInit {
     });
   }
 
-  onFilterChange() {
-    this.loadInsightsOnly();
+  onInstructorChange() {
+    this.refreshFiltersAndInsights(false, false);
+  }
+
+  onCourseChange() {
+    this.refreshFiltersAndInsights(false, true);
+  }
+
+  onTopicChange() {
+    this.refreshFiltersAndInsights(false, true);
   }
 
   onTargetChange() {
@@ -173,13 +189,80 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  private refreshFiltersAndInsights(validateCourseSelection: boolean, includeTopicInFilterRequest: boolean) {
+    if (!this.importBatchId) {
+      return;
+    }
+
+    this.loading = true;
+    this.error = '';
+
+    const { instructorName, courseNumber } = this.getFilterRequestValues();
+    const courseNumberForFilters = validateCourseSelection ? null : courseNumber;
+    const topicClusterIdForFilters = includeTopicInFilterRequest ? this.getTopicClusterId() : null;
+
+    this.api
+      .getFilters(
+        this.targetType,
+        this.importBatchId,
+        instructorName,
+        courseNumberForFilters,
+        topicClusterIdForFilters,
+      )
+      .pipe(
+        switchMap((filters) => {
+          this.instructors = filters.instructors ?? [];
+          this.courses = filters.courses ?? [];
+          this.topics = filters.topics ?? [];
+
+          if (this.courseFilter && !this.courses.some((course) => course.courseNumber === this.courseFilter)) {
+            this.courseFilter = '';
+          }
+
+          if (
+            this.topicClusterIdFilter &&
+            !this.topics.some((topic) => String(topic.topicClusterId) === this.topicClusterIdFilter)
+          ) {
+            this.topicClusterIdFilter = '';
+          }
+
+          return this.api.getInsights(this.buildInsightQuery());
+        }),
+      )
+      .subscribe({
+        next: (insights) => {
+          this.applyInsights(insights);
+          this.loading = false;
+          this.cdr.detectChanges();
+        },
+        error: () => {
+          this.error = 'Failed to load data';
+          this.loading = false;
+          this.cdr.detectChanges();
+        },
+      });
+  }
+
+  private getTopicClusterId(): number | null {
+    return this.topicClusterIdFilter ? Number(this.topicClusterIdFilter) : null;
+  }
+
+  private getFilterRequestValues(): { instructorName: string | null; courseNumber: string | null } {
+    return {
+      instructorName: this.instructorFilter || null,
+      courseNumber: this.courseFilter || null,
+    };
+  }
+
   private buildInsightQuery(): InsightQuery {
+    const { instructorName, courseNumber } = this.getFilterRequestValues();
+
     return {
       targetType: this.targetType,
       importBatchId: this.importBatchId || null,
-      instructorName: this.instructorFilter || null,
-      courseNumber: this.courseFilter || null,
-      topicClusterId: this.topicClusterIdFilter ? Number(this.topicClusterIdFilter) : null,
+      instructorName,
+      courseNumber,
+      topicClusterId: this.getTopicClusterId(),
     };
   }
 

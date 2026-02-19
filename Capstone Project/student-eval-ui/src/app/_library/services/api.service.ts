@@ -84,9 +84,18 @@ export class ApiService {
     );
   }
 
-  getFilters(targetType: TargetType, importBatchId?: string | null) {
+  getFilters(
+    targetType: TargetType,
+    importBatchId?: string | null,
+    instructorName?: string | null,
+    courseNumber?: string | null,
+    topicClusterId?: number | null,
+  ) {
     let params = new HttpParams().set('targetType', targetType);
     if (importBatchId) params = params.set('importBatchId', importBatchId);
+    if (instructorName) params = params.set('instructorName', instructorName);
+    if (courseNumber) params = params.set('courseNumber', courseNumber);
+    if (topicClusterId != null) params = params.set('topicClusterId', topicClusterId);
 
     return this.http.get<InsightFiltersResponseDto>(`${this.baseUrl}/api/insight-filters`, { params });
   }

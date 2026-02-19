@@ -43,7 +43,7 @@
     <div class="input-section filter-section">
       <div class="form-group">
         <label for="instructorFilter" class="form-label">Instructor</label>
-        <select id="instructorFilter" [(ngModel)]="instructorFilter" (change)="onFilterChange()" class="form-select">
+        <select id="instructorFilter" [(ngModel)]="instructorFilter" (change)="onInstructorChange()" class="form-select">
           <option value="">All instructors</option>
           @for (instructor of instructors; track instructor) {
             <option [value]="instructor">{{ instructor }}</option>
@@ -53,7 +53,7 @@
 
       <div class="form-group">
         <label for="courseFilter" class="form-label">Course</label>
-        <select id="courseFilter" [(ngModel)]="courseFilter" (change)="onFilterChange()" class="form-select">
+        <select id="courseFilter" [(ngModel)]="courseFilter" (change)="onCourseChange()" class="form-select">
           <option value="">All courses</option>
           @for (course of courses; track course.courseNumber) {
             <option [value]="course.courseNumber">{{ course.courseNumber }} - {{ course.courseName }}</option>
@@ -63,7 +63,7 @@
 
       <div class="form-group">
         <label for="topicFilter" class="form-label">Topic</label>
-        <select id="topicFilter" [(ngModel)]="topicClusterIdFilter" (change)="onFilterChange()" class="form-select">
+        <select id="topicFilter" [(ngModel)]="topicClusterIdFilter" (change)="onTopicChange()" class="form-select">
           <option value="">All topics</option>
           @for (topic of topics; track topic.topicClusterId) {
             <option [value]="topic.topicClusterId">{{ topic.humanLabel }}</option>
