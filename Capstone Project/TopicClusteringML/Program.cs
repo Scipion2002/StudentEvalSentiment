@@ -4,8 +4,10 @@ using MLTrainer.Models.Training;
 using System.Text;
 
 var ml = new MLContext(seed: 42);
-
-string dataBasePath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\StudentEvalSentiment\Python\Datasets";
+//This is Personal PC path:
+//string dataBasePath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\StudentEvalSentiment\Python\Datasets";
+//This is Work laptop path:
+string dataBasePath = @"C:\Users\alex\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\StudentEvalSentiment\Python\Datasets";
 
 TrainOne(
     Path.Combine(dataBasePath, "topic_instructor.csv"),
