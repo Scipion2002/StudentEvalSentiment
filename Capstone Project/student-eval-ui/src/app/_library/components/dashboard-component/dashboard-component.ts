@@ -14,6 +14,8 @@ import {
   CourseOptionDto,
   InsightQuery,
   InsightsResponseDto,
+  Sentiment,
+  SentimentDrilldownResponseDto,
   TargetType,
   TopicOptionDto,
 } from '../../../insights.models';
@@ -68,6 +70,12 @@ export class DashboardComponent implements OnInit {
 
   loading = false;
   error = '';
+
+  drilldownOpen = false;
+  drilldownLoading = false;
+  drilldownError = '';
+  selectedSentiment: Sentiment | null = null;
+  sentimentDrilldown: SentimentDrilldownResponseDto | null = null;
 
   constructor(private api: ApiService, private cdr: ChangeDetectorRef) {}
 
@@ -143,6 +151,84 @@ export class DashboardComponent implements OnInit {
 
   onTopicChange() {
     this.refreshFiltersAndInsights(false, true);
+  }
+
+  onSentimentChartClick(event: { active?: object[] }) {
+    const firstActive = event.active?.[0] as { index?: number } | undefined;
+    const index = firstActive?.index;
+    if (index == null) {
+      return;
+    }
+
+    const labels = this.sentimentChartData.labels;
+    if (!labels) {
+      return;
+    }
+
+    const label = labels[index];
+    if (typeof label !== 'string') {
+      return;
+    }
+
+    const sentiment = this.parseSentiment(label);
+    if (!sentiment) {
+      return;
+    }
+
+    this.openSentimentDrilldown(sentiment);
+  }
+
+  onSentimentRowClick(value: string) {
+    const sentiment = this.parseSentiment(value);
+    if (!sentiment) {
+      return;
+    }
+
+    this.openSentimentDrilldown(sentiment);
+  }
+
+  openSentimentDrilldown(sentiment: Sentiment) {
+    if (!this.importBatchId) {
+      return;
+    }
+
+    this.drilldownOpen = true;
+    this.drilldownLoading = true;
+    this.drilldownError = '';
+    this.selectedSentiment = sentiment;
+    this.sentimentDrilldown = null;
+
+    const { instructorName, courseNumber } = this.getFilterRequestValues();
+
+    this.api
+      .getSentimentDrilldown({
+        targetType: this.targetType,
+        sentiment,
+        importBatchId: this.importBatchId,
+        instructorName,
+        courseNumber,
+        topicClusterId: this.getTopicClusterId(),
+      })
+      .subscribe({
+        next: (response) => {
+          this.sentimentDrilldown = response;
+          this.drilldownLoading = false;
+          this.cdr.detectChanges();
+        },
+        error: () => {
+          this.drilldownError = 'Failed to load sentiment drilldown';
+          this.drilldownLoading = false;
+          this.cdr.detectChanges();
+        },
+      });
+  }
+
+  closeSentimentDrilldown() {
+    this.drilldownOpen = false;
+    this.drilldownLoading = false;
+    this.drilldownError = '';
+    this.selectedSentiment = null;
+    this.sentimentDrilldown = null;
   }
 
   onTargetChange() {
@@ -324,5 +410,13 @@ export class DashboardComponent implements OnInit {
         },
       ],
     };
+  }
+
+  private parseSentiment(value: string): Sentiment | null {
+    if (value === 'Positive' || value === 'Neutral' || value === 'Negative') {
+      return value;
+    }
+
+    return null;
   }
 }

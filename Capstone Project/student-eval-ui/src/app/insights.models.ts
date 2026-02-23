@@ -1,4 +1,5 @@
 export type TargetType = 'Instructor' | 'Course';
+export type Sentiment = 'Positive' | 'Neutral' | 'Negative';
 
 export interface CourseOptionDto {
   courseNumber: string;
@@ -41,4 +42,22 @@ export interface InsightQuery {
   instructorName?: string | null;
   courseNumber?: string | null;
   topicClusterId?: number | null;
+}
+
+export interface DrilldownAnswerDto {
+  processedCommentId: number;
+  rawText: string;
+}
+
+export interface DrilldownQuestionDto {
+  questionKey: string;
+  questionHeader: string;
+  count: number;
+  answers: DrilldownAnswerDto[];
+}
+
+export interface SentimentDrilldownResponseDto {
+  sentiment: Sentiment;
+  totalAnswers: number;
+  questions: DrilldownQuestionDto[];
 }

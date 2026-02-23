@@ -96,7 +96,13 @@
           <p class="section-subtitle">Positive, neutral, and negative sentiment for selected target</p>
         </div>
         <div class="chart-wrapper">
-          <canvas baseChart [type]="chartType" [data]="sentimentChartData" [options]="chartOptions"></canvas>
+          <canvas
+            baseChart
+            [type]="chartType"
+            [data]="sentimentChartData"
+            [options]="chartOptions"
+            (chartClick)="onSentimentChartClick($event)">
+          </canvas>
         </div>
       </div>
     }
@@ -118,12 +124,65 @@
             <tbody>
               @for (s of sentimentCounts; track s.sentiment) {
                 <tr class="table-row">
-                  <td class="cell-sentiment">{{ s.sentiment }}</td>
+                  <td class="cell-sentiment">
+                    <button
+                      type="button"
+                      class="sentiment-link"
+                      (click)="onSentimentRowClick(s.sentiment)">
+                      {{ s.sentiment }}
+                    </button>
+                  </td>
                   <td class="cell-count">{{ s.count }}</td>
                 </tr>
               }
             </tbody>
           </table>
+        </div>
+      </div>
+    }
+
+    @if (drilldownOpen) {
+      <div class="modal-backdrop" (click)="closeSentimentDrilldown()">
+        <div
+          class="modal-content"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="drilldown-title"
+          (click)="$event.stopPropagation()">
+          <div class="modal-header">
+            <h3 id="drilldown-title" class="modal-title">{{ selectedSentiment }} Sentiment Responses</h3>
+            <button type="button" class="modal-close" (click)="closeSentimentDrilldown()" aria-label="Close dialog">×</button>
+          </div>
+
+          @if (drilldownLoading) {
+            <p class="modal-status">Loading responses...</p>
+          } @else if (drilldownError) {
+            <p class="modal-status modal-error">{{ drilldownError }}</p>
+          } @else if (sentimentDrilldown) {
+            <p class="modal-subtitle">Total answers: {{ sentimentDrilldown.totalAnswers }}</p>
+
+            @if (sentimentDrilldown.questions.length === 0) {
+              <p class="modal-status">No answers found for this sentiment.</p>
+            } @else {
+              <div class="modal-scroll">
+                @for (question of sentimentDrilldown.questions; track question.questionKey) {
+                  <section class="question-section">
+                    <h4 class="question-title">{{ question.questionHeader }} ({{ question.count }})</h4>
+
+                    @if (question.answers.length === 0) {
+                      <p class="answer-empty">No answers returned.</p>
+                    } @else {
+                      <ul class="answers-list">
+                        @for (answer of question.answers; track answer.processedCommentId) {
+                          <li class="answer-item">{{ answer.rawText }}</li>
+                        }
+                      </ul>
+                    }
+                  </section>
+                }
+              </div>
+            }
+          }
         </div>
       </div>
     }

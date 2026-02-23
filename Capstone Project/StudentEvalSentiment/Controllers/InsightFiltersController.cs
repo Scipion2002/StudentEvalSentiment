@@ -14,37 +14,32 @@ namespace StudentEvalSentiment.Controllers
 
         [HttpGet]
         public async Task<ActionResult<InsightFiltersResponseDto>> Get(
-        [FromQuery] string targetType = "Instructor",
-        [FromQuery] Guid? importBatchId = null,
-        [FromQuery] string? instructorName = null,
-        [FromQuery] string? courseNumber = null,
-        [FromQuery] int? topicClusterId = null
-        )       
+    [FromQuery] string targetType = "Instructor",
+    [FromQuery] Guid? importBatchId = null,
+    [FromQuery] string? instructorName = null,
+    [FromQuery] string? courseNumber = null,
+    [FromQuery] int? topicClusterId = null
+)
         {
             targetType = NormalizeTargetType(targetType);
 
-            var pc = _db.ProcessedComments.AsNoTracking()
+            // Base universe: only target type (do NOT apply other filters here)
+            var pcBase = _db.ProcessedComments.AsNoTracking()
                 .Where(x => x.TargetType == targetType);
 
+            // -------------------------
+            // Instructors (all filters except instructorName)
+            // -------------------------
+            var pcForInstructors = pcBase;
+
             if (importBatchId is not null)
-                pc = pc.Where(x => x.ImportBatchId == importBatchId);
+                pcForInstructors = pcForInstructors.Where(x => x.ImportBatchId == importBatchId);
 
-            // OPTIONAL: topic narrows the universe for dependent filters too
-            if (topicClusterId is not null)
-                pc = pc.Where(x => x.TopicClusterId == topicClusterId);
-
-            // instructors list SHOULD depend on selected course/topic/batch (but NOT on instructor itself)
-            var pcForInstructors = pc;
-
-            // if course is selected, narrow instructors to those who appear on that course
             if (!string.IsNullOrWhiteSpace(courseNumber))
                 pcForInstructors = pcForInstructors.Where(x => x.CourseNumber == courseNumber);
 
-            // if topic is selected, narrow instructors to those who have that topic
             if (topicClusterId is not null && topicClusterId != 0)
                 pcForInstructors = pcForInstructors.Where(x => x.TopicClusterId == topicClusterId);
-
-            // NOTE: we do NOT filter by instructorName here (otherwise list becomes 1 item)
 
             var instructors = await pcForInstructors
                 .Where(x => x.InstructorName != "")
@@ -53,15 +48,19 @@ namespace StudentEvalSentiment.Controllers
                 .OrderBy(x => x)
                 .ToListAsync();
 
-            // courses list SHOULD depend on selected instructor (when in Instructor mode)
-            var pcForCourses = pc;
+            // -------------------------
+            // Courses (all filters except courseNumber)
+            // -------------------------
+            var pcForCourses = pcBase;
 
-            if (targetType == "Instructor" && !string.IsNullOrWhiteSpace(instructorName))
+            if (importBatchId is not null)
+                pcForCourses = pcForCourses.Where(x => x.ImportBatchId == importBatchId);
+
+            if (!string.IsNullOrWhiteSpace(instructorName))
                 pcForCourses = pcForCourses.Where(x => x.InstructorName == instructorName);
 
-            // (if you ever allow selecting course first, you can symmetrically filter instructors)
-            if (targetType == "Course" && !string.IsNullOrWhiteSpace(courseNumber))
-                pcForCourses = pcForCourses.Where(x => x.CourseNumber == courseNumber);
+            if (topicClusterId is not null && topicClusterId != 0)
+                pcForCourses = pcForCourses.Where(x => x.TopicClusterId == topicClusterId);
 
             var courses = await pcForCourses
                 .Where(x => x.CourseNumber != "")
@@ -71,10 +70,19 @@ namespace StudentEvalSentiment.Controllers
                 .Select(x => new CourseOptionDto(x.CourseNumber, x.CourseName))
                 .ToListAsync();
 
-            // batches list (optionally depends on instructor selection too)
-            var pcForBatches = pc;
-            if (targetType == "Instructor" && !string.IsNullOrWhiteSpace(instructorName))
+            // -------------------------
+            // Import batches (all filters except importBatchId)
+            // -------------------------
+            var pcForBatches = pcBase;
+
+            if (!string.IsNullOrWhiteSpace(instructorName))
                 pcForBatches = pcForBatches.Where(x => x.InstructorName == instructorName);
+
+            if (!string.IsNullOrWhiteSpace(courseNumber))
+                pcForBatches = pcForBatches.Where(x => x.CourseNumber == courseNumber);
+
+            if (topicClusterId is not null && topicClusterId != 0)
+                pcForBatches = pcForBatches.Where(x => x.TopicClusterId == topicClusterId);
 
             var importBatches = await pcForBatches
                 .Select(x => x.ImportBatchId)
@@ -82,17 +90,20 @@ namespace StudentEvalSentiment.Controllers
                 .OrderByDescending(x => x)
                 .ToListAsync();
 
-            // topics list SHOULD depend on selected filters
-            var pcForTopics = pc;
+            // -------------------------
+            // Topics (all filters except topicClusterId)
+            // -------------------------
+            var pcForTopics = pcBase;
 
-            // Apply both if provided (no targetType gating)
+            if (importBatchId is not null)
+                pcForTopics = pcForTopics.Where(x => x.ImportBatchId == importBatchId);
+
             if (!string.IsNullOrWhiteSpace(instructorName))
                 pcForTopics = pcForTopics.Where(x => x.InstructorName == instructorName);
 
             if (!string.IsNullOrWhiteSpace(courseNumber))
                 pcForTopics = pcForTopics.Where(x => x.CourseNumber == courseNumber);
 
-            // If TopicClusterId is 0 when "unset", handle that too
             var topicIds = await pcForTopics
                 .Where(x => x.TopicClusterId != null && x.TopicClusterId != 0)
                 .Select(x => x.TopicClusterId!.Value)
