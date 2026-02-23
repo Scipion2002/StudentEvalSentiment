@@ -1,0 +1,726 @@
+{
+  "Instructor": {
+    "1": {
+      "label": "Organization & Structure",
+      "notes": "Keywords: professor, due, date, back, understand, assignment, day, taught — Examples: professor taught lessons ways made subject much less clear already… | professor laidback chill nice end day | think good professor think give clear enough instruction assignments completed | liked way taught could understand concept easily apply assignments used… | would not stay topic every discussion detail whatever question fully…"
+    },
+    "2": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: teaching, style, nice, hear, fun, keeps, attention, active — Examples: [person] fun teaching style keeps attention active eyes watching | teaching style good understand topics | though mainly talking nice express hear others learning not alone… | enjoy style teaching | open changing way teaching benefit helping"
+    },
+    "3": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: projects, examples, things, real, world, use, industry, team — Examples: able provide examples | tried best teach things every opportunity although projects course lecture… | like gives projects real world use cases | really knowledgeable industry works helped team come strategies make sure… | provided real world examples things people industry use manage team…"
+    },
+    "4": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: instructor, topics, good, people, class, think, felt, gives — Examples: think pretty good instructor complaints lot people already knew lot… | instructor transparent gives good feedback also lot knowledge subject teaches… | introduced variety tools flexible quarters also leaving tasks open ended… | instructor felt extremely passionate topics presented class enjoyable experience different… | think instructor well versed variety topics extensive experience field knowledge…"
+    },
+    "5": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: like, taught, learn, things, felt, everything, feel, personally — Examples: feel like personally learn best taught way teaches | course taught things many already knew | felt like things taught comfortable pace allowed learn everything required | knowledgeable material business never felt like getting lectured without intent | really like gave feedback everything"
+    },
+    "6": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: incredibly, well, knows, talking, funny, extremely, wise, connects — Examples: funny also extremely wise connects students incredibly well offers real… | first reaction meeting [org] incredibly well read knows exactly talking | clearly knows talking passionate"
+    },
+    "7": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: liked, demos, coding, class, needed, took, hands, novel — Examples: liked took hands novel approach interacted databases code disappointed reverted… | liked coding demos | liked gave class demos not give exact solution needed | liked shows skills needed certain scenarios | liked class liked working people"
+    },
+    "8": {
+      "label": "Organization & Structure",
+      "notes": "Keywords: computer, science, always, willing, cam, listen, explore, topics — Examples: cam always willing listen explore topics | [org] good job teaching basics computer science | always willing accommodate slower learners new computer science students | nothing bad say feel course went fast computer science school…"
+    },
+    "9": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: teaches, way, easy, understand, interactive, class, good, understanding — Examples: like interactive [person] class teaches really good way never issues… | made easy understand everyone got timely feedback within class | teaches good speed makes stuff easy understand | teaches way easy understand fun interactive | understanding teach way keeps everyone involved"
+    },
+    "10": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: cookies, truth, tables, table, wanted — Examples: cookies truth tables | cookies table wanted"
+    },
+    "11": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: willing, help, asked, like, class, stay, later, student — Examples: willing stay later help student needed | willing help asked | really like willing help answer questions hours also like gave… | professor kind willing help | willing discussions things confused"
+    },
+    "12": {
+      "label": "Pace & Difficulty",
+      "notes": "Keywords: sure, everyone, like, try, make, making, force, anything — Examples: like try force anything would try make sure would pass | asked lot questions students making sure knew talking didnt show… | instructor amazing making sure everyone mentally physically okay sprint | needed pritchard slows make sure everyone page everyone everyone class… | like took time made sure everyone understood taught"
+    },
+    "13": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: easy, follow, nice, scaffolding, work, feel, overwhelmed — Examples: easy follow nice scaffolding | work easy follow feel overwhelmed"
+    },
+    "14": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: mostly, clear, instructions, opportunity, get, help, previous, homework — Examples: mostly clear instructions opportunity get help previous homework class"
+    },
+    "15": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: uses, efficient, appreciated, teach, teaching, topic, methods, way — Examples: methods uses uses efficient way | appreciated enthusiasm teach | engaging efficient teaching | love allowed bring topic would try best teach topic | appreciated somewhat free range teaching"
+    },
+    "16": {
+      "label": "Organization & Structure",
+      "notes": "Keywords: time, great, environment, beardall, provided, learning, went, pace — Examples: beardall provided great learning environment went pace time often challenges… | comments simply small critique course instructor great fine topic time…"
+    },
+    "17": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: projects, gave, fairly, straight, forward, catch, challenged, disscussive — Examples: projects fairly straight forward catch | gave projects challenged | disscussive feel fits well projects course | enjoyed quickly gave feedback projects end [org] sprint"
+    },
+    "18": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: always, help, class, creme, questions, ask, ready, teach — Examples: always ready help teach | around good creme creme | always around help class would awnser questions | asked questions would ask suggestions would always beyond help whether… | cared people would always ask running late miss class always…"
+    },
+    "19": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: question, nice, approachable, feel, comfortable, talking, flexible, something — Examples: really nice approachable question feel comfortable talking | flexible something came rouge comment joke able acknowledge laugh question…"
+    },
+    "20": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: professor, class, instructor, despite, means, new, projects, project — Examples: despite previous professor leaving take see benefits brought class intentions… | reason instructor knowledgeable subject area teaching trust agree [gpe] always… | instructor opened eyes interesting side projects found staying class discuss… | despite annoying project around days thought useful completing rushed projects… | instructor provided advice guidance project necessary"
+    },
+    "21": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: knowledgeable, teaching, passionate, subjects, class, teaches, good, style — Examples: knowledgeable passionate subjects | knowledgeable class teaches good teaching style overall | cam kind knowledgeable trustworthy providing best teaching environment possible | great theory teacher knowledgeable | definitely knowledgeable english teaching method not fun also understandable"
+    },
+    "22": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: helped, overall, always, help, needed, detailed, fell, behind — Examples: detailed helped fell behind overall great teacher helped bust field… | loved instructor helped labs assignments always open help anyone needed | caring always needed overall amazing attitude towards innovation | asked advice tricky things helped figure helpful | used visuals help learn"
+    },
+    "23": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: liked, back, students, none, instructor, forth, professor, chilled — Examples: none really liked instructor | really liked back forth students professor | liked chilled quarter really letting free prove students learned | amount back fourth regards everything liked bounced | really liked descriptive assignment"
+    },
+    "24": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: appreciate, sure, still, topics, makes, one, teaching, like — Examples: like beardall understands people never coded even though previous coding… | appreciate nonsense teaching fundamentals nothing try | appreciate professor reiterates topics enough understand not much gets annoying | always energy subject teaching | appreciate makes sure apply lesson learn many lessons far interactive"
+    },
+    "25": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: one, formula, cross, angle, give, wrong, answers, sometimes — Examples: one formula cross angle would give wrong answers sometimes unless…"
+    },
+    "26": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: opportunity, one, best, professors, ever, grateful, learn, proved — Examples: [org] one best professors ever grateful opportunity learn | [org] proved 100 times better blake [gpe] giving students opportunity…"
+    },
+    "27": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: clear, instructor, class, gave, always, available, goals, accomplished — Examples: instructor gave clear goals accomplished class must done successful | like clear wants done want done | instructor created engaging learning environment clear see instructor cared student… | always gave clear instruction applicable advice coping stress understanding relationships…"
+    },
+    "28": {
+      "label": "Knowledge & Expertise",
+      "notes": "Keywords: knowledgeable, extremely, engaged, kind, keeps, class, entertaining, lessons — Examples: extremely knowledgeable kind keeps class engaged entertaining lessons examples | method uses teaching also extremely experienced knowledgeable topics | knowledgeable material good explaining | way lectures kept engaged"
+    },
+    "29": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: enjoyed, though, struggle, fault, exhausting, often, liveliness, teaching — Examples: 8212 though struggle fault really exhausting often | enjoyed liveliness teaching | much say really | honestly wish issues sleeping days really enjoyed classes regret missing… | really enjoyed started class ice breaker question get know little…"
+    },
+    "30": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: class, made, environment, sure, enjoyable, enjoyed, discussion, people — Examples: enjoyed class environment discussion people fun nice involved | instructor friendly helpful made sure nobody fell behind also kept… | funny made class enjoyable also cared listened | given also memorized everyones names quickly made sure felt welcome…"
+    },
+    "31": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: liked, fun, class, engaging, learned, visual, presentations, prepared — Examples: liked learned fun class | liked engaging fun | liked visual presentations prepared | professor [person] kept class engaging followed routine easy track felt… | liked would teach engage teaching"
+    },
+    "32": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: understanding, student, subject, taught, well, knowledge, progress, incorporated — Examples: [person] really incorporated student interaction lessons using responses evaluate understanding… | super well making sure every single student understands curriculum spend… | [person] always excellent instructor honored degree chair teaching style effective… | lot knowledge subject taught well questions | really patient understanding"
+    },
+    "33": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: straightforward, every, assignments, appreciated, like, figure, teaching, aspect — Examples: really appreciated show every morning | like straightforward approach assignments letting figure | really like honesty blunt straightforward teaching need figure | straightforward teaching really appreciated gave many visual examples talked every… | [person] charismatic good job walking assignments way allows even ignorant…"
+    },
+    "34": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: capstone, time, forgiving, stuff, project, supportive, yet, constructively — Examples: forgiving time stuff capstone project | supportive yet constructively critical capstone progress | gave lot free time work capstone projects | feel though well prepared capstone based capstone classes would liked…"
+    },
+    "35": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: like, depth, goes, subjects, cover, involved, gets, class — Examples: really like depth goes subjects cover involved gets class discussions"
+    },
+    "36": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: like, way, concepts, explain, relate, students, felt, someone — Examples: like way students felt like someone could really connect | [person] explains concepts well like homework cadence | like way would explain new concepts relate things learned previously… | like way explain code | enjoyed humor way explaining examples"
+    },
+    "37": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: well, teaching, concepts, enough, thought, know, pretty, everything — Examples: thought know pretty much everything teaching quite funny teaching | explained concepts really well boring | weeks not enough tell first teacher barely anything | explains thing really well even though dont pay enough attention | flexibility explaining concepts well accessibility make easy reach"
+    },
+    "38": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: time, like, listens, say, class, everyone, always, one — Examples: [person] one best teachers far met short time [gpe] | like listens say need time especially final | really like spends time class informative listens students say | gave extra time late partially correct assignments feedback improve | would use visual examples example teaching arrays drew logic really…"
+    },
+    "39": {
+      "label": "Organization & Structure",
+      "notes": "Keywords: maple, extensive, learn, dives, deep, topics, care, shows — Examples: maple extensive learn dives deep topics care shows"
+    },
+    "40": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: great, listens, funny, nice, energy, actually, helps, like — Examples: nice great energy | actually helps listens | great funny listens | like point somewhat funny"
+    },
+    "41": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: approach, teaching, laid, back, good, style, easy, often — Examples: good teaching approach | laid back approach | laid back teaching style | [org] easy approach often reaches students"
+    },
+    "42": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: went, depth, material, well, lessons, multiple, viewpoints, loved — Examples: well went lessons | depth multiple viewpoints | loved depth went material | equilibrium hands material discussion | like went depth certain concepts examples given stuff made easier…"
+    },
+    "43": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: databases, specific, knowledge, liked, paper, form, tests, diving — Examples: specific knowledge [gpe] databases | liked paper form tests diving deep databases worked"
+    },
+    "44": {
+      "label": "Organization & Structure",
+      "notes": "Keywords: course, think, class, way, student, rated, teaching, open — Examples: think course open course maybe could times take quiz class… | many lessons course took comments students demonstrating component worked student… | explanations course taught | would probably rated higher different course think opportunity show good… | rated way believe little hands teaching could least done check…"
+    },
+    "45": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: everyone, content, like, learn, engaging, makes, keep, love — Examples: love concise patient teaching always ensures everyone understands content moving | good talking students making seem like something want learn engaging | enjoy teach subject makes sure fun keep everyone engaged whether… | appreciated ensuring everyone involved | like makes content engaging everyone learn"
+    },
+    "46": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: able, funny, like, keep, atmosphere, light, still, teach — Examples: like able keep atmosphere light funny still able teach pretty… | kohlers funny reasonable guy"
+    },
+    "47": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: funny, educative, demeanor, class — Examples: funny educative demeanor class"
+    },
+    "48": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: easy, open, minded, talk, seemed, going, clear, lessons — Examples: open minded easy talk | seemed easy going | clear easy lessons | none come mind"
+    },
+    "49": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: better, students, learn, student, may, knows, everyone, not — Examples: knows everyone not level actually gets know students | appreciate pause moment allow student catch still need time send… | love much [person] tries connect learn students | every assignment comment give feedback students may learn better future… | hes lot better [org]"
+    },
+    "50": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: students, work, opinions, understanding, time, clear, hands, best — Examples: hands best teacher gets students excited work | [person] compassionate towards students listens opinions even opinions seem uninformed… | concise cuts chase provides resources still gap understanding | appreciate time teach rough aspects english students struggled clear understanding… | took time work students understand concepts tried make sure everything…"
+    },
+    "51": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: examples, real, world, used, experience, personal, related, concepts — Examples: examples used related concepts field | liked able use real work experience knowledge explain important learn | used real world examples well personal examples made easier relate… | gave real world examples life found really helpful | clearly personal experience tied real world examples feel like cheesy…"
+    },
+    "52": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: examples, subject, understand, uses, explain, subjects, gave, relate — Examples: uses students suggestions examples uses explain subjects | liked gave multiple angles subject problem trying relate something would… | [person] amazing teacher explains subject material well also helped remind… | gave examples relate versus examples understand | would explain subject well also provided examples videos help understand…"
+    },
+    "53": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: questions, answered, asked, made, like, liked, ways, encourage — Examples: liked ways answered asked questions | encourage questions student participation | like made interactive made sure questions answered | like went labs asked questions see wanted cover subjects lost… | mostly made sense answered questions asked"
+    },
+    "54": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: liked, brought, topics, currently, happening, made, economics, make — Examples: really liked brought topics currently happening made economics make sense…"
+    },
+    "55": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: gives, feedback, creative, like, assignments, always, class, fun — Examples: always gives feedback | class creative fun | like commands classroom | like gives creative comments | mrs [person] knowledgeable gives constructive feedback assignments well looks assignments…"
+    },
+    "56": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: think, well, explained, loved, everything, broken, coherent, steps — Examples: loved everything broken explained coherent steps also really liked course… | think class perfect amount time also think keyboard shortcuts nice… | explained methods without needing research common ones | explains stuff well | think knowledgeable experienced however think well suited teaching"
+    },
+    "57": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: opinion, honest, true, enough, form, solid — Examples: honest opinion true | enough form solid opinion"
+    },
+    "58": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: feel, like, not, make, teaching, style, matches, learn — Examples: not much feel like teaching style matches learn | feel like tries best | not much rude insult joking manner make feel bad say… | felt like feedback came coaches makes since grading labs | seems like nice person"
+    },
+    "59": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: explains, ways, things, problems, liked, realness, professor, points — Examples: liked realness professor points things redundant simple explains learn | cam explains things various ways helps students dont get | explains problems multiple ways encourage thinking problems different ways"
+    },
+    "60": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: work, goes, basically, like, quickly, slowly, easier, get — Examples: much work basically work | like quickly work goes | goes slowly easier get work | allowed work free time let work alot one day not…"
+    },
+    "61": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: think, teaching, makes, fun, class, liveness, not, way — Examples: think way teaching fine makes pretty fun | makes class really fun something look forward going | like stated previously enjoyed liveness [person] teaching think not many… | liked personality put teaching feel completely bland even lesson gets… | think instructor bad think material shown not class"
+    },
+    "62": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: class, projects, appreciate, professor, help, understanding, professional, feeling — Examples: appreciate professional feeling class | projects class not learn much specifically provide feedback stuff | thank [person] [person] appreciate desire make class fun informative well | seeing projects class professor generally less involved progress students asked… | would always drop little hints beginning class towards resources methods…"
+    },
+    "63": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: sure, class, making, cover, material, taught, keep, attention — Examples: taught making sure keep attention | super helpful making sure caught not hesitate help tasks really… | enjoyed guided learning experience would cover homework quiz material class… | appreciated made sure always knew supposed working class | liked timing much previous classes part enough time cover new…"
+    },
+    "64": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: class, made, fun, topics, well, instructor, makes, encourages — Examples: instructor makes class fun encourages make jokes participate class | simple class gave handouts class instructions | appreciated [org] constantly prodded class questions made feel like really… | goat made sure understood topics class providing different ways look | really liked well covered topics made class flow well made…"
+    },
+    "65": {
+      "label": "Organization & Structure",
+      "notes": "Keywords: assignments, work, like, love, ahead, time, actually, ability — Examples: love ability work assignments [org] ahead time love able past… | like willing adapt situations arise like people getting stuck assignments… | heavy work assignments could done way ahead time bothered actually… | applaud taking class original teacher flaked decided not appear work…"
+    },
+    "66": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: students, professor, great, listener, always, positive, sad, got — Examples: [person] great listener always positive sad got sick end quarter | prof [person] soothing voice allows students need stay engaged | professor [person] open interactive students would completely explain things full… | professor [person] great teacher definitely captivate even bored students | professor [person] fun"
+    },
+    "67": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: energetic, funny, makes, want, goddddd, way, teaches, fun — Examples: energetic funny makes want | goddddd way teaches fun energetic love | proffers coach kholer perfect funny energetic staright point awsome thats…"
+    },
+    "68": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: needed, appreciated, gave, always, help, enough, space, personal — Examples: gave help needed also gave enough space personal learning moments | appreciated amount knowledge able get across class time pretty nonsense… | knowledgeable subject taught exactly needed needed feel | always prepared show specific parts code explain someone understand appreciated… | appreciated went history [gpe]"
+    },
+    "69": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: requested, like, liked, work, problems, class, test, talks — Examples: liked work requested problems class also like test talks | tried reach teams like requested left read"
+    },
+    "70": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: answer, students, giving, someone, get, helpful, student, towards — Examples: willing slow back explain topic someone trouble understanding also gives… | think giving back notes tests would super useful especially studying… | always checks make sure students understand material clear mud system… | appreciated instructor told wanted without giving answers ability explain helpful… | really good illustrating main point exercises would even listen suggestions…"
+    },
+    "71": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: time, even, spent, detail, depth, helped, great, class — Examples: would take time depth certain parts subjects greatly helped detailed… | takes time going new topics | really liked time spent properly answer questions people detail even… | class good great even | explained assignments detail"
+    },
+    "72": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: class, like, students, ask, engaging, teaching, though, feel — Examples: like significant amount class spent helping students felt like struggling… | engaging teaching class | though like professor leave class feeling like know less started… | interacts class way engaging | honestly seems passionate teaching even though various classmates sort quit…"
+    },
+    "73": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: good, still, vibes, appreciate, professor, sort, realistic, outlook — Examples: [person] good vibes | appreciate professor [person] sort realistic outlook class material content still… | [person] keeps real also still kind"
+    },
+    "74": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: understand, cool, help, fast, enough, keep, track, still — Examples: fast enough keep track still helping people understand | cool 5478 ò_ó 711 5476 | liked teacher took time help understand complicated aspects calculus even… | cool activates help understand something human neural network"
+    },
+    "75": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: teacher, think, high, school, good, lack, class, felt — Examples: felt like high school teacher college teacher honest | fun teacher best ever since high school | think smart really good think lot stuff not good lack… | awesome teacher love teach another one classes future | learned lot way explained concepts made sense think everything teacher…"
+    },
+    "76": {
+      "label": "Pace & Difficulty",
+      "notes": "Keywords: teaches, like, class, bit, well, get, goes, depth — Examples: first class teacher like teaches good bit also makes bit… | teaches stuff well | like fast paced cam teaches get much problem always get… | goes depth question asked | like depth goes category teaches"
+    },
+    "77": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: enjoy, options, prompts, sometimes, feel, connected, prompt, end — Examples: would really enjoy options prompts sometimes feel connected prompt end…"
+    },
+    "78": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: liked, easy, made, challenge, assignments, complete, funny, learning — Examples: liked assignments easy complete | funny made learning easy | liked groups managed made especially liked closely related industry work… | liked made easy challenge | take challenge fly showcase new content student friendly way making…"
+    },
+    "79": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: appreciate, time, instructor, help, good, questions, well, detailed — Examples: appreciate much well detailed instructor explains material | appreciate [person] able help class going good pace catch needed… | instructor inexperienced time sure excel | appreciate rephrase questions sees people lost | method teaching completely student driven great see instead lectures give…"
+    },
+    "80": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: liked, examples, learned, explained, professor, ever, new, code — Examples: love tells not gives examples would know learned rather something… | liked personal felt time normally explained assignments | liked long would spend going homework stuff | professor [person] would help question ever ever needed extra assignment… | liked professor [person] explained would use new code learned day…"
+    },
+    "81": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: working, industry, understanding, stories, actually, like, liked, open — Examples: open work students clarifying connecting industry applications | thankful understanding patient comes trying fix problem either digitally physically | tells good stories relate well assignments working | really appreciated related working class actually working industry short stories… | really liked providing comments almost everything made feel like actually…"
+    },
+    "82": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: freedom, use, time, gave, resource, plenty, work, speeches — Examples: freedom resource use time | gave use plenty time work speeches | provided lot freedom | gave full freedom"
+    },
+    "83": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: criticism, feedback, feel, honesty, appreciate, told, lacking, beating — Examples: honesty appreciate told lacking without beating around [person] not degrade… | open criticism form weekly feedback nice tried implement feedback got | [person] really good job making class feel fun genuinely took… | challenges classes feel repetitive"
+    },
+    "84": {
+      "label": "Clarity & Explanation",
+      "notes": "Keywords: learning, learn, history, machine, enjoyed, interesting, helped, sculpt — Examples: enjoyed learning history [gpe] interesting learn helped sculpt history [gpe]… | clear easy learn | learning youtube video fro bit | liked explored larger concepts surround machine learning went history machine… | decided back school years tired trying learn excited learn class…"
+    },
+    "85": {
+      "label": "Real‑World Examples",
+      "notes": "Keywords: things, real, world, relating, never, mad, liked, realistic — Examples: liked relating things real world realistic things | rude never gave reasons mad lit everyone awful class never… | passion related info real world events | ability relate things things keeping mind engaged | enjoyed real world application everything relating personal experiences made view…"
+    },
+    "86": {
+      "label": "Feedback & Support",
+      "notes": "Keywords: answer, question, questions, class, feedback, give, answered, neutral — Examples: answered neutral feedback question never needed feedback class answering questions… | always willing answer questions let answer find way answers | [person] patient class everyone overthinking answer question instead giving answer… | cam fantastic answer question asking specific questions really hone exact… | takes time answer questions explains thoroughly"
+    },
+    "87": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: enjoyed, instructor, taught, took, leads, hands, funny, genuine — Examples: really taught instructor took leads hands | enjoyed funny genuine teacher genuinely liked taught enjoyed seeing students… | enjoyed fact instructor real life experience field data management end… | enjoyed instructor guiding exploration various [gpe] tools | enjoyed relatable optimism"
+    },
+    "88": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: day, every, everything, teaches, love, amazing, like, using — Examples: like teaches using learn experience exercises labs every day also… | [person] quite knowledgeable everything teaches able describe things ways help… | absolutely saved day awesome | everything fun guy around | professor prime minister [person] amazing teacher loved showing class every…"
+    },
+    "89": {
+      "label": "Teaching Style & Engagement",
+      "notes": "Keywords: professor, interesting, classes, keep, like, engaging, able, make — Examples: like engaging professor [person] able make classroom much energy brings… | professor [person] obviously knowledgeable subject makes lectures interesting | not much never | professor [person] classes enjoyable interesting classes taken pacing good way… | unrelated [person] lowkey much stickler"
+    },
+    "90": {
+      "label": "Fairness & Grading",
+      "notes": "Keywords: points, class, grading, anything, little, takes, removes, outside — Examples: timely comments assignments going grading process allocates points | shortcut snipping tool | think pacing good feel anything drag towards end might gone… | takes slow always takes time cover review concepts way moves… | didnt teach anything sits front class nothing grading picks little…"
+    }
+  },
+  "Course": {
+    "1": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: python, think, good, files, led, bit, option, future — Examples: understand [person] chosen forces get bit works [org] think python… | like reviewed history abstract concepts around [gpe] also think building… | honestly serviceable [org] issues think moderately tweaking future classes pandering… | liked needed solve manage large amounts data thanks python script…"
+    },
+    "2": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: good, experience, work, one, awful, got, alot, taught — Examples: good got alot | good experience taught lot web applications work | like work something many businesses use real world | two kinds curriculum one awful awful teacher one didnt get… | hands experience came recovering troubleshooting vms"
+    },
+    "3": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: enjoyed, strict, speakers, need, speak, complexity, logic, behind — Examples: strict speakers need speak | enjoyed complexity logic behind | enjoyed debate section | enjoyed exposure [gpe] capable | interested [gpe] topic enjoyed"
+    },
+    "4": {
+      "label": "Workload & Time",
+      "notes": "Keywords: dashboards, hard, different, way, present, see, zoom, pushes — Examples: different way present dashboards dashboards hard see zoom | pushes push hard | time spent dashboards"
+    },
+    "5": {
+      "label": "Content Coverage & Depth",
+      "notes": "Keywords: like, writing, assignments, think, focus, useful, better, rather — Examples: think greater focus useful writing skills would better rather writing… | would like cover material harder topics whether readings fixing coding… | think comprehensive reading research topics taught assignments assigned would beneficial | would like see better feedback lose points rather check rubric… | like psychology class focused applicable knowledge whether improve everyday life…"
+    },
+    "6": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: fun, students, different, press, ctrl, shift, watching, projects — Examples: really fun watching different projects students fun even listening | enjoyed idea gives students different prospective | topics fun talk | maybe fun shortcuts learn computer example students press ctrl shift… | calculus cool fun part"
+    },
+    "7": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: think, everything, got, taught, cool, felt, useless, thought — Examples: everything felt useless | thought rather easy however think learned linux | topics built concepts got harder never got lost everything taught… | think [gpe] cool cool learn way | think anything needs done"
+    },
+    "8": {
+      "label": "Content Coverage & Depth",
+      "notes": "Keywords: maybe, depth, explanations, things, work, way — Examples: maybe depth explanations things work way"
+    },
+    "9": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: open, ended, still, felt, fast, eductaional, group, projects — Examples: fast still eductaional | open ended group projects still felt productive topic | open ended everyone put effort | essay felt unique direction written yet feel open ended guided"
+    },
+    "10": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: less, focus, networking, history, bit, neural, appreciated, review — Examples: less focus history bit focus neural networking | appreciated review [org] [org] implementation | liked [org] labs actually getting [org] nice | [org] teaching less busy work | like course networking windows [org]"
+    },
+    "11": {
+      "label": "Content Coverage & Depth",
+      "notes": "Keywords: liked, felt, get, like, multiple, focused, started, class — Examples: liked [org] started class early discussions felt excited learn get… | wish use [org] much get locked certain communication styles visual… | liked felt like great way get graphics worked well multiple… | liked covered part [org] process multiple different methods | liked writing pieces focused general creativity instead focused grammar correct…"
+    },
+    "12": {
+      "label": "Workload & Time",
+      "notes": "Keywords: time, estimating, random, new, enjoyed, able, spend, hearing — Examples: enjoyed time able spend hearing struggles relating others | maybe practice story points exercises estimating similar random tasks building… | timely pace subjects | liked much tied [org] time basically maple would techniques went… | would say time got working capstones trying new stuff"
+    },
+    "13": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: enjoyed, learning, going, detail, coding, specifically, arrays, error — Examples: enjoyed going detail coding [person] specifically enjoyed learning arrays error… | believe best version neu100 taken | enjoyed learning new technology | enjoyed learning [gpe] | cookies truth tables logically figuring"
+    },
+    "14": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: made, class, kind, morning, presentations, sense, laugh, geuss — Examples: made laugh geuss | kind thing feel like morning class [org] not smart presentations… | entertaining class [person] made course extremely interactive made favorite class… | great lessons everything made sense practice | documentation class flux made sense"
+    },
+    "15": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: pacing, content, not, perfect, enjoyed, system, teaching, informative — Examples: pacing perfect content informative | relevant content great pacing | enjoyed pacing assignments | effectivly showed utilize manage virtual system operating system along teaching… | enjoyed pacing teaching level rigor content not theoretical not pragmatic…"
+    },
+    "16": {
+      "label": "Workload & Time",
+      "notes": "Keywords: end, able, learn, make, front, liked, like, taught — Examples: liked able learn skills help make coding easier | like taught ways make code less crazy organized | like able learn new way make front end websites developed… | little double edged sword requirement group members operate front back… | taught rate liked stuff needed learn way understood"
+    },
+    "17": {
+      "label": "Tools / Tech Stack",
+      "notes": "Keywords: time, like, course, class, weeks, feel, learn, learning — Examples: could focus little professional part | would like see course spend time individual types databases example… | feel like course tailored longer period weeks lot class since… | ease tech lits | liked discussion days could discussions varied subjects"
+    },
+    "18": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: assignments, concepts, maybe, little, fewer, easy, get, swamped — Examples: maybe little fewer assignments lot easy get swamped classes | liked structured assignments spacing | concepts learned essential useful assignments assignments tests accurately assessed critical… | stronger outlines assignments | think assignments updated [loc] ones still [loc] along assignments vague…"
+    },
+    "19": {
+      "label": "Workload & Time",
+      "notes": "Keywords: learn, made, easy, type, time, group, assignments, moderately — Examples: group assignments moderately fun actually made learn | easy digest understandable approach programmng | course covered fundamentals followed easy learn path made language simple… | say idea supposed learn | wish labs different types systems fantasy world lab learned type…"
+    },
+    "20": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: liked, applied, real, life, actual, things, case, studies — Examples: liked applied real life actual things | liked case studies team documents created | stressful worth liked | liked quickly would topics | liked units separated"
+    },
+    "21": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: great, class, teacher, course, not, sure, guy, extremely — Examples: not great class sure teacher great guy extremely unenthused | poetry section great | everything course great learned lot coaches great [person] goat | comments great teacher overall | concept course great get put random team people work together…"
+    },
+    "22": {
+      "label": "Workload & Time",
+      "notes": "Keywords: like, see, databases, course, improved, allowing, time, minutes — Examples: would like see course improved allowing time minutes unit days… | would like see script code integration databases feel like knowing… | would like see information things non tech related finances find… | would like see students coaching overall nothing much imporve | would like see specific usages knowledge processes follow workforce"
+    },
+    "23": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: nothing, improvement, improved, faults, end, see, needing, thoughts — Examples: nothing improved faults end | see nothing needing improvement | thoughts moment improvement | nothing class think would need improvement | bring back nemelka"
+    },
+    "24": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: not, work, code, showing, one, successful, give, less — Examples: showing one successful not give | less tangets not super specificlly topic | projects not code based code school provided nice break new… | prior knowledge triangles area severely hindered ability work units | think work last weeks class work not major assignments would…"
+    },
+    "25": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: professor, want, see, good, recognize, feel, students, change — Examples: want see professor change want see respectful kind good listener… | none professors end | get professor recognize feel way improve seem unable recognize problems… | feel good students comfortable college yet"
+    },
+    "26": {
+      "label": "Tools / Tech Stack",
+      "notes": "Keywords: assignments, like, databases, see, felt, learn, one, class — Examples: would like see fewer redundant assignments many felt useless lack… | like assignments things always wanted learn correctly example making resumes… | though assignments given night homework good way practice current learning… | would like see research assignments removed see value feel like… | would like see challenging meaningful assignments challenge way think instead…"
+    },
+    "27": {
+      "label": "Curriculum / Structure",
+      "notes": "Keywords: instructor, course, curriculum, set, first, good, expectations, way — Examples: consistency challenging wont bored beardall instructor | really glad curriculum set get coding first sprint first quarter… | course passed another instructor assignments not clear seemed inconsistent requirements… | curriculum set steady pace informational | precursor class would nice db3 expand current db2 course include…"
+    },
+    "28": {
+      "label": "Workload & Time",
+      "notes": "Keywords: love, think, extremely, even, reflection, helpful, relevant, material — Examples: love even reflection think extremely helpful | extremely relevant material future lessons fair complexity time given completion | love mental preaching think important reflect improve mentally order succeed"
+    },
+    "29": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: teach, enjoyed, learning, skills, helped, persuasive, writing, techniques — Examples: helped teach persuasive writing techniques | enjoyed willingness everyone teach participate learning fun new skills | enjoyed hands learning [gpe] pipelines teachable machines | [org] hardly teaches long term skills like various minute installations…"
+    },
+    "30": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: use, media, hoping, course, advantage, learn, things, behind — Examples: hoping would course use [gpe] advantage | use media [gpe] | learn things behind [gpe] | like showed use command line effectively [gpe] [loc] | youtube media maybe homework consume"
+    },
+    "31": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: material, intellectually, stimulating, significantly, course, previous, love, value — Examples: material significantly intellectually stimulating previous course love value gained | reasonably challenging intellectually stimulating question said agree already known material… | knew material beforehand still expanded knowledge significantly provided ample opportunity… | mainly neutral material | intellectually stimulating think easy"
+    },
+    "32": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: class, loved, work, format, along, assignments, projects, important — Examples: really loved format class along assignments projects important lead much… | nothing much pretty well structured class | class genuinely excited learn new things loved | class amazing loved much | planning day beneficial towards proper scrum agile use standup document…"
+    },
+    "33": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: challenged, labs, learned, fun, everything, needs, challenging, explore — Examples: labs fun challenged everything learned | needs challenging labs really explore computer especially things like commands | challenged without hard boring | wish learned examples [gpe] used everyday life | challenged handle big data"
+    },
+    "34": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: course, see, improve, aspects, think, improvements, thought, alright — Examples: really see aspects improve course | really think improvements | thought course alright definitely room improvement know improve | really understand course necessary also not really call | dove deep graphics side gaming actually made math really cool…"
+    },
+    "35": {
+      "label": "Workload & Time",
+      "notes": "Keywords: essay, anything, word, count, final, match, liked, taught — Examples: liked taught respects [gpe] actually works something never really understood | assignments long winded really teach anything | essay word count weird started 750 1000 250 500 per… | really learn anything new learned [org] highschool grammar given | curriculum really good increasing difficulty things continued"
+    },
+    "36": {
+      "label": "Workload & Time",
+      "notes": "Keywords: class, coach, already, maybe, like, know, knew, felt — Examples: [org] teacher fantastic coach lot class system hates coach always… | maybe coach class | feel like learned much already know said useful information knew… | felt like learning already knew class felt unnecessary | [org] assignments eyes perfect way introduce crucial helpful [loc] functions…"
+    },
+    "37": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: course, overall, good, challenges, think, enjoyed, makes, use — Examples: good course overall makes use head really challenges think different… | enjoyed course overall specific aspect jumps well done throughout | really enjoyed course challenges gave nothing straightforward point allowed creatively… | really liked script reading overall speech practice good future"
+    },
+    "38": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: enjoyed, easy, course, place, week, get, mind, right — Examples: enjoyed course easy | enjoyed course easy | enjoyed place week get mind right positive influence | enjoyed formulas since find easy learn apply"
+    },
+    "39": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: coaches, amazing, interact, well, course, fine, need, give — Examples: well course fine need give 100 hats coaches amazing helpful… | reach coaches sure amazing | coaches great helped lot needed | really interact coaches | never interact coach really rate"
+    },
+    "40": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: second, class, way, better, dealing, test, half, overwhelming — Examples: second half class overwhelming [org] way skill level along final… | argument conclusion premise part taught asked use way feel language… | appreciated laid framework better coping strategies dealing stress related school… | nothing actually maybe practice test second coding test students idea… | teacher intrigue dealing potential philosophical debates going curriculum prepared least…"
+    },
+    "41": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: stuff, useful, applicable, required, store, wish, learned — Examples: useful applicable stuff | required store stuff | wish learned useful stuff"
+    },
+    "42": {
+      "label": "Curriculum / Structure",
+      "notes": "Keywords: everything, history, felt, paced, correctly, well, long, presentation — Examples: long presentation history [gpe] everything else felt paced correctly even… | content focused much history [gpe] well specific definitions everything involved… | comment like said earlier everything well structured | everything felt paced correctly | making think also least favorite bit"
+    },
+    "43": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: felt, like, finally, applying, learned, html, css, previously — Examples: felt like finally applying learned html css previously blazor godsend… | pacing felt really good start felt like lot work feel…"
+    },
+    "44": {
+      "label": "Difficulty & Rigor",
+      "notes": "Keywords: learned, things, like, applications, resources, review, class, computers — Examples: resources review learned class | learned lot things computers like shortcuts certain applications work | speed application learned | difficulty material learned would like learned things useful dev applications… | fast effective honestly learned way ive ever learned"
+    },
+    "45": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: course, previous, enjoyed, wish, continue, using, maths, future — Examples: really enjoyed course wish continue using maths future pacing assignments… | previous comment puts together | feel rushed leads back previous concerns | liked course dove actual [gpe] programming | course pretty set"
+    },
+    "46": {
+      "label": "Workload & Time",
+      "notes": "Keywords: different, like, handle, started, missing, days, due, work — Examples: like much handle started missing days due work | like making different ciphers | liked different software used learn [gpe] different fields learned | like social experiments done show different learning theories | working different linux systems helpful actually seeing differences different versions"
+    },
+    "47": {
+      "label": "Workload & Time",
+      "notes": "Keywords: check, ins, people, maybe, daily, liked, weekly, standups — Examples: maybe daily check ins | liked weekly standups trello board check ins | wish check ins make sure people track people not showing…"
+    },
+    "48": {
+      "label": "Workload & Time",
+      "notes": "Keywords: project, like, work, get, based, classes, wikipedia, projects — Examples: like free reign choice work project get task accomplished | like project based wish classes project based like even project… | feel like bit much trial fire especially came wikipedia project… | time work final project | nothing think except instructions projects labs ome inconsistent info meant…"
+    },
+    "49": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: actually, learning, industry, like, engines, used, virtual, machines — Examples: like used virtual machines | liked professor seemed actually happy teaching | like learning [org] cloud work industry standard product companies | encouraged study expand abilities learn topics unfamiliar told many times… | enjoy learning behind scenes engines actually get meaning likely easier…"
+    },
+    "50": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: class, pretty, good, easy, helpful, anything, complain, boring — Examples: class pretty good anything complain | class easy boring opinion | curriculum taught good full helpful advice principles students | class examples helpful explanitory | pretty easy class take"
+    },
+    "51": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: better, things, gave, understanding, made, reflect, need, existance — Examples: made reflect things need better | existance would better curriculum | delve feel see person gave better understanding things currently improve | research valuable helped better understanding [org] going | gave chance practice presenting"
+    },
+    "52": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: course, skills, forced, liked, enjoyable, get, familiar, test — Examples: enjoyable course get familiar [person] test newfound skills software project | forced comfort zone presentations | coach added avaliable | course important one teaches critical skills valuable degree path liked… | liked pace course"
+    },
+    "53": {
+      "label": "Workload & Time",
+      "notes": "Keywords: since, know, topics, years, class, like, offered, becoming — Examples: like offered since [gpe] becoming big thing recent years useful… | quarter long refresh topics expects know literal years since anything… | already know lot information class since took college level class… | [org] could expand advanced topics"
+    },
+    "54": {
+      "label": "Workload & Time",
+      "notes": "Keywords: labs, understand, bit, think, better, challenge, difficult, review — Examples: review many cases felt lost went topic quickly unable fully… | think labs need better worded would sometimes get stuck labs… | would like bit detail understand things bit better | think hefty amount labs vary greatly difficulty guided labs would… | would love see labs improved people problems many labs worked…"
+    },
+    "55": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: learning, niche, keybinds — Examples: learning niche keybinds [loc]"
+    },
+    "56": {
+      "label": "Workload & Time",
+      "notes": "Keywords: like, feels, better, make, feel, taught, quality, teachers — Examples: better quality teachers like kouler | make spare list special inputs | hard feel interested something hardly feels like taught directly instead… | longer class feels like enough time actually assignments learn material… | think much feels like lot memorization know make feel better"
+    },
+    "57": {
+      "label": "Workload & Time",
+      "notes": "Keywords: work, computer, fun, emerging, web, tools, server, blade — Examples: fun work emerging web tools | server blade functionality rough work students | learning computer work stuff | [person] computer science school learn appreciate bit | would like able work ahead work busy fall behind"
+    },
+    "58": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: nothing, particular, great, previous, instructor, said, everything, seemed — Examples: nothing particular previous instructor | nothing said great | nothing particular everything seemed useful one way another | nothing mentioned earlier | nothing really class great"
+    },
+    "59": {
+      "label": "Workload & Time",
+      "notes": "Keywords: easy, straight, forward, extremely, hard, follow, liked, never — Examples: hard easy follow | easy straight forward | straight forward easy | liked extremely easy never stress | overall really enjoyed class issues extremely easy dedicate time complete…"
+    },
+    "60": {
+      "label": "Workload & Time",
+      "notes": "Keywords: able, use, labs, skills, coach, like, freedom, make — Examples: able share skills | coach incredible always able provide valuable assistance whenever needed aside… | content interesting useful applicable revealing options tools available use | like labs able use skills earned class able use [org]… | maybe labs like final lab people get freedom choose make"
+    },
+    "61": {
+      "label": "Tools / Tech Stack",
+      "notes": "Keywords: learning, liked, personal, exploration, clearer, focus, balance, hands — Examples: clearer focus learning | balance hands learning personal exploration rather purely lecture based learning… | liked learning running local llms liked learning variety tools use | enjoy making websites fun learning make | liked learning paperwork comes job person overall document everything"
+    },
+    "62": {
+      "label": "Content Coverage & Depth",
+      "notes": "Keywords: like, feel, industry, good, dont, data, didnt, topics — Examples: didnt like topics wrote writing industry kinda depressing | like covered history [gpe] speak feel like good foundation build | dont think [org] good doesnt give data massive text wall… | dont like databases | like given assignments feel like busy work everything purpose"
+    },
+    "63": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: stuff, new, like, teached, tech, research, awesome, work — Examples: new tech research would awesome work like [person] [org] | [person] like teached new stuff english rather stuff year | wish stuff worked | stuff need learn | new teached shortcuts"
+    },
+    "64": {
+      "label": "Workload & Time",
+      "notes": "Keywords: tools, shortcuts, useful, class, keyboard, success, already, use — Examples: experimented fun tools already used work personal use new | appreciate experience working teams prove useful future career | believe class include info directly relevant [org] courses keyboard shortcuts… | would liked see tools shortcuts utilized | enjoyed tools showed well keyboard shortcuts useful likely use future"
+    },
+    "65": {
+      "label": "Workload & Time",
+      "notes": "Keywords: assignments, assignment, understand, one, help, get, smaller, easier — Examples: assignments really easy understand practice going week | bunch assignments felt either repetitive close one another would nice… | assignment personally feel like much first assignment could easily broken… | loved assignments think every assignment fun educational | assignments intriguing challenging possible understand documentation coach teacher"
+    },
+    "66": {
+      "label": "Workload & Time",
+      "notes": "Keywords: liked, fun, concepts, taught, course, made, want, research — Examples: liked much course made want research fun | loved assignments felt like really able learn lot dive deeper… | liked taught basics anyone might not previous knowledge field | liked labs focused one task time | taught fun concepts"
+    },
+    "67": {
+      "label": "Workload & Time",
+      "notes": "Keywords: time, class, need, credit, hours, maybe, week, hour — Examples: enjoy time [person] maybe extra day class week | time management invoice class participation maybe | need time per class period minutes little | holy shit taking class time credit hour count instead days… | time need time time class topics time gain understanding absolutely…"
+    },
+    "68": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: way, felt, level, real, liked, taught, part, speeches — Examples: liked way taught part | speeches lectures way long | way two solo projects like lower level requirements additional level… | felt real project actual company nothing felt useless real world… | hard think helped personal life"
+    },
+    "69": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: time, things, learned, understand, learn, first, new, gave — Examples: learned basis different ethical frameworks first week kept building throughout… | course needs longer actually get things done minutes not enough… | really liked labs thing class gave good opportunity figure things… | half quarter learn something brand new slap together project not… | never gotten score test first time either course material challenging…"
+    },
+    "70": {
+      "label": "Workload & Time",
+      "notes": "Keywords: definitely, time, course, originally, designed, sprint, long, feel — Examples: course originally designed sprint long definitely feel drags sprints | definitely helped improve communication skills group setting | get time depth last two units | think definitely time | kind slight downside open teaching style time management seemed little…"
+    },
+    "71": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: projects, group, liked, rather, project, split, separate, course — Examples: liked split separate group projects course outcomes | nature projects along clarity expected students | good introduction realizing much group projects suck future | would rather able choose group project see beneficial random groups… | liked projects mimic real world scenarios constraints"
+    },
+    "72": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: one, last, assigned, weeks, lectures, large, two, projects — Examples: freedom tackle real task may assigned job | focused capstone prep one forgot handle last survey | four weeks history lectures one large assignment barely lectures covered… | see last page | enjoy projects assigned first last one"
+    },
+    "73": {
+      "label": "Curriculum / Structure",
+      "notes": "Keywords: course, good, long, subject, assignments, lessons, allowed, ahead — Examples: good course good assignments lessons | allowed ahead schedule long understood subject | wish course longer | like course fast paced linger long given subject goal get… | comment felt good introductory course"
+    },
+    "74": {
+      "label": "Workload & Time",
+      "notes": "Keywords: not, poetry, fun, statistical, facts, world, already, knowledgeable — Examples: not much fun statistical facts world around already knowledgeable much… | not much like poetry section thats not fan poetry | not believe much needed nor anything | dont think mobile development much emerging platform | not much math hard"
+    },
+    "75": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: questions, feel, like, class, question, freedom, response, test — Examples: freedom response questions | feel like questions test significantly harder ones homework class | feel like lot reasons like class due placement capstone quarter… | feel tests could made fair [org] system feels unfair student…"
+    },
+    "76": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: class, group, specific, virtual, structure, take, work, might — Examples: stated specific instructions would preferable open options using different virtual… | structure class online workdays great right group competent classmates leads… | believe oriented towards work environments compared unrealistic strangely specific school… | focus capstone next quarter helpful gave window ideas teacher virtual… | probably choose better teachers teach [org] kinda sucked"
+    },
+    "77": {
+      "label": "Workload & Time",
+      "notes": "Keywords: slow, times, felt, nothing, course, pacing, fast, others — Examples: pacing slow times fast others assignments felt like added nothing… | felt little slow times | nothing good introductory course | course slow paced not technical complex enough | felt bit repetitive utilized tools accomplished tasks couple times"
+    },
+    "78": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: relevant, learned, hands, liked, pace, past, section, next — Examples: liked pace learned past section relevant next throughout course | hands relevant learned ton skills general info | relevant professor making sure assessment material taught relevant | hands less note taking"
+    },
+    "79": {
+      "label": "Content Coverage & Depth",
+      "notes": "Keywords: things, talking, school, easy, still, taught, visuals, provided — Examples: talking things school | easy also still taught things | visuals provided videos incredible math understanding keep showing | things groups showed basically | felt like needed discover things kinda fun"
+    },
+    "80": {
+      "label": "Workload & Time",
+      "notes": "Keywords: class, think, enough, easy, not, required, bit, thing — Examples: class complex enough supposed found easy not required honestly would… | think occasionally pace bit fast class especially given not talk… | already succeeded college going [org] class felt little redundant also… | many students think class much talking however class needs someone… | guess best thing came class fact finished class early every…"
+    },
+    "81": {
+      "label": "Workload & Time",
+      "notes": "Keywords: easy, time, wasnt, taught, not, make, long, deserves — Examples: wasnt easy taught lot | not make long deserves shorter period time | relativly easy didnt take lot time"
+    },
+    "82": {
+      "label": "Workload & Time",
+      "notes": "Keywords: pacing, slower, faster, course, understand, experience, parts, others — Examples: parts slower others faster | course paced fast making hard understand sometimes incredibly easy fall… | nice pacing similar high school experience | maybe faster pacing understand slower pacing case someone experience course | pacing little quick end"
+    },
+    "83": {
+      "label": "Workload & Time",
+      "notes": "Keywords: class, due, not, time, material, able, understand, sick — Examples: due not able come class due sick understand classes | told class taught weeks rather though nice able easier time… | minutes time not enough learn material effectively class stands extremely… | personally dislike videos video editing understand means teach course material… | liked able pass despite due sick"
+    },
+    "84": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: change, teacher, language, not, feel, comfortable, giving, feedback — Examples: not feel comfortable giving feedback change teacher meant change curriculum… | [person] best coach ever [org] | shout goat [person] | proper teacher [person] good though cant hold happened aginst clas | would preferred lower level language [person] however acknowledge [person] difficult…"
+    },
+    "85": {
+      "label": "Assessments & Grading",
+      "notes": "Keywords: class, think, not, time, anything, changed, see, something — Examples: core class think anything changed think would interesting see something… | would see grading scale completely changed order provide impactful meaningful… | like able work whatever saw fit long could feasibly something… | required class think beneficial coding classes within time last time… | think strong foundation [person] basic concepts not adept enough know…"
+    },
+    "86": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: week, assignments, two, due, publish, participation, daily, final — Examples: publish assignments week two 8217 due | publish assignment week two 8217 due instead couple days | course seemed bit inconsistent week one usual syllabus intro week…"
+    },
+    "87": {
+      "label": "Practical / Real‑World Relevance",
+      "notes": "Keywords: liked, like, showed, behind, scenes, work, nice, explore — Examples: like showed behind scenes [gpe] work | would nice explore additional [gpe] tools instead repeating ones | liked going detail generation [gpe] came world live today | liked implement [gpe] since actual emerging platform | liked focused lot teaching [gpe] could also alright job alleviating…"
+    },
+    "88": {
+      "label": "Workload & Time",
+      "notes": "Keywords: think, course, assignments, need, room, anything, improved, work — Examples: anything think could improved | think assignments course work little light | honestly liked course ability safe space think tech lits helped… | think much would need improvement suppose room absurdly wide may… | think course fine"
+    },
+    "89": {
+      "label": "Projects & Hands‑On",
+      "notes": "Keywords: class, liked, like, time, fun, work, felt, packet — Examples: really struggle class really liked morning writes helps get writing… | really liked building application web based really first time creating… | really enjoyed hands work felt learned lot making mistakes would… | really liked course taught liked kahoot midterm liked interviews portion… | felt like class work actually meaningful taken similar classes busywork"
+    },
+    "90": {
+      "label": "Content Coverage & Depth",
+      "notes": "Keywords: course, new, enough, yeah, irrelevant, basic, unnecessary, professor — Examples: yeah course irrelevant basic unnecessary professor serves worsen | course effective teaching needed know | course focused new side logic seen able cover content helpful… | one main drawbacks course felt enough time learn apply material… | course giving enough new knowledge feel like necessary course"
+    }
+  }
+}
