@@ -13,12 +13,12 @@ var configuration = new ConfigurationBuilder()
 var ml = new MLContext(seed: 42);
 
 // Home Path for models (personal PC):
-//var instructorModelPath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_instructor.zip";
-//var courseModelPath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_course.zip";
+var instructorModelPath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_instructor.zip";
+var courseModelPath = @"C:\Users\alexh\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_course.zip";
 
 // Work path for models (Work Laptop):
-var instructorModelPath = @"C:\Users\alex\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_instructor.zip";
-var courseModelPath = @"C:\Users\alex\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_course.zip";
+//var instructorModelPath = @"C:\Users\alex\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_instructor.zip";
+//var courseModelPath = @"C:\Users\alex\OneDrive - Neumont College of Computer Science\Documents\Masters\PRO590\Capstone Project\TopicClusteringML\bin\Debug\net10.0\topic_model_course.zip";
 
 
 // TODO: build DbContext (same connection string as API)
