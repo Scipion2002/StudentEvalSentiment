@@ -4,6 +4,7 @@ using Microsoft.OpenApi;
 using StudentEvalSentiment.DB.Context;
 using StudentEvalSentiment.Models.Ml.Sentiment;
 using StudentEvalSentiment.Models.Ml.Topics;
+using StudentEvalSentiment.Services;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Text.Json.Serialization;
 
@@ -57,6 +58,8 @@ builder.Services.AddPredictionEnginePool<TopicModelInput, TopicModelOutput>()
 builder.Services.AddPredictionEnginePool<TopicModelInput, TopicModelOutput>()
     .FromFile(modelName: "TopicCourseModel", filePath: topicCoursePath, watchForChanges: true);
 
+builder.Services.AddScoped<TopicLabelSeeder>();
+
 var app = builder.Build();
 
 // --------------------
@@ -95,5 +98,11 @@ app.UseStaticFiles();
 // app.MapControllerRoute(
 //     name: "default",
 //     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<TopicLabelSeeder>();
+    await seeder.UpsertFromJsonAsync();
+}
 
 app.Run();
