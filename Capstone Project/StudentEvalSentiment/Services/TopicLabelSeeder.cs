@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StudentEvalSentiment.DB.Context;
+using StudentEvalSentiment.Models.Entities.Analytics;
 using System.Text.Json;
 
 namespace StudentEvalSentiment.Services
 {
-    public class TopicLabelSeeder
+    public sealed class TopicLabelSeeder
     {
         private readonly AppDbContext _db;
         private readonly IWebHostEnvironment _env;
@@ -17,73 +18,84 @@ namespace StudentEvalSentiment.Services
             _logger = logger;
         }
 
-        private sealed record LabelPayload(string label, string? notes);
+        private sealed record Payload(string label, string? notes);
 
         public async Task UpsertFromJsonAsync(CancellationToken ct = default)
         {
-            var path = Path.Combine(_env.ContentRootPath, "topic-labels.json");
+            var path = Path.Combine(_env.ContentRootPath, "topic-labels.json"); // or labeled.json
             if (!File.Exists(path))
             {
-                _logger.LogWarning("topic-labels.json not found at {Path}. Skipping topic label seeding.", path);
+                _logger.LogWarning("Topic labels file not found: {Path}", path);
                 return;
             }
 
             var json = await File.ReadAllTextAsync(path, ct);
-
-            // Structure: { "Instructor": { "64": { "label": "...", "notes": "..." } }, "Course": { ... } }
-            var root = JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, LabelPayload>>>(
+            var root = JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, Payload>>>(
                 json,
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
             );
 
             if (root is null || root.Count == 0)
             {
-                _logger.LogWarning("topic-labels.json is empty or invalid. Skipping.");
+                _logger.LogWarning("Topic labels JSON empty/invalid.");
                 return;
             }
 
-            int updated = 0;
+            int inserted = 0, updated = 0;
 
             foreach (var (targetType, clusters) in root)
             {
                 foreach (var (clusterIdStr, payload) in clusters)
                 {
-                    if (!int.TryParse(clusterIdStr, out var clusterId))
-                        continue;
-
-                    var row = await _db.TopicClusters
-                        .FirstOrDefaultAsync(t => t.TopicClusterId == clusterId && t.TargetType == targetType, ct);
-
-                    if (row is null)
-                        continue; // row must already exist from training/pipeline
+                    if (!int.TryParse(clusterIdStr, out var clusterId)) continue;
 
                     var newLabel = (payload.label ?? "").Trim();
-                    if (string.IsNullOrWhiteSpace(newLabel))
-                        continue;
+                    var newNotes = payload.notes;
 
-                    // Only update if different (avoids pointless writes)
-                    if (!string.Equals(row.HumanLabel, newLabel, StringComparison.Ordinal))
+                    if (string.IsNullOrWhiteSpace(newLabel)) continue;
+
+                    var row = await _db.TopicClusters
+                        .FirstOrDefaultAsync(t => t.TargetType == targetType && t.TopicClusterId == clusterId, ct);
+
+                    if (row is null)
                     {
-                        row.HumanLabel = newLabel;
-                        updated++;
+                        _db.TopicClusters.Add(new TopicCluster
+                        {
+                            TargetType = targetType,
+                            TopicClusterId = clusterId,     // now allowed (ValueGeneratedNever)
+                            HumanLabel = newLabel,
+                            Notes = newNotes,
+                            CreatedUtc = DateTime.UtcNow
+                        });
+                        inserted++;
                     }
-
-                    if (payload.notes is not null && !string.Equals(row.Notes, payload.notes, StringComparison.Ordinal))
+                    else
                     {
-                        row.Notes = payload.notes;
+                        var changed = false;
+
+                        if (!string.Equals(row.HumanLabel, newLabel, StringComparison.Ordinal))
+                        {
+                            row.HumanLabel = newLabel;
+                            changed = true;
+                        }
+
+                        if (newNotes is not null && !string.Equals(row.Notes, newNotes, StringComparison.Ordinal))
+                        {
+                            row.Notes = newNotes;
+                            changed = true;
+                        }
+
+                        if (changed) updated++;
                     }
                 }
             }
 
-            if (updated > 0)
+            if (inserted > 0 || updated > 0)
             {
                 await _db.SaveChangesAsync(ct);
-                _logger.LogInformation("Topic label seeding complete. Updated {Count} TopicClusters.", updated);
             }
-            else
-            {
-                _logger.LogInformation("Topic label seeding complete. No changes needed.");
-            }
+
+            _logger.LogInformation("Topic label upsert complete. Inserted={Inserted}, Updated={Updated}", inserted, updated);
         }
     }
 }

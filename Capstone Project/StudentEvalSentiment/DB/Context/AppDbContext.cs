@@ -31,8 +31,9 @@ namespace StudentEvalSentiment.DB.Context
             b.Entity<TopicCluster>(b =>
             {
                 b.ToTable("TopicClusters");
-                b.HasKey(x => x.TopicClusterId);
+                b.HasKey(t => new { t.TargetType, t.TopicClusterId });
 
+                b.Property(t => t.TopicClusterId).ValueGeneratedNever();
                 b.Property(x => x.TargetType).HasMaxLength(50).IsRequired();
                 b.Property(x => x.HumanLabel).HasMaxLength(200).IsRequired();
                 b.Property(x => x.Notes).HasMaxLength(2000);
