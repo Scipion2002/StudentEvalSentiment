@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { InsightFiltersResponseDto, InsightQuery, InsightsResponseDto, TargetType } from '../../insights.models';
+import { InsightFiltersResponseDto, InsightQuery, InsightsResponseDto, Sentiment, SentimentDrilldownResponseDto, TargetType } from '../../insights.models';
 
 export interface UploadResponse {
   importBatchId: string;
@@ -109,5 +109,32 @@ export class ApiService {
     if (q.topicClusterId != null) params = params.set('topicClusterId', q.topicClusterId);
 
     return this.http.get<InsightsResponseDto>(`${this.baseUrl}/api/insights`, { params });
+  }
+
+  getSentimentDrilldown(opts: {
+    targetType: TargetType;
+    sentiment: Sentiment;
+
+    importBatchId?: string | null;     // GUID
+    instructorName?: string | null;
+    courseNumber?: string | null;
+    topicClusterId?: number | null;
+
+    takePerQuestion?: number;          // optional
+  }) {
+    let params = new HttpParams()
+      .set('targetType', opts.targetType)
+      .set('sentiment', opts.sentiment);
+
+    if (opts.importBatchId) params = params.set('importBatchId', opts.importBatchId);
+    if (opts.instructorName) params = params.set('instructorName', opts.instructorName);
+    if (opts.courseNumber) params = params.set('courseNumber', opts.courseNumber);
+    if (opts.topicClusterId != null) params = params.set('topicClusterId', String(opts.topicClusterId));
+    if (opts.takePerQuestion != null) params = params.set('takePerQuestion', String(opts.takePerQuestion));
+
+    return this.http.get<SentimentDrilldownResponseDto>(
+      `${this.baseUrl}/api/insights/sentiment-drilldown`,
+      { params }
+    );
   }
 }
