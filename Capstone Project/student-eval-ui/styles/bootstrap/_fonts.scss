@@ -1,0 +1,171 @@
+@mixin din-font($weight, $style: normal, $important: false) {
+    @if($important) {
+        font-family: $font-family-sans-serif !important;
+        font-weight: $weight !important;
+        font-style: $style !important;
+    }
+
+    @else {
+        font-family: $font-family-sans-serif;
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+/* MAIN SITE FONTS */
+@mixin din-ultra-light($important: false) {
+    @include din-font(200, normal, $important);
+}
+
+@mixin din-ultra-light-italic($important: false) {
+    @include din-font(200, italic, $important);
+}
+
+@mixin din-light($important: false) {
+    @include din-font(300, normal, $important);
+}
+
+@mixin din-light-italic($important: false) {
+    @include din-font(300, italic, $important);
+}
+
+@mixin din-regular($important: false) {
+    @include din-font(400, normal, $important);
+}
+
+@mixin din-italic($important: false) {
+    @include din-font(400, italic, $important);
+}
+
+@mixin din-medium($important: false) {
+    @include din-font(500, normal, $important);
+}
+
+@mixin din-medium-italic($important: false) {
+    @include din-font(500, italic, $important);
+}
+
+@mixin din-bold($important: false) {
+    @include din-font(700, normal, $important);
+}
+
+@mixin din-bold-italic($important: false) {
+    @include din-font(700, italic, $important);
+}
+
+@mixin din-heavy($important: false) {
+    @include din-font(800, normal, $important);
+}
+
+@mixin din-heavy-italic($important: false) {
+    @include din-font(800, italic, $important);
+}
+
+@mixin din-black($important: false) {
+    @include din-font(900, normal, $important);
+}
+
+@mixin din-black-italic($important: false) {
+    @include din-font(900, italic, $important);
+}
+
+.din-ultra-light {
+    @include din-ultra-light(true);
+}
+
+.din-ultra-light-italic {
+    @include din-ultra-light-italic(true);
+}
+
+.din-light {
+    @include din-light(true);
+}
+
+.din-light-italic {
+    @include din-light-italic(true);
+}
+
+.din-regular {
+    @include din-regular(true);
+}
+
+.din-italic {
+    @include din-italic(true);
+}
+
+.din-medium {
+    @include din-medium(true);
+}
+
+.din-medium-italic {
+    @include din-medium-italic(true);
+}
+
+.din-bold {
+    @include din-bold(true);
+}
+
+.din-bold-italic {
+    @include din-bold-italic(true);
+}
+
+.din-black {
+    @include din-black(true);
+}
+
+.din-black-italic {
+    @include din-black-italic(true);
+}
+
+.din-heavy {
+    @include din-heavy(true);
+}
+
+.din-heavy-italic {
+    @include din-heavy-italic(true);
+}
+
+.font-size-16 {
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.font-size-15 {
+    font-size: 0.9375rem;
+    line-height: normal;
+}
+
+.font-size-14 {
+    font-size: 0.875rem;
+    line-height: normal;
+}
+
+.font-size-13 {
+    font-size: 0.8125rem;
+    line-height: normal;
+}
+
+.font-size-12 {
+    font-size: 0.75rem;
+    line-height: normal;
+}
+
+.font-size-11 {
+    font-size: 0.6875rem;
+    line-height: normal;
+}
+
+.font-size-10 {
+    font-size: 0.625rem;
+    line-height: normal;
+}
+
+.font-size-9 {
+    font-size: 0.5625rem;
+    line-height: normal;
+}
+
+.font-size-8 {
+    font-size: 0.5rem;
+    line-height: normal;
+}
