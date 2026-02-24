@@ -7,6 +7,7 @@ import spacy
 import nltk
 from nltk.corpus import stopwords
 import hashlib
+import unicodedata
 
 print("pandas:", pd.__version__)
 print("numpy:", np.__version__)
@@ -53,13 +54,29 @@ URL_RE   = re.compile(r"https?://\S+|www\.\S+")
 
 STOPWORDS = set(stopwords.words("english"))
 
+ZERO_WIDTH = dict.fromkeys([0x200B, 0x200C, 0x200D, 0xFEFF], None)
+SPACE_BEFORE_PUNCT = re.compile(r"\s+([?.!,;:])")
+MULTISPACE = re.compile(r"\s+")
+
+def normalize_header(s: str) -> str:
+    if s is None:
+        return ""
+    s = str(s)
+    s = unicodedata.normalize("NFKC", s)
+    s = s.translate(ZERO_WIDTH)
+    s = s.replace("\u00A0", " ")   # NBSP -> space
+    s = MULTISPACE.sub(" ", s)
+    s = SPACE_BEFORE_PUNCT.sub(r"\1", s)
+    return s.strip()
+
 # IMPORTANT for sentiment: keep negations
 for w in ["no", "nor", "not", "never", "n't", "wasn't", "don't", "doesn't", "didn't", "won't", "wouldn't", "can't", "couldn't", "shouldn't"]:
     STOPWORDS.discard(w)
     
 def question_key(header: str) -> str:
-    h = hashlib.sha1(header.encode("utf-8")).hexdigest()[:10]
-    return f"q_{h}"  # like q_8f3a12c9a1
+    norm = normalize_header(header)
+    h = hashlib.sha1(norm.encode("utf-8")).hexdigest()[:10]
+    return f"q_{h}"
 
 def anonymize_text(text: str) -> str:
     text = EMAIL_RE.sub("[EMAIL]", text)
@@ -160,7 +177,7 @@ for _, row in df.iterrows():
         col_l = col.lower()
 
         # Determine what this comment is ABOUT based on the question header
-        is_instructor_comment = any(k in col_l for k in ["instructor", "professor", "teacher", "faculty"])
+        is_instructor_comment = any(k in col_l for k in ["instructor", "professor", "teacher", "faculty", "teaching"])
         target = "Instructor" if is_instructor_comment else "Course"
 
         # Optional sanity rule: overall rows should only generate Course comments
@@ -172,7 +189,8 @@ for _, row in df.iterrows():
         if label is None:
             continue
 
-        qkey = question_key(col)
+        norm_header = normalize_header(col)
+        qkey = question_key(norm_header)
 
         rows.append({
             "TargetType": target,
@@ -180,7 +198,7 @@ for _, row in df.iterrows():
             "CourseNumber": course_number,
             "CourseName": course_name,
             "QuestionKey": qkey,
-            "QuestionHeader": col,
+            "QuestionHeader": norm_header,   # normalized
             "RawText": raw_text if isinstance(raw_text, str) else "",
             "TextClean": cleaned,
             "Label": label
@@ -238,7 +256,19 @@ out_df.to_csv(output_csv, index=False)
 out_dir = os.path.dirname(os.path.abspath(output_csv))
 pd.DataFrame(likert_rows).to_csv(os.path.join(out_dir, "likert_summary.csv"), index=False)
 
-qmap = out_df[["QuestionKey", "QuestionHeader"]].drop_duplicates()
+# Build question_map from detected question columns (text_cols),
+# not out_df rows (out_df can be empty for some questions due to filters)
+qmap_rows = []
+for col in text_cols:
+    norm = normalize_header(col)
+    if not norm:
+        continue
+    qmap_rows.append({
+        "QuestionKey": question_key(norm),
+        "QuestionHeader": norm
+    })
+
+qmap = pd.DataFrame(qmap_rows).drop_duplicates()
 qmap.to_csv(os.path.join(out_dir, "question_map.csv"), index=False)
 
 print(f"Exported {len(out_df)} cleaned text rows")
