@@ -1,6 +1,6 @@
 .navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, var(--llama-grey) 0%, var(--digital-grey) 100%);
+  box-shadow: 0 4px 12px var(--color-shadow);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -21,7 +21,7 @@
     margin: 0;
     font-size: 24px;
     font-weight: 700;
-    color: white;
+    color: var(--white);
     letter-spacing: -0.5px;
   }
 }
@@ -33,7 +33,7 @@
 }
 
 .nav-link {
-  color: white;
+  color: var(--white);
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -45,13 +45,14 @@
   position: relative;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 221, 0, 0.15);
     transform: translateY(-2px);
   }
 
   &.active {
-    background-color: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    background-color: var(--neumont-yellow);
+    color: var(--digital-grey);
+    box-shadow: 0 0 15px rgba(255, 221, 0, 0.35);
   }
 }
 

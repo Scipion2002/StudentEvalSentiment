@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+$font-family-sans-serif: 'DIN Next LT Pro', 'DIN Next', 'DIN', 'Segoe UI', 'Roboto', sans-serif;
+
+@import '../styles/bootstrap/fonts';
+
+:root {
+	--neumont-yellow: #FFDD00;
+	--coded-grey: #DBDDDF;
+	--llama-grey: #3F4444;
+	--digital-grey: #222223;
+	--white: #FFFFFF;
+	--true-black: #000000;
+
+	--color-bg: var(--coded-grey);
+	--color-surface: var(--white);
+	--color-ink: var(--digital-grey);
+	--color-ink-strong: var(--true-black);
+	--color-ink-muted: var(--llama-grey);
+	--color-border: var(--coded-grey);
+	--color-accent: var(--neumont-yellow);
+	--color-accent-soft: rgba(255, 221, 0, 0.2);
+	--color-shadow: rgba(34, 34, 35, 0.2);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(180deg, var(--color-bg) 0%, var(--white) 60%);
+	color: var(--color-ink);
+	font-family: $font-family-sans-serif;
+	letter-spacing: -0.025em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: -0.025em;
+}
+
+a {
+	color: inherit;
+}
