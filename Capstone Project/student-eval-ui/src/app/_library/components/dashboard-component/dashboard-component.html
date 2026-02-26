@@ -8,7 +8,7 @@
     <div class="input-section">
       <div class="form-group">
         <label for="quarterFilter" class="form-label">Quarter</label>
-        <select id="quarterFilter" [(ngModel)]="quarterFilter" (change)="onQuarterChange()" class="form-select">
+        <select id="quarterFilter" [(ngModel)]="quarterFilter" (ngModelChange)="onQuarterChange($event)" class="form-select">
           <option value="">All quarters</option>
           @for (quarter of quarters; track quarter) {
             <option [value]="quarter">{{ quarter }}</option>
@@ -18,7 +18,7 @@
 
       <div class="form-group">
         <label for="batchId" class="form-label">Import Batch</label>
-        <select id="batchId" [(ngModel)]="importBatchId" class="form-select">
+        <select id="batchId" [(ngModel)]="importBatchId" (ngModelChange)="onBatchChange($event)" class="form-select">
           <option value="" disabled>Select a batch...</option>
           @for (batch of filteredBatches; track batch.importBatchId) {
             <option [value]="batch.importBatchId">{{ batch.sourceFileName }}</option>
@@ -28,22 +28,17 @@
 
       <div class="form-group">
         <label for="targetType" class="form-label">Analysis Target</label>
-        <select id="targetType" [(ngModel)]="targetType" (change)="onTargetChange()" class="form-select">
+        <select id="targetType" [(ngModel)]="targetType" (ngModelChange)="onTargetChange($event)" class="form-select">
           <option value="Instructor">Instructor</option>
           <option value="Course">Course</option>
         </select>
       </div>
-
-      <button (click)="load()" [disabled]="!importBatchId || loading" class="btn btn-primary btn-load">
-        <span *ngIf="!loading">Load Data</span>
-        <span *ngIf="loading">Loading...</span>
-      </button>
     </div>
 
     <div class="input-section filter-section">
       <div class="form-group">
         <label for="instructorFilter" class="form-label">Instructor</label>
-        <select id="instructorFilter" [(ngModel)]="instructorFilter" (change)="onInstructorChange()" class="form-select">
+        <select id="instructorFilter" [(ngModel)]="instructorFilter" (ngModelChange)="onInstructorChange($event)" class="form-select">
           <option value="">All instructors</option>
           @for (instructor of instructors; track instructor) {
             <option [value]="instructor">{{ instructor }}</option>
@@ -53,7 +48,7 @@
 
       <div class="form-group">
         <label for="courseFilter" class="form-label">Course</label>
-        <select id="courseFilter" [(ngModel)]="courseFilter" (change)="onCourseChange()" class="form-select">
+        <select id="courseFilter" [(ngModel)]="courseFilter" (ngModelChange)="onCourseChange($event)" class="form-select">
           <option value="">All courses</option>
           @for (course of courses; track course.courseNumber) {
             <option [value]="course.courseNumber">{{ course.courseNumber }} - {{ course.courseName }}</option>
@@ -63,7 +58,7 @@
 
       <div class="form-group">
         <label for="topicFilter" class="form-label">Topic</label>
-        <select id="topicFilter" [(ngModel)]="topicClusterIdFilter" (change)="onTopicChange()" class="form-select">
+        <select id="topicFilter" [(ngModel)]="topicClusterIdFilter" (ngModelChange)="onTopicChange($event)" class="form-select">
           <option value="">All topics</option>
           @for (topic of topics; track topic.topicClusterId) {
             <option [value]="topic.topicClusterId">{{ topic.humanLabel }}</option>
@@ -71,6 +66,30 @@
         </select>
       </div>
     </div>
+
+    @if (sentimentCounts.length > 0) {
+      <div class="input-section export-section">
+        <button (click)="exportCurrentView()" class="btn btn-secondary btn-export">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Export Current View
+        </button>
+
+        <button (click)="exportQuarterReport()" [disabled]="!quarterFilter" class="btn btn-secondary btn-export">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Export Quarter Report
+        </button>
+      </div>
+    }
 
     @if (batchesLoading) {
       <div class="alert">
@@ -92,8 +111,8 @@
     @if (sentimentCounts.length > 0) {
       <div class="results-section">
         <div class="section-header">
-          <h2 class="section-title">Sentiment Distribution</h2>
-          <p class="section-subtitle">Positive, neutral, and negative sentiment for selected target</p>
+          <h2 class="section-title">Sentiment Overview</h2>
+          <p class="section-subtitle">Distribution of positive, neutral, and negative responses with counts and percentages. Click segments to view detailed responses.</p>
         </div>
         <div class="chart-wrapper">
           <canvas
@@ -103,40 +122,6 @@
             [options]="chartOptions"
             (chartClick)="onSentimentChartClick($event)">
           </canvas>
-        </div>
-      </div>
-    }
-
-    @if (sentimentCounts.length > 0) {
-      <div class="results-section">
-        <div class="section-header">
-          <h2 class="section-title">Sentiment Totals</h2>
-          <p class="section-subtitle">Raw totals from the selected batch</p>
-        </div>
-        <div class="table-wrapper">
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th>Sentiment</th>
-                <th class="text-right">Count</th>
-              </tr>
-            </thead>
-            <tbody>
-              @for (s of sentimentCounts; track s.sentiment) {
-                <tr class="table-row">
-                  <td class="cell-sentiment">
-                    <button
-                      type="button"
-                      class="sentiment-link"
-                      (click)="onSentimentRowClick(s.sentiment)">
-                      {{ s.sentiment }}
-                    </button>
-                  </td>
-                  <td class="cell-count">{{ s.count }}</td>
-                </tr>
-              }
-            </tbody>
-          </table>
         </div>
       </div>
     }
@@ -206,12 +191,82 @@
               @for (t of topTopics; track t.topicClusterId) {
                 <tr class="table-row">
                   <td class="cell-id">{{ t.topicClusterId }}</td>
-                  <td class="cell-label">{{ t.humanLabel }}</td>
+                  <td class="cell-label">
+                    <button
+                      type="button"
+                      class="topic-link"
+                      (click)="onTopTopicClick(t)">
+                      {{ t.humanLabel }}
+                    </button>
+                  </td>
                   <td class="cell-count">{{ t.count }}</td>
                 </tr>
               }
             </tbody>
           </table>
+        </div>
+      </div>
+    }
+
+    @if (topicDrilldownOpen) {
+      <div class="modal-backdrop" (click)="closeTopicDrilldown()">
+        <div
+          class="modal-content"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="topic-drilldown-title"
+          (click)="$event.stopPropagation()">
+          <div class="modal-header">
+            <h3 id="topic-drilldown-title" class="modal-title">
+              Topic Responses: {{ selectedTopic?.humanLabel }}
+            </h3>
+            <button type="button" class="modal-close" (click)="closeTopicDrilldown()" aria-label="Close dialog">×</button>
+          </div>
+
+          @if (topicDrilldownLoading) {
+            <p class="modal-status">Loading topic responses...</p>
+          } @else if (topicDrilldownError) {
+            <p class="modal-status modal-error">{{ topicDrilldownError }}</p>
+          } @else {
+            <p class="modal-subtitle">
+              Total answers:
+              {{
+                (topicDrilldownBySentiment[0]?.totalAnswers ?? 0) +
+                (topicDrilldownBySentiment[1]?.totalAnswers ?? 0) +
+                (topicDrilldownBySentiment[2]?.totalAnswers ?? 0)
+              }}
+            </p>
+
+            <div class="modal-scroll">
+              @for (sentimentResult of topicDrilldownBySentiment; track sentimentResult.sentiment) {
+                <section class="question-section">
+                  <h4 class="question-title">
+                    {{ sentimentResult.sentiment }} ({{ sentimentResult.totalAnswers }})
+                  </h4>
+
+                  @if (sentimentResult.questions.length === 0) {
+                    <p class="answer-empty">No answers found for this sentiment.</p>
+                  } @else {
+                    @for (question of sentimentResult.questions; track question.questionKey) {
+                      <section class="question-section">
+                        <h5 class="question-title">{{ question.questionHeader }} ({{ question.count }})</h5>
+
+                        @if (question.answers.length === 0) {
+                          <p class="answer-empty">No answers returned.</p>
+                        } @else {
+                          <ul class="answers-list">
+                            @for (answer of question.answers; track answer.processedCommentId) {
+                              <li class="answer-item">{{ answer.rawText }}</li>
+                            }
+                          </ul>
+                        }
+                      </section>
+                    }
+                  }
+                </section>
+              }
+            </div>
+          }
         </div>
       </div>
     }

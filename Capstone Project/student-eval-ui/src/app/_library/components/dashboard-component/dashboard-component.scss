@@ -124,6 +124,30 @@
   color: var(--color-ink);
 }
 
+.btn-secondary {
+  background: var(--color-ink);
+  color: var(--color-surface);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+  svg {
+    flex-shrink: 0;
+  }
+}
+
+// Export Section
+.export-section {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background: var(--color-accent-soft);
+  border: 2px solid var(--color-accent);
+}
+
+.btn-export {
+  width: 100%;
+  justify-content: center;
+}
+
 // Alerts
 .alert {
   padding: 16px 20px;
@@ -234,6 +258,22 @@
   font-weight: 600;
   color: var(--color-ink);
   cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline;
+  }
+}
+
+.topic-link {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  color: var(--color-ink);
+  cursor: pointer;
+  text-align: left;
 
   &:hover,
   &:focus-visible {
